@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2020-02-27 21:52:22,120: init_node, name[/rostopic_8159_1582820542095], pid[8159]
+[xmlrpc][INFO] 2020-02-27 21:52:22,121: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-27 21:52:22,121: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37155/]
+[rospy.impl.masterslave][INFO] 2020-02-27 21:52:22,121: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:37155/
+[rospy.init][INFO] 2020-02-27 21:52:22,121: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37155/]
+[rospy.registration][INFO] 2020-02-27 21:52:22,122: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-27 21:52:22,122: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-27 21:52:22,222: registered with master
+[rospy.rosout][INFO] 2020-02-27 21:52:22,222: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-27 21:52:22,228: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-27 21:52:22,232: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-27 21:52:22,498: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-02-27 21:52:31,059: topic[/detection_info] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:34099/], count 0
+[rospy.core][INFO] 2020-02-27 21:52:52,946: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-27 21:52:52,953: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-27 21:52:52,954: topic[/detection_info] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:34099/
+[rospy.impl.masterslave][INFO] 2020-02-27 21:52:52,955: signal-2
+[rospy.internal][WARNING] 2020-02-27 21:52:52,957: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:59991 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:34099/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2020-02-27 21:52:53,121: signal_shutdown [atexit]

@@ -1,0 +1,52 @@
+[rospy.client][INFO] 2020-02-03 01:12:14,865: init_node, name[/sr_determine_colors_12100_1580672534825], pid[12100]
+[xmlrpc][INFO] 2020-02-03 01:12:14,866: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-03 01:12:14,866: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:32877/]
+[rospy.impl.masterslave][INFO] 2020-02-03 01:12:14,866: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:32877/
+[rospy.init][INFO] 2020-02-03 01:12:14,866: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:32877/]
+[xmlrpc][INFO] 2020-02-03 01:12:14,867: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-02-03 01:12:14,867: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-02-03 01:12:14,967: registered with master
+[rospy.rosout][INFO] 2020-02-03 01:12:14,968: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-03 01:12:14,972: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-03 01:12:14,974: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-03 01:12:15,032: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33183/], count 0
+[rospy.internal][INFO] 2020-02-03 01:12:15,225: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-02-03 01:12:45,359: topic[/detection_info] adding connection to [/rostopic_12141_1580672565138], count 0
+[rosout][ERROR] 2020-02-03 01:12:48,609: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f8b17f2cb90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 102, in callback
+    if str(i) not in self.rescue:
+AttributeError: sr_determine_colors instance has no attribute 'rescue'
+
+[rosout][ERROR] 2020-02-03 01:13:02,416: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f8b17f2cb90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 102, in callback
+    if str(i) not in self.rescue:
+AttributeError: sr_determine_colors instance has no attribute 'rescue'
+
+[rosout][ERROR] 2020-02-03 01:13:20,817: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f8b17f2cb90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 102, in callback
+    if str(i) not in self.rescue:
+AttributeError: sr_determine_colors instance has no attribute 'rescue'
+
+[rosout][ERROR] 2020-02-03 01:13:29,267: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f8b17f2cb90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 102, in callback
+    if str(i) not in self.rescue:
+AttributeError: sr_determine_colors instance has no attribute 'rescue'
+
+[rospy.core][INFO] 2020-02-03 01:13:30,077: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-03 01:13:30,090: topic[/detection_info] removing connection to /rostopic_12141_1580672565138
+[rospy.internal][INFO] 2020-02-03 01:13:30,091: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-03 01:13:30,092: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:33183/
+[rospy.impl.masterslave][INFO] 2020-02-03 01:13:30,093: signal-2
+[rospy.core][INFO] 2020-02-03 01:13:30,235: signal_shutdown [atexit]

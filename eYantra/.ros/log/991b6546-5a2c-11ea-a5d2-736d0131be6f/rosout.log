@@ -1,0 +1,67 @@
+
+
+1582895818.845037438  Node Startup
+1582895819.024235528 INFO [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/nodes/usb_cam_node.cpp:138(UsbCamNode::UsbCamNode) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] Starting 'head_camera' (/dev/video1) at 1280x1024 via mmap (mjpeg) at 30 FPS
+1582895818.937385513 WARN [/home/itachi/catkin_ws/src/whycon/src/ros/whycon_ros.cpp:156(WhyConROS::load_transforms) [topics: /rosout] Could not load "whycon_transforms.yml"
+1582895819.037808687 INFO [/tmp/binarydeb/ros-kinetic-image-view-1.12.23/src/nodes/image_view.cpp:195(main) [topics: /rosout] Using transport "raw"
+1582895819.167064905 INFO [serial_node.py:86(<module>) [topics: /rosout] Connecting to /dev/ttyUSB0 at 115200 baud
+1582895820.025449644 WARN [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/src/usb_cam.cpp:1211(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] unknown control 'focus_auto'
+
+1582895821.288160085 INFO [SerialClient.py:525(setSubscribeSize) [topics: /diagnostics, /rosout, /led_control_topic] Note: subscribe buffer size is 320 bytes
+1582895821.288805961 INFO [SerialClient.py:549(setupSubscriber) [topics: /diagnostics, /rosout, /led_control_topic] Setup subscriber on led_control_topic [std_msgs/Int8]
+1582896703.944694995 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1582896731.284517049 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1582896737.492965936 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1582896786.166790008 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1582896808.063121080 ERROR [topics.py:753(_invoke_callback) [topics: /stop_info, /serviced_info, /detection_info, /decision_info, /rosout] bad callback: <bound method sr_scheduler.detection_callback of <__main__.sr_scheduler instance at 0x7fb2dfdec518>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/scheduler.py", line 51, in detection_callback
+    print("fob =" + self.fob)
+TypeError: cannot concatenate 'str' and 'int' objects
+
+1582896808.081693887 ERROR [topics.py:753(_invoke_callback) [topics: /stop_info, /serviced_info, /detection_info, /decision_info, /rosout] bad callback: <bound method sr_scheduler.detection_callback of <__main__.sr_scheduler instance at 0x7fb2dfdec518>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/scheduler.py", line 51, in detection_callback
+    print("fob =" + self.fob)
+TypeError: cannot concatenate 'str' and 'int' objects
+
+1582896811.317724943 ERROR [topics.py:753(_invoke_callback) [topics: /stop_info, /serviced_info, /detection_info, /decision_info, /rosout] bad callback: <bound method sr_scheduler.detection_callback of <__main__.sr_scheduler instance at 0x7fb2dfdec518>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/scheduler.py", line 51, in detection_callback
+    print("fob =" + self.fob)
+TypeError: cannot concatenate 'str' and 'int' objects
+
+1582896817.176424980 ERROR [topics.py:753(_invoke_callback) [topics: /stop_info, /serviced_info, /detection_info, /decision_info, /rosout] bad callback: <bound method sr_scheduler.detection_callback of <__main__.sr_scheduler instance at 0x7fb2dfdec518>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/scheduler.py", line 51, in detection_callback
+    print("fob =" + self.fob)
+TypeError: cannot concatenate 'str' and 'int' objects
+
+1582896819.050395965 ERROR [topics.py:753(_invoke_callback) [topics: /stop_info, /serviced_info, /detection_info, /decision_info, /rosout] bad callback: <bound method sr_scheduler.detection_callback of <__main__.sr_scheduler instance at 0x7fb2dfdec518>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/scheduler.py", line 51, in detection_callback
+    print("fob =" + self.fob)
+TypeError: cannot concatenate 'str' and 'int' objects
+
+1582896821.247615098 ERROR [topics.py:753(_invoke_callback) [topics: /stop_info, /serviced_info, /detection_info, /decision_info, /rosout] bad callback: <bound method sr_scheduler.detection_callback of <__main__.sr_scheduler instance at 0x7fb2dfdec518>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/scheduler.py", line 51, in detection_callback
+    print("fob =" + self.fob)
+TypeError: cannot concatenate 'str' and 'int' objects
+
+1582896824.331607103 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1582896910.794522047 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /whycon/poses, /rosout, /decision_info, /arm_status, /led_control_topic, /serviced_info, /base_cell_int_topic, /detection_info, /stats_sr] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1582896959.850903987 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /stop_info, /serviced_info, /detection_info, /decision_info, /rosout] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1582896959.851123094 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.

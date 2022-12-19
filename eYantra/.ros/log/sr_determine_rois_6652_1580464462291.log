@@ -1,0 +1,1918 @@
+[rospy.client][INFO] 2020-01-31 15:24:22,336: init_node, name[/sr_determine_rois_6652_1580464462291], pid[6652]
+[xmlrpc][INFO] 2020-01-31 15:24:22,337: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-31 15:24:22,337: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:42049/]
+[rospy.impl.masterslave][INFO] 2020-01-31 15:24:22,337: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:42049/
+[xmlrpc][INFO] 2020-01-31 15:24:22,338: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-31 15:24:22,340: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:42049/]
+[rospy.registration][INFO] 2020-01-31 15:24:22,341: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2020-01-31 15:24:22,341: registering subscriber topic [/usb_cam/image_raw] type [sensor_msgs/Image] with master
+[rospy.internal][INFO] 2020-01-31 15:24:22,345: topic[/usb_cam/image_raw] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:39379/], count 0
+[rosout][ERROR] 2020-01-31 15:24:22,381: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:22,407: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rospy.init][INFO] 2020-01-31 15:24:22,441: registered with master
+[rospy.rosout][INFO] 2020-01-31 15:24:22,442: initializing /rosout core topic
+[rosout][ERROR] 2020-01-31 15:24:22,443: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rospy.rosout][INFO] 2020-01-31 15:24:22,448: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-31 15:24:22,449: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][ERROR] 2020-01-31 15:24:22,477: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:22,517: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:22,542: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:22,570: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:22,608: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:22,648: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rospy.internal][INFO] 2020-01-31 15:24:22,653: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-01-31 15:24:22,672: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:22,704: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:22,744: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:22,770: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:22,807: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:22,849: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:22,876: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:22,913: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:22,941: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:22,976: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,012: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,041: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,080: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,111: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,144: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,176: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,208: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,249: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,278: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,314: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,341: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,379: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,414: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,444: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,479: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,511: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,544: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,580: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,616: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,648: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,683: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,714: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,747: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,779: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,808: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,848: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,886: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,915: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,954: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:23,981: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,011: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,046: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,077: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,116: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,149: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,184: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,219: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,249: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,287: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,317: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,349: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,386: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,419: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,446: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,485: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,516: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,555: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,584: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,616: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,652: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,687: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,715: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,756: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,784: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,817: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,850: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,882: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,918: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,953: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:24,982: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,021: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,049: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,084: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,123: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,151: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,189: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,225: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,255: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,287: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,320: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,358: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,392: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,422: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,460: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,490: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,525: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,551: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,588: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,632: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,658: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,690: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,729: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,757: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,795: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,825: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,860: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,893: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,923: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,954: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:25,987: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,027: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,057: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,095: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,122: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,158: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,196: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,228: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,264: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,289: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,330: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,359: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,395: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,424: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,457: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,493: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,532: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,558: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,593: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,630: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,657: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,696: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,725: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,766: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,793: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,829: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,861: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,897: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,929: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,961: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:26,998: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,034: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,064: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,093: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,137: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,164: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,198: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,231: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,261: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,296: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,337: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,361: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,399: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,431: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,466: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,500: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,530: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,568: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,596: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,635: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,668: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,699: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,732: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,769: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,799: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,831: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,864: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,898: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,928: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,964: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:27,996: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,037: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,068: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,100: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,140: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,167: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,202: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,235: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,270: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,304: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,336: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,369: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,402: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,440: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,467: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,505: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,535: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,571: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,605: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,639: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,677: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,702: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,741: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,764: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,805: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,841: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,866: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,902: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,934: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:28,968: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:29,003: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:29,036: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:29,071: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:29,105: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:29,141: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:29,172: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:29,204: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:29,236: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:29,270: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:29,301: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:29,341: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:29,378: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rosout][ERROR] 2020-01-31 15:24:29,409: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb60eae2b00>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc1.py", line 30, in image_callback
+    image,contours,hierarchy = cv2.findContours(self.cv_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+error: /tmp/binarydeb/ros-kinetic-opencv3-3.3.1/modules/imgproc/src/contours.cpp:199: error: (-210) [Start]FindContours supports only CV_8UC1 images when mode != CV_RETR_FLOODFILL otherwise supports CV_32SC1 images only in function cvStartFindContours_Impl
+
+
+[rospy.core][INFO] 2020-01-31 15:24:29,431: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-31 15:24:29,438: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-31 15:24:29,439: topic[/usb_cam/image_raw] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:39379/
+[rospy.impl.masterslave][INFO] 2020-01-31 15:24:29,441: signal-2
+[rospy.core][INFO] 2020-01-31 15:24:29,573: signal_shutdown [atexit]

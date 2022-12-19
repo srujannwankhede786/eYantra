@@ -1,0 +1,58 @@
+[rospy.client][INFO] 2019-11-08 00:10:13,101: init_node, name[/edrone/spawn_edrone], pid[6094]
+[xmlrpc][INFO] 2019-11-08 00:10:13,101: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-08 00:10:13,102: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:32907/]
+[rospy.impl.masterslave][INFO] 2019-11-08 00:10:13,102: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:32907/
+[rospy.registration][INFO] 2019-11-08 00:10:13,103: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-11-08 00:10:13,103: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-08 00:10:13,103: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:32907/]
+[rospy.init][INFO] 2019-11-08 00:10:13,104: registered with master
+[rospy.rosout][INFO] 2019-11-08 00:10:13,104: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-08 00:10:13,107: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-08 00:10:13,109: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-08 00:10:13,111: connected to core topic /clock
+[rosout][INFO] 2019-11-08 00:10:13,117: Loading model XML from ros parameter
+[rosout][INFO] 2019-11-08 00:10:13,128: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2019-11-08 00:10:13,382: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-11-08 00:10:13,533: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:39691/], count 0
+[rosout][INFO] 2019-11-08 00:10:13,734: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2019-11-08 00:10:13,919: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2019-11-08 00:10:13,920: signal_shutdown [atexit]
+[rospy.internal][INFO] 2019-11-08 00:10:13,922: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-11-08 00:10:13,922: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:39691/
+[rospy.internal][WARNING] 2019-11-08 00:10:13,923: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:52409 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:39691/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2019-11-08 00:10:13,923: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2019-11-08 00:10:13,924: atexit
+[rospy.client][INFO] 2019-11-08 00:15:20,443: init_node, name[/edrone/spawn_edrone], pid[7723]
+[xmlrpc][INFO] 2019-11-08 00:15:20,443: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-08 00:15:20,444: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38735/]
+[rospy.init][INFO] 2019-11-08 00:15:20,445: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38735/]
+[rospy.impl.masterslave][INFO] 2019-11-08 00:15:20,449: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:38735/
+[rospy.registration][INFO] 2019-11-08 00:15:20,452: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-11-08 00:15:20,453: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-08 00:15:20,549: registered with master
+[rospy.rosout][INFO] 2019-11-08 00:15:20,549: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-08 00:15:20,551: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-08 00:15:20,552: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-08 00:15:20,554: connected to core topic /clock
+[rosout][INFO] 2019-11-08 00:15:20,558: Loading model XML from ros parameter
+[rosout][INFO] 2019-11-08 00:15:20,564: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2019-11-08 00:15:20,848: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-11-08 00:15:20,932: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:42681/], count 0
+[rosout][INFO] 2019-11-08 00:15:21,168: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2019-11-08 00:15:21,452: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2019-11-08 00:15:21,453: signal_shutdown [atexit]
+[rospy.internal][INFO] 2019-11-08 00:15:21,460: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-11-08 00:15:21,460: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:42681/
+[rospy.impl.masterslave][INFO] 2019-11-08 00:15:21,461: atexit

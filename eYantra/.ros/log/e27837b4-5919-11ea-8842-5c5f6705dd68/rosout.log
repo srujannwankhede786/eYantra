@@ -1,0 +1,21 @@
+
+
+1582777830.357006861  Node Startup
+1582777830.554387381 INFO [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/nodes/usb_cam_node.cpp:138(UsbCamNode::UsbCamNode) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] Starting 'head_camera' (/dev/video0) at 1280x1024 via mmap (mjpeg) at 30 FPS
+1582777830.485890573 WARN [/home/itachi/catkin_ws/src/whycon/src/ros/whycon_ros.cpp:156(WhyConROS::load_transforms) [topics: /rosout] Could not load "whycon_transforms.yml"
+1582777830.569075613 INFO [/tmp/binarydeb/ros-kinetic-image-view-1.12.23/src/nodes/image_view.cpp:195(main) [topics: /rosout] Using transport "raw"
+1582777830.711622953 INFO [serial_node.py:86(<module>) [topics: /rosout] Connecting to /dev/ttyUSB0 at 115200 baud
+1582777831.553843663 WARN [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/src/usb_cam.cpp:1211(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] unknown control 'focus_auto'
+
+1582777832.835325002 INFO [SerialClient.py:525(setSubscribeSize) [topics: /diagnostics, /rosout, /led_control_topic] Note: subscribe buffer size is 320 bytes
+1582777832.835712909 INFO [SerialClient.py:549(setupSubscriber) [topics: /diagnostics, /rosout, /led_control_topic] Setup subscriber on led_control_topic [std_msgs/Int8]
+1582778260.933070898 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7aefd66cb0>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 114, in callback
+    print("blue" + self.Medicine)
+TypeError: cannot concatenate 'str' and 'list' objects
+
+1582778609.634248446 ERROR [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/src/usb_cam.cpp:63(errno_exit) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] VIDIOC_QBUF error 19, No such device
+1582779486.284898042 INFO [SerialClient.py:409(txStopRequest) [topics: /diagnostics, /rosout, /led_control_topic] Send tx stop request

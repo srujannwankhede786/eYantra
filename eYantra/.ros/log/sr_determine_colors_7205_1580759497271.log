@@ -1,0 +1,168 @@
+[rospy.client][INFO] 2020-02-04 01:21:37,311: init_node, name[/sr_determine_colors_7205_1580759497271], pid[7205]
+[xmlrpc][INFO] 2020-02-04 01:21:37,312: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2020-02-04 01:21:37,312: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:36261/]
+[xmlrpc][INFO] 2020-02-04 01:21:37,312: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:36261/]
+[rospy.impl.masterslave][INFO] 2020-02-04 01:21:37,312: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:36261/
+[rospy.registration][INFO] 2020-02-04 01:21:37,313: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-04 01:21:37,313: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-04 01:21:37,412: registered with master
+[rospy.rosout][INFO] 2020-02-04 01:21:37,413: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-04 01:21:37,415: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-04 01:21:37,416: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-04 01:21:37,428: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46333/], count 0
+[rosout][ERROR] 2020-02-04 01:21:37,637: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7feefab6dc68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 87, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 16, in detect_color_contour_centers
+    for n in range(x-0.5,x+0.51,0.1):
+TypeError: range() integer end argument expected, got float.
+
+[rospy.internal][INFO] 2020-02-04 01:21:37,662: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-02-04 01:21:37,789: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7feefab6dc68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 87, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 16, in detect_color_contour_centers
+    for n in range(x-0.5,x+0.51,0.1):
+TypeError: range() integer end argument expected, got float.
+
+[rosout][ERROR] 2020-02-04 01:21:37,951: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7feefab6dc68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 87, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 16, in detect_color_contour_centers
+    for n in range(x-0.5,x+0.51,0.1):
+TypeError: range() integer end argument expected, got float.
+
+[rosout][ERROR] 2020-02-04 01:21:38,118: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7feefab6dc68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 87, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 16, in detect_color_contour_centers
+    for n in range(x-0.5,x+0.51,0.1):
+TypeError: range() integer end argument expected, got float.
+
+[rosout][ERROR] 2020-02-04 01:21:38,293: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7feefab6dc68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 87, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 16, in detect_color_contour_centers
+    for n in range(x-0.5,x+0.51,0.1):
+TypeError: range() integer end argument expected, got float.
+
+[rosout][ERROR] 2020-02-04 01:21:38,453: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7feefab6dc68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 87, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 16, in detect_color_contour_centers
+    for n in range(x-0.5,x+0.51,0.1):
+TypeError: range() integer end argument expected, got float.
+
+[rosout][ERROR] 2020-02-04 01:21:38,611: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7feefab6dc68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 87, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 16, in detect_color_contour_centers
+    for n in range(x-0.5,x+0.51,0.1):
+TypeError: range() integer end argument expected, got float.
+
+[rosout][ERROR] 2020-02-04 01:21:38,771: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7feefab6dc68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 87, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 16, in detect_color_contour_centers
+    for n in range(x-0.5,x+0.51,0.1):
+TypeError: range() integer end argument expected, got float.
+
+[rosout][ERROR] 2020-02-04 01:21:38,932: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7feefab6dc68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 87, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 16, in detect_color_contour_centers
+    for n in range(x-0.5,x+0.51,0.1):
+TypeError: range() integer end argument expected, got float.
+
+[rosout][ERROR] 2020-02-04 01:21:39,088: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7feefab6dc68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 87, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 16, in detect_color_contour_centers
+    for n in range(x-0.5,x+0.51,0.1):
+TypeError: range() integer end argument expected, got float.
+
+[rosout][ERROR] 2020-02-04 01:21:39,250: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7feefab6dc68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 87, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 16, in detect_color_contour_centers
+    for n in range(x-0.5,x+0.51,0.1):
+TypeError: range() integer end argument expected, got float.
+
+[rosout][ERROR] 2020-02-04 01:21:39,422: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7feefab6dc68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 87, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 16, in detect_color_contour_centers
+    for n in range(x-0.5,x+0.51,0.1):
+TypeError: range() integer end argument expected, got float.
+
+[rosout][ERROR] 2020-02-04 01:21:39,589: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7feefab6dc68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 87, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 16, in detect_color_contour_centers
+    for n in range(x-0.5,x+0.51,0.1):
+TypeError: range() integer end argument expected, got float.
+
+[rosout][ERROR] 2020-02-04 01:21:39,750: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7feefab6dc68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 87, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 16, in detect_color_contour_centers
+    for n in range(x-0.5,x+0.51,0.1):
+TypeError: range() integer end argument expected, got float.
+
+[rospy.core][INFO] 2020-02-04 01:21:39,872: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-04 01:21:39,877: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-04 01:21:39,878: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:46333/
+[rospy.impl.masterslave][INFO] 2020-02-04 01:21:39,878: signal-2
+[rospy.topics][WARNING] 2020-02-04 01:21:39,919: during shutdown, bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7feefab6dc68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 87, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 16, in detect_color_contour_centers
+    for n in range(x-0.5,x+0.51,0.1):
+TypeError: range() integer end argument expected, got float.
+
+[rospy.core][INFO] 2020-02-04 01:21:40,010: signal_shutdown [atexit]

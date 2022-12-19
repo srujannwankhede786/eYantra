@@ -1,0 +1,48 @@
+[rospy.client][INFO] 2019-11-08 17:49:29,771: init_node, name[/edrone/joint_state_publisher], pid[4436]
+[xmlrpc][INFO] 2019-11-08 17:49:29,772: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-08 17:49:29,772: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:34743/]
+[rospy.init][INFO] 2019-11-08 17:49:29,772: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:34743/]
+[rospy.impl.masterslave][INFO] 2019-11-08 17:49:29,772: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:34743/
+[rospy.registration][INFO] 2019-11-08 17:49:29,773: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-11-08 17:49:29,773: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-08 17:49:29,873: registered with master
+[rospy.rosout][INFO] 2019-11-08 17:49:29,873: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-08 17:49:29,877: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-08 17:49:29,878: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-08 17:49:29,881: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-08 17:49:30,142: topic[/edrone/joint_states] adding connection to [/edrone/robot_state_publisher], count 0
+[rospy.internal][INFO] 2019-11-08 17:49:30,143: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-11-08 17:49:30,258: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:40181/], count 0
+[rospy.internal][INFO] 2019-11-08 17:59:37,653: topic[/edrone/joint_states] adding connection to [/PlotJugglerListener_1573216174873983431], count 1
+[rospy.internal][INFO] 2019-11-08 17:59:37,881: topic[/rosout] adding connection to [/PlotJugglerListener_1573216174873983431], count 1
+[rospy.internal][INFO] 2019-11-08 18:00:54,642: topic[/clock] adding connection to [http://localhost:45033/], count 1
+[rosout][ERROR] 2019-11-08 18:00:57,467: ROS time moved backwards: 0.004s
+[rospy.internal][INFO] 2019-11-08 18:01:00,645: topic[/edrone/joint_states] removing connection to /PlotJugglerListener_1573216174873983431
+[rospy.internal][INFO] 2019-11-08 18:01:00,645: topic[/rosout] removing connection to /PlotJugglerListener_1573216174873983431
+[rospy.internal][ERROR] 2019-11-08 18:01:03,987: Unable to initiate TCP/IP socket to localhost:39545 (http://localhost:45033/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 39545 to [127.0.0.1:59328 on socket 20]] [/edrone/joint_state_publisher].
+
+[rospy.internal][WARNING] 2019-11-08 18:01:04,989: Unknown error initiating TCP/IP socket to localhost:39545 (http://localhost:45033/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2019-11-08 18:01:04,989: topic[/clock] removing connection to http://localhost:45033/
+[rospy.internal][INFO] 2019-11-08 18:02:28,388: topic[/edrone/joint_states] adding connection to [/PlotJugglerListener_1573216344968490938], count 1
+[rospy.internal][INFO] 2019-11-08 18:02:28,610: topic[/rosout] adding connection to [/PlotJugglerListener_1573216344968490938], count 1
+[rospy.core][INFO] 2019-11-08 18:04:29,227: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-11-08 18:04:29,237: topic[/edrone/joint_states] removing connection to /edrone/robot_state_publisher
+[rospy.internal][INFO] 2019-11-08 18:04:29,237: topic[/edrone/joint_states] removing connection to /PlotJugglerListener_1573216344968490938
+[rospy.internal][INFO] 2019-11-08 18:04:29,238: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-11-08 18:04:29,238: topic[/rosout] removing connection to /PlotJugglerListener_1573216344968490938
+[rospy.internal][INFO] 2019-11-08 18:04:29,239: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:40181/
+[rospy.impl.masterslave][INFO] 2019-11-08 18:04:29,239: signal-2
+[rospy.core][INFO] 2019-11-08 18:04:29,403: signal_shutdown [atexit]

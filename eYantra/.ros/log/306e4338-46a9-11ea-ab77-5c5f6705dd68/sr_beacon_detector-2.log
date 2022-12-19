@@ -1,0 +1,564 @@
+[rospy.client][INFO] 2020-02-03 22:51:53,928: init_node, name[/sr_beacon_detector], pid[5401]
+[xmlrpc][INFO] 2020-02-03 22:51:53,929: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-03 22:51:53,930: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35641/]
+[rospy.init][INFO] 2020-02-03 22:51:53,930: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35641/]
+[rospy.impl.masterslave][INFO] 2020-02-03 22:51:53,930: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:35641/
+[rospy.registration][INFO] 2020-02-03 22:51:53,931: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-03 22:51:53,933: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-03 22:51:54,030: registered with master
+[rospy.rosout][INFO] 2020-02-03 22:51:54,031: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-03 22:51:54,035: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-03 22:51:54,037: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-03 22:51:54,049: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46797/], count 0
+[rospy.internal][INFO] 2020-02-03 22:51:54,126: topic[/detection_info] adding connection to [/monitor], count 0
+[rospy.internal][INFO] 2020-02-03 22:51:54,147: topic[/detection_info] adding connection to [/rostopic_5045_1580750319024], count 1
+[rosout][ERROR] 2020-02-03 22:51:54,250: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rospy.internal][INFO] 2020-02-03 22:51:54,320: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-02-03 22:51:54,417: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:54,581: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:54,736: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:54,893: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:55,076: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:55,245: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:55,415: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:55,587: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:55,749: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:55,936: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:56,117: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:56,280: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:56,454: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:56,623: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:56,798: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:56,975: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:57,156: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:57,332: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:57,504: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:57,699: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:57,880: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:58,085: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:58,276: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:58,452: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:58,659: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:58,835: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:59,019: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:59,207: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:59,395: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:51:59,579: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fd272df8c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rospy.core][INFO] 2020-02-03 22:51:59,630: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-03 22:51:59,634: topic[/detection_info] removing connection to /monitor
+[rospy.internal][INFO] 2020-02-03 22:51:59,634: topic[/detection_info] removing connection to /rostopic_5045_1580750319024
+[rospy.internal][INFO] 2020-02-03 22:51:59,635: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-03 22:51:59,635: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:46797/
+[rospy.impl.masterslave][INFO] 2020-02-03 22:51:59,636: signal-2
+[rospy.core][INFO] 2020-02-03 22:51:59,800: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-02-03 22:52:18,093: init_node, name[/sr_beacon_detector], pid[5534]
+[xmlrpc][INFO] 2020-02-03 22:52:18,093: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-03 22:52:18,094: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45705/]
+[rospy.init][INFO] 2020-02-03 22:52:18,094: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45705/]
+[rospy.impl.masterslave][INFO] 2020-02-03 22:52:18,094: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:45705/
+[xmlrpc][INFO] 2020-02-03 22:52:18,095: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-02-03 22:52:18,095: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-02-03 22:52:18,195: registered with master
+[rospy.rosout][INFO] 2020-02-03 22:52:18,195: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-03 22:52:18,198: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-03 22:52:18,199: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-03 22:52:18,211: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46797/], count 0
+[rospy.internal][INFO] 2020-02-03 22:52:18,317: topic[/detection_info] adding connection to [/monitor], count 0
+[rospy.internal][INFO] 2020-02-03 22:52:18,323: topic[/detection_info] adding connection to [/rostopic_5045_1580750319024], count 1
+[rosout][ERROR] 2020-02-03 22:52:18,402: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rospy.internal][INFO] 2020-02-03 22:52:18,476: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-02-03 22:52:18,570: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:18,756: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:18,938: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:19,142: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:19,312: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:19,486: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:19,661: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:19,841: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:20,021: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:20,202: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:20,382: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:20,622: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:20,816: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:21,037: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:21,218: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:21,440: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:21,621: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:21,797: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:21,979: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:22,176: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:22,343: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:22,522: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:22,714: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:22,887: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:23,061: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:23,249: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:23,429: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:23,616: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:23,814: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:24,001: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:24,193: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rosout][ERROR] 2020-02-03 22:52:24,369: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rospy.core][INFO] 2020-02-03 22:52:24,503: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-03 22:52:24,507: topic[/detection_info] removing connection to /monitor
+[rospy.internal][INFO] 2020-02-03 22:52:24,507: topic[/detection_info] removing connection to /rostopic_5045_1580750319024
+[rospy.internal][INFO] 2020-02-03 22:52:24,508: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-03 22:52:24,508: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:46797/
+[rospy.impl.masterslave][INFO] 2020-02-03 22:52:24,508: signal-2
+[rospy.topics][WARNING] 2020-02-03 22:52:24,558: during shutdown, bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4cb2ffbc20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 86, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: 'NoneType' object has no attribute 'keys'
+
+[rospy.core][INFO] 2020-02-03 22:52:24,640: signal_shutdown [atexit]

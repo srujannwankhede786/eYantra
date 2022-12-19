@@ -1,0 +1,128 @@
+[rospy.client][INFO] 2020-01-31 23:06:32,037: init_node, name[/sr_determine_colors_4626_1580492192000], pid[4626]
+[xmlrpc][INFO] 2020-01-31 23:06:32,037: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-31 23:06:32,038: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:36203/]
+[rospy.init][INFO] 2020-01-31 23:06:32,038: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:36203/]
+[rospy.impl.masterslave][INFO] 2020-01-31 23:06:32,038: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:36203/
+[rospy.registration][INFO] 2020-01-31 23:06:32,039: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-31 23:06:32,039: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-31 23:06:32,138: registered with master
+[rospy.rosout][INFO] 2020-01-31 23:06:32,138: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-31 23:06:32,140: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-31 23:06:32,142: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-31 23:06:32,155: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:43669/], count 0
+[rospy.internal][INFO] 2020-01-31 23:06:32,418: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-01-31 23:06:33,092: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4500fc15f0>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 79, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 17, in detect_color_contour_centers
+    if frame[n][m]==255:
+IndexError: index 1024 is out of bounds for axis 0 with size 1024
+
+[rosout][ERROR] 2020-01-31 23:06:34,056: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4500fc15f0>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 79, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 17, in detect_color_contour_centers
+    if frame[n][m]==255:
+IndexError: index 1024 is out of bounds for axis 0 with size 1024
+
+[rosout][ERROR] 2020-01-31 23:06:35,041: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4500fc15f0>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 79, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 17, in detect_color_contour_centers
+    if frame[n][m]==255:
+IndexError: index 1024 is out of bounds for axis 0 with size 1024
+
+[rosout][ERROR] 2020-01-31 23:06:36,059: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4500fc15f0>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 79, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 17, in detect_color_contour_centers
+    if frame[n][m]==255:
+IndexError: index 1024 is out of bounds for axis 0 with size 1024
+
+[rosout][ERROR] 2020-01-31 23:06:37,030: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4500fc15f0>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 79, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 17, in detect_color_contour_centers
+    if frame[n][m]==255:
+IndexError: index 1024 is out of bounds for axis 0 with size 1024
+
+[rosout][ERROR] 2020-01-31 23:06:38,017: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4500fc15f0>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 79, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 17, in detect_color_contour_centers
+    if frame[n][m]==255:
+IndexError: index 1024 is out of bounds for axis 0 with size 1024
+
+[rosout][ERROR] 2020-01-31 23:06:39,039: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4500fc15f0>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 79, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 17, in detect_color_contour_centers
+    if frame[n][m]==255:
+IndexError: index 1024 is out of bounds for axis 0 with size 1024
+
+[rosout][ERROR] 2020-01-31 23:06:39,995: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4500fc15f0>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 79, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 17, in detect_color_contour_centers
+    if frame[n][m]==255:
+IndexError: index 1024 is out of bounds for axis 0 with size 1024
+
+[rosout][ERROR] 2020-01-31 23:06:40,927: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4500fc15f0>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 79, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 17, in detect_color_contour_centers
+    if frame[n][m]==255:
+IndexError: index 1024 is out of bounds for axis 0 with size 1024
+
+[rosout][ERROR] 2020-01-31 23:06:41,960: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4500fc15f0>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 79, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 17, in detect_color_contour_centers
+    if frame[n][m]==255:
+IndexError: index 1024 is out of bounds for axis 0 with size 1024
+
+[rosout][ERROR] 2020-01-31 23:06:43,112: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f4500fc15f0>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 79, in callback
+    if detect_color_contour_centers(mask, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 17, in detect_color_contour_centers
+    if frame[n][m]==255:
+IndexError: index 1024 is out of bounds for axis 0 with size 1024
+
+[rospy.core][INFO] 2020-01-31 23:06:43,448: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-31 23:06:43,523: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-31 23:06:43,533: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:43669/
+[rospy.impl.masterslave][INFO] 2020-01-31 23:06:43,565: signal-2
+[rospy.core][INFO] 2020-01-31 23:06:44,179: signal_shutdown [atexit]

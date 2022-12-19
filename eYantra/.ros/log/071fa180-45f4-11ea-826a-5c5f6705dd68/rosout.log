@@ -1,0 +1,507 @@
+
+
+1580672498.854640625  Node Startup
+1580672499.019620213 INFO [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/nodes/usb_cam_node.cpp:138(UsbCamNode::UsbCamNode) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] Starting 'head_camera' (/dev/video1) at 1280x1024 via mmap (mjpeg) at 30 FPS
+1580672498.942990600 WARN [/home/itachi/catkin_ws/src/whycon/src/ros/whycon_ros.cpp:156(WhyConROS::load_transforms) [topics: /rosout] Could not load "whycon_transforms.yml"
+1580672499.026474619 INFO [/tmp/binarydeb/ros-kinetic-image-view-1.12.23/src/nodes/image_view.cpp:195(main) [topics: /rosout] Using transport "raw"
+1580672500.016067125 WARN [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/src/usb_cam.cpp:1211(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] unknown control 'focus_auto'
+
+1580672503.234205961 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672503.398950099 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672503.560409069 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672503.718316078 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672503.887868881 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672504.074062108 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672504.237083911 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672504.411159992 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672504.572994947 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672504.734682083 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672504.903197050 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672505.074100971 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672505.238415956 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672505.410999059 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672505.584783077 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672505.745106935 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672505.936585903 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672506.136094093 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672506.327881097 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672506.499008893 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672506.658915996 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672506.858566999 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672507.039066076 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672507.220662117 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672507.417016029 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672507.578094005 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672507.748279094 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672507.915677070 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672508.087861061 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672508.273194074 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672508.447549104 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672508.640223979 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672508.811568975 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672508.979295015 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672509.173517942 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672509.341794013 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672509.503705024 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672509.659795045 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672509.826467037 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672509.985671043 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672510.148133039 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672510.332777023 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672510.497152090 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672510.669461965 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672510.865041971 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672511.028271913 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672511.184053897 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672511.343772888 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672511.520647048 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672511.676783084 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672511.835215091 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672511.988270044 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672512.144427061 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672512.309840917 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672512.480532884 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672512.668629884 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672512.854095935 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672513.015878915 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7033ed5b90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 89, in callback
+    print(self.empty)
+AttributeError: sr_determine_colors instance has no attribute 'empty'
+
+1580672568.609421968 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f8b17f2cb90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 102, in callback
+    if str(i) not in self.rescue:
+AttributeError: sr_determine_colors instance has no attribute 'rescue'
+
+1580672582.416363000 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f8b17f2cb90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 102, in callback
+    if str(i) not in self.rescue:
+AttributeError: sr_determine_colors instance has no attribute 'rescue'
+
+1580672600.817298889 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f8b17f2cb90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 102, in callback
+    if str(i) not in self.rescue:
+AttributeError: sr_determine_colors instance has no attribute 'rescue'
+
+1580672609.267718076 ERROR [topics.py:753(_invoke_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f8b17f2cb90>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 102, in callback
+    if str(i) not in self.rescue:
+AttributeError: sr_determine_colors instance has no attribute 'rescue'
+
+1580673020.647449970 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1580673109.463422454 ERROR [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/src/usb_cam.cpp:63(errno_exit) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] VIDIOC_DQBUF error 19, No such device
+1580673140.959893941 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.

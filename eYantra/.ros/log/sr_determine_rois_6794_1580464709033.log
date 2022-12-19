@@ -1,0 +1,1107 @@
+[rospy.client][INFO] 2020-01-31 15:28:29,072: init_node, name[/sr_determine_rois_6794_1580464709033], pid[6794]
+[xmlrpc][INFO] 2020-01-31 15:28:29,073: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-31 15:28:29,073: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37565/]
+[rospy.init][INFO] 2020-01-31 15:28:29,073: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37565/]
+[rospy.impl.masterslave][INFO] 2020-01-31 15:28:29,073: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:37565/
+[rospy.registration][INFO] 2020-01-31 15:28:29,073: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-31 15:28:29,074: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-31 15:28:29,074: registering subscriber topic [/usb_cam/image_rect] type [sensor_msgs/Image] with master
+[rospy.internal][INFO] 2020-01-31 15:28:29,078: topic[/usb_cam/image_rect] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45585/], count 0
+[rosout][ERROR] 2020-01-31 15:28:29,114: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,152: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rospy.init][INFO] 2020-01-31 15:28:29,173: registered with master
+[rospy.rosout][INFO] 2020-01-31 15:28:29,174: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-31 15:28:29,176: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-31 15:28:29,178: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][ERROR] 2020-01-31 15:28:29,187: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,210: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,260: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,278: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,319: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,347: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,391: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,412: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rospy.internal][INFO] 2020-01-31 15:28:29,443: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-01-31 15:28:29,458: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,473: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,513: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,565: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,594: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,633: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,648: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,692: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,713: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,770: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,782: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,817: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,856: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,883: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,913: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,947: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:29,983: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,017: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,048: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,089: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,120: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,160: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,180: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,227: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,249: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,294: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,319: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,367: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,385: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,435: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,460: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,485: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,520: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,553: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,583: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,624: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,654: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,685: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,715: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,750: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,799: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,821: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,871: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,886: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,922: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,966: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:30,991: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,029: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,068: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,091: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,136: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,164: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,200: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,229: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,271: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,305: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,321: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,354: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,390: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,422: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,473: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,492: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,544: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,566: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,600: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,622: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,661: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,714: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,738: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,771: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,803: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,841: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,856: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,897: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,927: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,962: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:31,993: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,029: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,072: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,098: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,126: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,158: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,193: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,242: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,263: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,305: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,336: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,367: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,403: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,432: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,473: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,508: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,541: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,593: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,615: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,645: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,666: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,709: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,742: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,784: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,806: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,847: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,868: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,905: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,941: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:32,972: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,008: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,040: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,091: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,104: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,137: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,181: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,203: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,249: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,282: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,315: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,339: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,370: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,399: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,435: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,470: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,503: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,542: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,582: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,614: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 15:28:33,637: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdb2ff18ab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 37, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+UnboundLocalError: local variable 'i' referenced before assignment
+
+[rospy.core][INFO] 2020-01-31 15:28:33,660: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-31 15:28:33,663: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-31 15:28:33,664: topic[/usb_cam/image_rect] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:45585/
+[rospy.impl.masterslave][INFO] 2020-01-31 15:28:33,664: signal-2
+[rospy.core][INFO] 2020-01-31 15:28:33,796: signal_shutdown [atexit]

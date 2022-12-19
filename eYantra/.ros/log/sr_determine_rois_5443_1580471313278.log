@@ -1,0 +1,33 @@
+[rospy.client][INFO] 2020-01-31 17:18:33,325: init_node, name[/sr_determine_rois_5443_1580471313278], pid[5443]
+[xmlrpc][INFO] 2020-01-31 17:18:33,325: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-31 17:18:33,326: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:42111/]
+[rospy.init][INFO] 2020-01-31 17:18:33,326: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:42111/]
+[rospy.impl.masterslave][INFO] 2020-01-31 17:18:33,326: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:42111/
+[xmlrpc][INFO] 2020-01-31 17:18:33,327: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-31 17:18:33,327: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2020-01-31 17:18:33,328: registering subscriber topic [/usb_cam/image_rect] type [sensor_msgs/Image] with master
+[rospy.internal][INFO] 2020-01-31 17:18:33,331: topic[/usb_cam/image_rect] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35837/], count 0
+[rospy.init][INFO] 2020-01-31 17:18:33,426: registered with master
+[rospy.rosout][INFO] 2020-01-31 17:18:33,427: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-31 17:18:33,428: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-31 17:18:33,430: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-31 17:18:33,640: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2020-01-31 17:18:58,590: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-31 17:18:58,593: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-31 17:18:58,594: topic[/usb_cam/image_rect] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:35837/
+[rospy.internal][WARNING] 2020-01-31 17:18:58,594: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:42609 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:35837/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2020-01-31 17:18:58,594: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2020-01-31 17:18:58,595: signal-2
+[rospy.core][INFO] 2020-01-31 17:18:58,711: signal_shutdown [atexit]

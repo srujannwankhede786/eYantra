@@ -1,0 +1,58 @@
+[rospy.client][INFO] 2020-01-31 23:08:18,715: init_node, name[/sr_determine_colors_4668_1580492298674], pid[4668]
+[xmlrpc][INFO] 2020-01-31 23:08:18,715: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-31 23:08:18,715: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35703/]
+[rospy.init][INFO] 2020-01-31 23:08:18,716: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35703/]
+[rospy.impl.masterslave][INFO] 2020-01-31 23:08:18,716: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:35703/
+[rospy.registration][INFO] 2020-01-31 23:08:18,716: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-31 23:08:18,716: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-31 23:08:18,816: registered with master
+[rospy.rosout][INFO] 2020-01-31 23:08:18,816: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-31 23:08:18,819: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-31 23:08:18,820: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-31 23:08:18,883: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:43669/], count 0
+[rospy.internal][INFO] 2020-01-31 23:08:19,042: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-01-31 23:08:20,276: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7ff2ea74b6c8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 80, in callback
+    if check_whether_lit(red, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 25, in check_whether_lit
+    if frame[n][m]==255:
+IndexError: index 1024 is out of bounds for axis 0 with size 1024
+
+[rosout][ERROR] 2020-01-31 23:08:21,624: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7ff2ea74b6c8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 80, in callback
+    if check_whether_lit(red, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 25, in check_whether_lit
+    if frame[n][m]==255:
+IndexError: index 1024 is out of bounds for axis 0 with size 1024
+
+[rosout][ERROR] 2020-01-31 23:08:22,950: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7ff2ea74b6c8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 80, in callback
+    if check_whether_lit(red, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 25, in check_whether_lit
+    if frame[n][m]==255:
+IndexError: index 1024 is out of bounds for axis 0 with size 1024
+
+[rosout][ERROR] 2020-01-31 23:08:24,235: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7ff2ea74b6c8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 80, in callback
+    if check_whether_lit(red, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 25, in check_whether_lit
+    if frame[n][m]==255:
+IndexError: index 1024 is out of bounds for axis 0 with size 1024
+
+[rospy.core][INFO] 2020-01-31 23:08:24,605: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-31 23:08:24,685: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-31 23:08:24,739: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:43669/
+[rospy.impl.masterslave][INFO] 2020-01-31 23:08:24,783: signal-2
+[rospy.core][INFO] 2020-01-31 23:08:25,361: signal_shutdown [atexit]

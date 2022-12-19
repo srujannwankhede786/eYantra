@@ -1,0 +1,310 @@
+[rospy.client][INFO] 2020-02-02 23:23:26,298: init_node, name[/sr_determine_colors_7833_1580666006258], pid[7833]
+[xmlrpc][INFO] 2020-02-02 23:23:26,298: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-02 23:23:26,298: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37971/]
+[rospy.init][INFO] 2020-02-02 23:23:26,298: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37971/]
+[rospy.impl.masterslave][INFO] 2020-02-02 23:23:26,299: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:37971/
+[rospy.registration][INFO] 2020-02-02 23:23:26,299: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-02 23:23:26,299: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-02 23:23:26,399: registered with master
+[rospy.rosout][INFO] 2020-02-02 23:23:26,399: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-02 23:23:26,403: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-02 23:23:26,405: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-02 23:23:26,447: topic[/detection_info] adding connection to [/rostopic_7568_1580665510822], count 0
+[rospy.internal][INFO] 2020-02-02 23:23:26,465: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38957/], count 0
+[rospy.internal][INFO] 2020-02-02 23:23:26,620: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-02-02 23:23:26,657: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:26,862: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:27,027: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:27,189: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:27,347: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:27,510: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:27,677: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:27,857: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:28,026: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:28,201: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:28,363: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:28,524: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:28,689: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:28,850: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:29,010: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:29,172: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:29,330: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:29,536: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:29,704: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:29,864: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:30,019: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:30,197: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:30,370: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:30,545: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:30,711: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:30,907: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rosout][ERROR] 2020-02-02 23:23:31,101: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rospy.core][INFO] 2020-02-02 23:23:31,282: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-02 23:23:31,286: topic[/detection_info] removing connection to /rostopic_7568_1580665510822
+[rospy.internal][INFO] 2020-02-02 23:23:31,289: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-02 23:23:31,289: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:38957/
+[rospy.impl.masterslave][INFO] 2020-02-02 23:23:31,290: signal-2
+[rospy.rosout][ERROR] 2020-02-02 23:23:31,290: Unable to report rosout: publish() to a closed topic
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    _rosout_pub.publish(l)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+ROSException: publish() to a closed topic
+
+[rosout][ERROR] 2020-02-02 23:23:31,288: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fc726db7c20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 100, in callback
+    elif check_whether_lit(green, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+IndexError: string index out of range
+
+[rospy.core][INFO] 2020-02-02 23:23:31,906: signal_shutdown [atexit]

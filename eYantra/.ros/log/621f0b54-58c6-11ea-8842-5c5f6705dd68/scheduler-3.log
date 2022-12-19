@@ -1,0 +1,118 @@
+[rospy.client][INFO] 2020-02-27 00:03:20,303: init_node, name[/scheduler], pid[18875]
+[xmlrpc][INFO] 2020-02-27 00:03:20,303: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-27 00:03:20,304: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37319/]
+[rospy.init][INFO] 2020-02-27 00:03:20,304: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37319/]
+[rospy.impl.masterslave][INFO] 2020-02-27 00:03:20,304: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:37319/
+[rospy.registration][INFO] 2020-02-27 00:03:20,305: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-27 00:03:20,305: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-02-27 00:03:20,305: Registering publisher topic [/decision_info] type [survey_and_rescue/SRInfo] with master
+[rospy.registration][INFO] 2020-02-27 00:03:20,310: registering subscriber topic [/serviced_info] type [survey_and_rescue/SRInfo] with master
+[rospy.registration][INFO] 2020-02-27 00:03:20,314: registering subscriber topic [/detection_info] type [survey_and_rescue/SRInfo] with master
+[rospy.registration][INFO] 2020-02-27 00:03:20,315: registering subscriber topic [/stats_sr] type [survey_and_rescue/SRInfo] with master
+[rospy.internal][INFO] 2020-02-27 00:03:20,319: topic[/stats_sr] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:42885/], count 0
+[rospy.internal][INFO] 2020-02-27 00:03:20,319: topic[/serviced_info] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:42885/], count 0
+[rospy.internal][ERROR] 2020-02-27 00:03:20,322: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:38171 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:42885/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [survey_and_rescue/SRInfo] vs. [survey_and_rescue/SRDroneStats]
+
+[rospy.internal][ERROR] 2020-02-27 00:03:20,322: unable to create subscriber transport: remote error reported: topic types do not match: [survey_and_rescue/SRInfo] vs. [survey_and_rescue/SRDroneStats].  Will try again in 0.5s
+[rospy.internal][INFO] 2020-02-27 00:03:20,338: topic[/decision_info] adding connection to [/monitor_org_config], count 0
+[rospy.init][INFO] 2020-02-27 00:03:20,404: registered with master
+[rospy.rosout][INFO] 2020-02-27 00:03:20,405: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-27 00:03:20,407: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-27 00:03:20,408: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-27 00:03:20,538: topic[/detection_info] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33809/], count 0
+[rospy.internal][INFO] 2020-02-27 00:03:20,616: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2020-02-27 00:03:21,325: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:38171 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:42885/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [survey_and_rescue/SRInfo] vs. [survey_and_rescue/SRDroneStats]
+
+[rospy.internal][ERROR] 2020-02-27 00:03:22,327: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:38171 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:42885/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [survey_and_rescue/SRInfo] vs. [survey_and_rescue/SRDroneStats]
+
+[rospy.internal][ERROR] 2020-02-27 00:03:24,329: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:38171 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:42885/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [survey_and_rescue/SRInfo] vs. [survey_and_rescue/SRDroneStats]
+
+[rospy.internal][ERROR] 2020-02-27 00:03:28,335: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:38171 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:42885/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [survey_and_rescue/SRInfo] vs. [survey_and_rescue/SRDroneStats]
+
+[rospy.internal][ERROR] 2020-02-27 00:03:36,341: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:38171 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:42885/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [survey_and_rescue/SRInfo] vs. [survey_and_rescue/SRDroneStats]
+
+[rospy.internal][ERROR] 2020-02-27 00:03:52,357: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:38171 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:42885/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: topic types do not match: [survey_and_rescue/SRInfo] vs. [survey_and_rescue/SRDroneStats]
+
+[rospy.core][INFO] 2020-02-27 00:04:00,141: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-27 00:04:00,150: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-27 00:04:00,150: topic[/decision_info] removing connection to /monitor_org_config
+[rospy.internal][INFO] 2020-02-27 00:04:00,151: topic[/serviced_info] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:42885/
+[rospy.internal][WARNING] 2020-02-27 00:04:00,152: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:37533 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:33809/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2020-02-27 00:04:00,152: topic[/detection_info] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:33809/
+[rospy.internal][INFO] 2020-02-27 00:04:00,152: topic[/detection_info] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:33809/
+[rospy.topics][ERROR] 2020-02-27 00:04:00,153: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2020-02-27 00:04:00,154: topic[/stats_sr] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:42885/
+[rospy.impl.masterslave][INFO] 2020-02-27 00:04:00,154: signal-2
+[rospy.internal][ERROR] 2020-02-27 00:04:00,157: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:38171 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:42885/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.core][INFO] 2020-02-27 00:04:00,287: signal_shutdown [atexit]

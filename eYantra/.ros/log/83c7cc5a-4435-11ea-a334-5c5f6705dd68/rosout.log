@@ -1,0 +1,48 @@
+
+
+1580480722.970172110  Node Startup
+1580480723.144456475 INFO [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/nodes/usb_cam_node.cpp:138(UsbCamNode::UsbCamNode) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] Starting 'head_camera' (/dev/video1) at 1280x1024 via mmap (mjpeg) at 30 FPS
+1580480723.089776489 WARN [/home/itachi/catkin_ws/src/whycon/src/ros/whycon_ros.cpp:156(WhyConROS::load_transforms) [topics: /rosout] Could not load "whycon_transforms.yml"
+1580480723.160269108 INFO [/tmp/binarydeb/ros-kinetic-image-view-1.12.23/src/nodes/image_view.cpp:195(main) [topics: /rosout] Using transport "raw"
+1580480724.139243848 WARN [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/src/usb_cam.cpp:1211(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] unknown control 'focus_auto'
+
+1580482044.046447038 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f5ba9431a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+1580482044.207968950 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f5ba9431a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+1580482044.386221885 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f5ba9431a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+1580482147.058238029 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd757236a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+1580482211.439028978 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fa404719a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+

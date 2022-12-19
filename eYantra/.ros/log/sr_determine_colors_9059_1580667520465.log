@@ -1,0 +1,250 @@
+[rospy.client][INFO] 2020-02-02 23:48:40,510: init_node, name[/sr_determine_colors_9059_1580667520465], pid[9059]
+[xmlrpc][INFO] 2020-02-02 23:48:40,511: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-02 23:48:40,511: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35047/]
+[rospy.init][INFO] 2020-02-02 23:48:40,511: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35047/]
+[rospy.impl.masterslave][INFO] 2020-02-02 23:48:40,511: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:35047/
+[rospy.registration][INFO] 2020-02-02 23:48:40,513: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-02 23:48:40,513: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-02 23:48:40,612: registered with master
+[rospy.rosout][INFO] 2020-02-02 23:48:40,612: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-02 23:48:40,614: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-02 23:48:40,615: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-02 23:48:40,630: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38957/], count 0
+[rospy.internal][INFO] 2020-02-02 23:48:40,658: topic[/detection_info] adding connection to [/rostopic_7568_1580665510822], count 0
+[rospy.internal][INFO] 2020-02-02 23:48:40,860: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-02-02 23:48:40,861: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:41,076: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:41,269: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:41,447: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:41,632: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:41,825: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:42,005: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:42,187: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:42,377: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:42,783: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:43,390: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:43,569: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:43,773: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:44,170: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:44,352: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:44,547: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:44,725: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:44,901: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:45,078: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:45,301: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:45,527: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rosout][ERROR] 2020-02-02 23:48:45,725: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rospy.core][INFO] 2020-02-02 23:48:45,745: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-02 23:48:45,751: topic[/detection_info] removing connection to /rostopic_7568_1580665510822
+[rospy.internal][INFO] 2020-02-02 23:48:45,752: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-02 23:48:45,752: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:38957/
+[rospy.impl.masterslave][INFO] 2020-02-02 23:48:45,753: signal-2
+[rospy.topics][WARNING] 2020-02-02 23:48:45,918: during shutdown, bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f290687ec68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 88, in callback
+    if check_whether_lit(self.rescue, x, y):
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector1.py", line 26, in check_whether_lit
+    if frame[m][n]==255:
+TypeError: 'NoneType' object has no attribute '__getitem__'
+
+[rospy.core][INFO] 2020-02-02 23:48:46,369: signal_shutdown [atexit]

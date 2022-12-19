@@ -1,0 +1,28 @@
+[rospy.client][INFO] 2020-02-02 15:58:12,831: init_node, name[/sr_determine_colors_9524_1580639292792], pid[9524]
+[xmlrpc][INFO] 2020-02-02 15:58:12,831: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-02 15:58:12,831: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35005/]
+[rospy.init][INFO] 2020-02-02 15:58:12,831: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35005/]
+[rospy.impl.masterslave][INFO] 2020-02-02 15:58:12,832: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:35005/
+[rospy.registration][INFO] 2020-02-02 15:58:12,832: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-02 15:58:12,832: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-02 15:58:12,932: registered with master
+[rospy.rosout][INFO] 2020-02-02 15:58:12,932: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-02 15:58:12,934: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-02 15:58:12,935: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-02 15:58:12,950: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:42699/], count 0
+[rospy.internal][INFO] 2020-02-02 15:58:13,171: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-02-02 15:58:22,988: topic[/detection_info] adding connection to [/monitor], count 0
+[rospy.internal][WARNING] 2020-02-02 15:59:36,307: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:40895 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:42699/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2020-02-02 15:59:36,307: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:42699/
+[rospy.internal][INFO] 2020-02-02 15:59:36,633: topic[/rosout] removing connection to /rosout
+[rospy.core][INFO] 2020-02-02 15:59:36,739: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2020-02-02 15:59:36,741: cannot unregister with master due to network issues
+[rospy.internal][INFO] 2020-02-02 15:59:36,741: topic[/detection_info] removing connection to /monitor
+[rospy.impl.masterslave][INFO] 2020-02-02 15:59:36,742: signal-2
+[rospy.core][INFO] 2020-02-02 15:59:36,851: signal_shutdown [atexit]

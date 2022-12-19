@@ -1,0 +1,31 @@
+[rospy.client][INFO] 2020-02-03 01:19:47,729: init_node, name[/sr_determine_colors_12305_1580672987689], pid[12305]
+[xmlrpc][INFO] 2020-02-03 01:19:47,729: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-03 01:19:47,730: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35287/]
+[rospy.init][INFO] 2020-02-03 01:19:47,730: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35287/]
+[rospy.impl.masterslave][INFO] 2020-02-03 01:19:47,730: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:35287/
+[xmlrpc][INFO] 2020-02-03 01:19:47,731: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-02-03 01:19:47,732: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-02-03 01:19:47,830: registered with master
+[rospy.rosout][INFO] 2020-02-03 01:19:47,830: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-03 01:19:47,834: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-03 01:19:47,835: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-03 01:19:47,851: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33183/], count 0
+[rospy.internal][INFO] 2020-02-03 01:19:48,042: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-02-03 01:19:51,660: topic[/detection_info] adding connection to [/rostopic_12341_1580672991453], count 0
+[rosout][WARNING] 2020-02-03 01:20:20,646: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2020-02-03 01:20:20,663: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2020-02-03 01:20:20,905: topic[/detection_info] removing connection to /rostopic_12341_1580672991453
+[rospy.internal][INFO] 2020-02-03 01:20:22,740: topic[/detection_info] adding connection to [/rostopic_12365_1580673022516], count 0
+[rospy.core][INFO] 2020-02-03 01:21:27,335: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-03 01:21:27,339: topic[/detection_info] removing connection to /rostopic_12365_1580673022516
+[rospy.internal][INFO] 2020-02-03 01:21:27,345: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-03 01:21:27,347: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:33183/
+[rospy.impl.masterslave][INFO] 2020-02-03 01:21:27,352: signal-2
+[rospy.core][INFO] 2020-02-03 01:21:27,496: signal_shutdown [atexit]

@@ -1,0 +1,1667 @@
+[rospy.client][INFO] 2020-01-31 16:04:01,656: init_node, name[/sr_determine_rois_8464_1580466841618], pid[8464]
+[xmlrpc][INFO] 2020-01-31 16:04:01,656: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-31 16:04:01,657: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38441/]
+[rospy.init][INFO] 2020-01-31 16:04:01,657: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38441/]
+[rospy.impl.masterslave][INFO] 2020-01-31 16:04:01,657: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:38441/
+[xmlrpc][INFO] 2020-01-31 16:04:01,657: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-31 16:04:01,657: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2020-01-31 16:04:01,658: registering subscriber topic [/usb_cam/image_rect] type [sensor_msgs/Image] with master
+[rospy.internal][INFO] 2020-01-31 16:04:01,661: topic[/usb_cam/image_rect] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45585/], count 0
+[rospy.init][INFO] 2020-01-31 16:04:01,757: registered with master
+[rospy.rosout][INFO] 2020-01-31 16:04:01,758: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-31 16:04:01,759: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-31 16:04:01,760: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-31 16:04:01,994: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-01-31 16:04:02,956: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 47, in image_callback
+    save_rois()
+NameError: global name 'save_rois' is not defined
+
+[rosout][ERROR] 2020-01-31 16:04:02,960: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:02,962: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:02,966: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:02,971: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:02,976: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:02,979: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:02,988: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:02,991: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:02,993: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,000: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,027: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,074: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,089: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,121: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,156: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,191: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,220: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,249: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,285: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,321: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,351: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,381: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,415: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,456: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,488: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,518: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,558: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,585: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,620: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,656: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,697: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,718: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,755: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,788: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,824: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,855: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,884: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,924: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,958: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:03,989: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,018: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,051: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,086: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,119: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,151: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,188: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,223: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,253: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,292: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,331: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,368: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,403: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,436: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,459: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,495: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,521: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,562: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,605: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,626: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,668: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,691: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,735: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,757: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,788: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,826: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,862: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,891: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,925: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:04,961: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,000: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,030: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,058: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,104: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,124: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,165: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,200: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,233: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,279: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,303: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,339: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,360: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,397: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,427: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,470: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,501: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,534: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,566: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,592: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,631: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,662: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,703: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,739: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,774: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,811: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,829: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,865: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,913: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,932: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:05,969: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,011: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,040: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,077: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,107: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,146: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,180: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,203: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,235: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,268: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,312: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,335: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,380: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,400: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,444: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,479: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,515: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,548: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,562: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,604: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,636: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,669: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,714: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,743: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,783: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,809: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,840: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,882: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,901: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,937: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:06,980: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,011: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,039: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,073: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,106: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,155: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,172: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,211: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,235: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,269: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,308: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,339: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,374: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,404: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,439: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,478: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,508: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,538: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,581: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,606: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,646: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,672: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,704: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,755: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,781: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,807: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,845: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,879: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,912: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,946: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:07,979: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,014: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,043: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,078: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,115: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,157: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,179: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,221: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,246: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,284: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,308: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,345: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,384: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,409: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,445: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,481: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,523: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,545: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,596: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,624: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,648: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,678: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,726: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,744: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,782: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,813: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,848: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,885: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,918: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,949: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:08,985: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,013: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,050: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,098: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,124: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,160: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,196: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,215: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,251: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,285: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,321: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,358: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,387: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,428: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,465: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,479: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:04:09,518: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fb3c97dda70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 44, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+[rospy.core][INFO] 2020-01-31 16:04:09,537: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-31 16:04:09,540: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-31 16:04:09,540: topic[/usb_cam/image_rect] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:45585/
+[rospy.impl.masterslave][INFO] 2020-01-31 16:04:09,540: signal-2
+[rospy.core][INFO] 2020-01-31 16:04:09,704: signal_shutdown [atexit]

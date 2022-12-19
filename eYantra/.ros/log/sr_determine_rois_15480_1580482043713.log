@@ -1,0 +1,43 @@
+[rospy.client][INFO] 2020-01-31 20:17:23,756: init_node, name[/sr_determine_rois_15480_1580482043713], pid[15480]
+[xmlrpc][INFO] 2020-01-31 20:17:23,757: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-31 20:17:23,757: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45133/]
+[rospy.init][INFO] 2020-01-31 20:17:23,757: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45133/]
+[rospy.impl.masterslave][INFO] 2020-01-31 20:17:23,757: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:45133/
+[rospy.registration][INFO] 2020-01-31 20:17:23,758: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-31 20:17:23,758: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-31 20:17:23,758: registering subscriber topic [/usb_cam/image_rect] type [sensor_msgs/Image] with master
+[rospy.internal][INFO] 2020-01-31 20:17:23,761: topic[/usb_cam/image_rect] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33483/], count 0
+[rospy.init][INFO] 2020-01-31 20:17:23,858: registered with master
+[rospy.rosout][INFO] 2020-01-31 20:17:23,859: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-31 20:17:23,860: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-31 20:17:23,861: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][ERROR] 2020-01-31 20:17:24,046: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f5ba9431a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+[rospy.internal][INFO] 2020-01-31 20:17:24,153: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-01-31 20:17:24,207: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f5ba9431a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+[rosout][ERROR] 2020-01-31 20:17:24,386: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f5ba9431a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+[rospy.core][INFO] 2020-01-31 20:17:43,139: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-31 20:17:43,142: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-31 20:17:43,143: topic[/usb_cam/image_rect] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:33483/
+[rospy.impl.masterslave][INFO] 2020-01-31 20:17:43,143: signal-2
+[rospy.core][INFO] 2020-01-31 20:17:43,308: signal_shutdown [atexit]

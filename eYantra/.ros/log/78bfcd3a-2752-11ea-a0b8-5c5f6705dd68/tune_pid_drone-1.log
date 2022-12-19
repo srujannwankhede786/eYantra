@@ -1,0 +1,63 @@
+[rospy.client][INFO] 2019-12-26 01:42:24,311: init_node, name[/tune_pid_drone], pid[11761]
+[xmlrpc][INFO] 2019-12-26 01:42:24,312: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-12-26 01:42:24,312: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:32985/]
+[rospy.impl.masterslave][INFO] 2019-12-26 01:42:24,312: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:32985/
+[rospy.init][INFO] 2019-12-26 01:42:24,313: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:32985/]
+[xmlrpc][INFO] 2019-12-26 01:42:24,314: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-12-26 01:42:24,314: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-12-26 01:42:24,414: registered with master
+[rospy.rosout][INFO] 2019-12-26 01:42:24,414: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-12-26 01:42:24,417: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-12-26 01:42:24,419: initializing /clock core topic
+[rospy.simtime][INFO] 2019-12-26 01:42:24,425: connected to core topic /clock
+[rospy.internal][INFO] 2019-12-26 01:42:24,432: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37053/], count 0
+[rospy.internal][INFO] 2019-12-26 01:42:24,593: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-26 01:42:24,709: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-12-26 01:42:24,728: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-26 01:42:24,729: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-26 01:46:54,576: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-26 01:46:54,576: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-26 01:46:54,577: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-26 01:46:55,845: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-26 01:46:55,860: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-26 01:46:55,860: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rosout][WARNING] 2019-12-26 01:49:36,920: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2019-12-26 01:49:36,935: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-12-26 01:49:36,935: topic[/pid_tuning_roll] adding connection to [/drone_control], count 1
+[rospy.internal][INFO] 2019-12-26 01:49:36,935: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-26 01:49:36,936: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 1
+[rospy.internal][INFO] 2019-12-26 01:49:36,937: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-26 01:49:37,166: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-26 01:49:37,167: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-26 01:49:37,167: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-26 01:49:53,227: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-26 01:49:53,231: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-26 01:49:53,231: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.core][INFO] 2019-12-26 01:50:05,452: signal_shutdown [atexit]
+[rospy.internal][INFO] 2019-12-26 01:50:05,457: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-26 01:50:05,459: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-26 01:50:05,459: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-12-26 01:50:05,460: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-26 01:50:05,460: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:37053/
+[rospy.internal][WARNING] 2019-12-26 01:50:05,461: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:57399 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:37053/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2019-12-26 01:50:05,461: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2019-12-26 01:50:05,462: atexit

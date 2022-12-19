@@ -1,0 +1,72 @@
+[rospy.client][INFO] 2020-02-26 20:02:44,814: init_node, name[/monitor], pid[8745]
+[xmlrpc][INFO] 2020-02-26 20:02:44,815: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-26 20:02:44,816: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46445/]
+[rospy.init][INFO] 2020-02-26 20:02:44,816: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46445/]
+[rospy.impl.masterslave][INFO] 2020-02-26 20:02:44,817: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:46445/
+[xmlrpc][INFO] 2020-02-26 20:02:44,818: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-02-26 20:02:44,819: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-02-26 20:02:44,918: registered with master
+[rospy.rosout][INFO] 2020-02-26 20:02:44,918: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-26 20:02:44,924: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-26 20:02:44,926: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-26 20:02:45,037: topic[/whycon/poses] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33953/], count 0
+[rospy.internal][INFO] 2020-02-26 20:02:45,152: topic[/detection_info] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46799/], count 0
+[rospy.internal][INFO] 2020-02-26 20:02:45,213: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2020-02-26 20:03:05,352: signal_shutdown [signal-2]
+[rospy.internal][ERROR] 2020-02-26 20:03:05,357: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:42985 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:46799/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2020-02-26 20:03:05,509: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-26 20:03:05,510: topic[/whycon/poses] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:33953/
+[rospy.internal][INFO] 2020-02-26 20:03:05,510: topic[/detection_info] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:46799/
+[rospy.impl.masterslave][INFO] 2020-02-26 20:03:05,510: signal-2
+[rospy.core][INFO] 2020-02-26 20:03:05,642: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-02-26 20:03:08,131: init_node, name[/monitor], pid[8859]
+[xmlrpc][INFO] 2020-02-26 20:03:08,132: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-26 20:03:08,132: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:43383/]
+[rospy.init][INFO] 2020-02-26 20:03:08,133: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:43383/]
+[rospy.impl.masterslave][INFO] 2020-02-26 20:03:08,133: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:43383/
+[xmlrpc][INFO] 2020-02-26 20:03:08,135: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-02-26 20:03:08,135: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-02-26 20:03:08,233: registered with master
+[rospy.rosout][INFO] 2020-02-26 20:03:08,234: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-26 20:03:08,240: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-26 20:03:08,241: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-26 20:03:08,306: topic[/whycon/poses] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33953/], count 0
+[rospy.internal][INFO] 2020-02-26 20:03:08,460: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-02-26 20:03:08,485: topic[/detection_info] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:40925/], count 0
+[rospy.core][INFO] 2020-02-26 20:03:34,765: signal_shutdown [signal-2]
+[rospy.internal][ERROR] 2020-02-26 20:03:34,770: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:33315 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:40925/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2020-02-26 20:03:34,936: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-26 20:03:34,937: topic[/whycon/poses] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:33953/
+[rospy.internal][WARNING] 2020-02-26 20:03:34,937: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:34111 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:33953/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2020-02-26 20:03:34,938: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2020-02-26 20:03:34,938: topic[/detection_info] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:40925/
+[rospy.impl.masterslave][INFO] 2020-02-26 20:03:34,938: signal-2
+[rospy.core][INFO] 2020-02-26 20:03:35,070: signal_shutdown [atexit]

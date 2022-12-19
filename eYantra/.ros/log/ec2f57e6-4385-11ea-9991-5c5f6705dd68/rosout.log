@@ -1,0 +1,611 @@
+
+
+1580405310.365359024  Node Startup
+1580405310.751244113 INFO [/tmp/binarydeb/ros-kinetic-camera-info-manager-1.11.13/src/camera_info_manager.cpp:227(CameraInfoManager::loadCalibration) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] using default calibration URL
+1580405310.751296279 INFO [/tmp/binarydeb/ros-kinetic-camera-info-manager-1.11.13/src/camera_info_manager.cpp:220(CameraInfoManager::loadCalibration) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] camera calibration URL: file:///home/itachi/.ros/camera_info/head_camera.yaml
+1580405310.769520363 INFO [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/nodes/usb_cam_node.cpp:138(UsbCamNode::UsbCamNode) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] Starting 'head_camera' (/dev/video1) at 1280x1024 via mmap (mjpeg) at 30 FPS
+1580405311.257244555 WARN [/home/itachi/catkin_ws/src/whycon/src/ros/whycon_ros.cpp:156(WhyConROS::load_transforms) [topics: /rosout] Could not load "whycon_transforms.yml"
+1580405312.059967177 INFO [/tmp/binarydeb/ros-kinetic-image-view-1.12.23/src/nodes/image_view.cpp:195(main) [topics: /rosout] Using transport "raw"
+1580405312.241981319 WARN [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/src/usb_cam.cpp:1211(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] unknown control 'focus_auto'
+
+1580405400.474083900 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405400.516194105 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405400.544531106 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405400.587292909 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405400.616425991 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405400.641797065 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405400.677248001 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405400.707640886 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405400.753736019 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405400.773796081 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405400.809988975 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405400.847955942 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405400.875853061 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405400.911045074 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405400.953389883 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405400.974968910 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.009795904 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.051594018 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.095557928 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.109417915 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.143683910 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.189026117 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.209115028 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.243398904 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.284310102 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.321291923 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.354593992 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.381980895 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.418391942 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.458138942 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.488487005 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.513761997 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.555505990 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.581751108 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.613121032 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.644678115 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.680923938 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.724297046 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.759428977 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.783035039 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.828910112 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.844739913 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.889383077 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.927696943 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.957957983 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405401.986638069 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.015124082 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.059474945 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.083297967 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.123244047 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.165401935 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.198348045 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.216924905 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.260236024 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.282545089 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.313586950 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.350569009 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.382091999 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.415954113 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.450987100 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.489171028 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.530898094 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.549067020 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.595580101 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.623277902 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.650254011 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.684180974 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.719856977 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.753592014 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.797781944 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.816709995 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.853024959 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.895039081 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.916590929 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405402.951133966 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f077d43db48>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc.py", line 28, in image_callback
+    (rows,cols,channels) = self.img.shape
+ValueError: need more than 2 values to unpack
+
+1580405545.480293347 ERROR [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/src/usb_cam.cpp:1126(UsbCam::grab_image) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] select timeout

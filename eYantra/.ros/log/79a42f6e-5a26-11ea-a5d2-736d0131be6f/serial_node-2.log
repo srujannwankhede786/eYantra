@@ -1,0 +1,112 @@
+[rospy.client][INFO] 2020-02-28 18:03:09,296: init_node, name[/serial_node], pid[5941]
+[xmlrpc][INFO] 2020-02-28 18:03:09,296: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-28 18:03:09,297: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35223/]
+[rospy.init][INFO] 2020-02-28 18:03:09,297: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35223/]
+[rospy.impl.masterslave][INFO] 2020-02-28 18:03:09,297: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:35223/
+[rospy.registration][INFO] 2020-02-28 18:03:09,298: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-28 18:03:09,298: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-28 18:03:09,397: registered with master
+[rospy.rosout][INFO] 2020-02-28 18:03:09,397: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-28 18:03:09,399: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-28 18:03:09,400: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2020-02-28 18:03:09,403: ROS Serial Python Node
+[rosout][INFO] 2020-02-28 18:03:09,407: Connecting to /dev/ttyUSB0 at 115200 baud
+[rospy.internal][INFO] 2020-02-28 18:03:09,642: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2020-02-28 18:03:11,526: Note: subscribe buffer size is 320 bytes
+[rosout][INFO] 2020-02-28 18:03:11,526: Setup subscriber on led_control_topic [std_msgs/Int8]
+[rospy.internal][INFO] 2020-02-28 18:03:15,067: topic[/led_control_topic] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38549/], count 0
+[rospy.internal][ERROR] 2020-02-28 18:04:12,672: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:36359 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:38549/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2020-02-28 18:04:13,674: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:36359 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:38549/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2020-02-28 18:04:13,674: topic[/led_control_topic] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:38549/
+[rospy.internal][INFO] 2020-02-28 18:05:09,688: topic[/led_control_topic] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:40221/], count 0
+[rospy.internal][ERROR] 2020-02-28 18:08:12,849: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:40837 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:40221/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2020-02-28 18:08:13,851: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:40837 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:40221/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2020-02-28 18:08:13,851: topic[/led_control_topic] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:40221/
+[rospy.internal][INFO] 2020-02-28 18:11:45,362: topic[/led_control_topic] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:36879/], count 0
+[rospy.internal][ERROR] 2020-02-28 18:11:58,451: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:32883 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:36879/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2020-02-28 18:11:59,452: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:32883 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:36879/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2020-02-28 18:11:59,453: topic[/led_control_topic] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:36879/
+[rospy.internal][INFO] 2020-02-28 18:12:27,425: topic[/led_control_topic] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45513/], count 0
+[rospy.internal][ERROR] 2020-02-28 18:15:21,427: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:35383 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:45513/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2020-02-28 18:15:22,428: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:35383 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:45513/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2020-02-28 18:15:22,428: topic[/led_control_topic] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:45513/
+[rospy.internal][INFO] 2020-02-28 18:15:35,101: topic[/led_control_topic] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46437/], count 0
+[rospy.internal][ERROR] 2020-02-28 18:18:38,820: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:42341 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:46437/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2020-02-28 18:18:39,821: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:42341 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:46437/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2020-02-28 18:18:39,822: topic[/led_control_topic] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:46437/
+[rospy.internal][INFO] 2020-02-28 18:20:57,616: topic[/led_control_topic] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46253/], count 0
+[rosout][ERROR] 2020-02-28 18:21:14,461: Lost sync with device, restarting...
+[rospy.core][INFO] 2020-02-28 18:22:57,161: signal_shutdown [atexit]
+[rospy.internal][INFO] 2020-02-28 18:22:57,164: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-28 18:22:57,165: topic[/led_control_topic] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:46253/
+[rospy.impl.masterslave][INFO] 2020-02-28 18:22:57,165: atexit

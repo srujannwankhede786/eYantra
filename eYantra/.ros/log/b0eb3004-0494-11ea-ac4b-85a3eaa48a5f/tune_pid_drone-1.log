@@ -1,0 +1,61 @@
+[rospy.client][INFO] 2019-11-11 20:36:21,693: init_node, name[/tune_pid_drone], pid[22722]
+[xmlrpc][INFO] 2019-11-11 20:36:21,693: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-11 20:36:21,694: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:39007/]
+[rospy.init][INFO] 2019-11-11 20:36:21,694: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:39007/]
+[rospy.impl.masterslave][INFO] 2019-11-11 20:36:21,694: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:39007/
+[rospy.registration][INFO] 2019-11-11 20:36:21,696: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-11-11 20:36:21,696: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-11 20:36:21,795: registered with master
+[rospy.rosout][INFO] 2019-11-11 20:36:21,795: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-11 20:36:21,798: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-11 20:36:21,800: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-11 20:36:21,803: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-11 20:36:21,813: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:41111/], count 0
+[rospy.internal][INFO] 2019-11-11 20:36:21,933: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-11-11 20:36:21,934: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-11-11 20:36:21,990: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-11-11 20:36:22,083: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][ERROR] 2019-11-11 22:21:52,349: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:51671 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:41111/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 51671 to [127.0.0.1:33258 on socket 17]] [/tune_pid_drone].
+
+[rospy.internal][ERROR] 2019-11-11 22:21:53,352: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:51671 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:41111/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 51671 to [127.0.0.1:33396 on socket 17]] [/tune_pid_drone].
+
+[rospy.internal][INFO] 2019-11-11 22:21:54,077: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-11-11 22:21:54,077: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-11-11 22:21:54,078: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][ERROR] 2019-11-11 22:21:55,356: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:51671 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:41111/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 51671 to [127.0.0.1:33400 on socket 16]] [/tune_pid_drone].
+
+[rospy.internal][ERROR] 2019-11-11 22:21:59,363: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:51671 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:41111/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 51671 to [127.0.0.1:33402 on socket 16]] [/tune_pid_drone].
+
+[rospy.core][INFO] 2019-11-11 22:22:04,612: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-11-11 22:22:04,622: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-11-11 22:22:04,623: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:41111/
+[rospy.impl.masterslave][INFO] 2019-11-11 22:22:04,623: signal-2
+[rospy.core][INFO] 2019-11-11 22:22:09,013: signal_shutdown [atexit]

@@ -1,0 +1,60 @@
+[rospy.client][INFO] 2019-12-22 17:08:57,481: init_node, name[/tune_pid_drone], pid[17594]
+[xmlrpc][INFO] 2019-12-22 17:08:57,481: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-12-22 17:08:57,481: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:34861/]
+[rospy.init][INFO] 2019-12-22 17:08:57,481: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:34861/]
+[rospy.impl.masterslave][INFO] 2019-12-22 17:08:57,481: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:34861/
+[rospy.registration][INFO] 2019-12-22 17:08:57,482: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-12-22 17:08:57,482: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-12-22 17:08:57,582: registered with master
+[rospy.rosout][INFO] 2019-12-22 17:08:57,582: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-12-22 17:08:57,589: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-12-22 17:08:57,592: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-12-22 17:08:57,697: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:08:57,714: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:08:57,764: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:08:57,796: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-12-22 17:09:23,503: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:09:23,504: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:09:23,505: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:09:38,147: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:09:38,153: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:09:38,154: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:21:56,112: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:21:56,113: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:21:56,113: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:22:33,726: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:22:33,734: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:22:33,735: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:25:41,270: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:25:41,270: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:25:41,271: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:25:44,878: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:25:44,879: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:25:44,880: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rosout][WARNING] 2019-12-22 17:31:54,909: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2019-12-22 17:31:54,910: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-12-22 17:31:55,016: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:31:55,016: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:31:55,017: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:31:56,477: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:31:56,492: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:31:56,494: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:31:59,020: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:31:59,020: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:31:59,021: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:33:28,526: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:33:28,542: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:33:28,544: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:39:04,308: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:39:04,309: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:39:04,310: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-22 17:39:31,450: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:39:31,452: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-22 17:39:31,455: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0

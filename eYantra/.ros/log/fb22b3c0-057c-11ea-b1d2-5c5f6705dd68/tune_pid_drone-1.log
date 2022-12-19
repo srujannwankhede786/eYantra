@@ -1,0 +1,68 @@
+[rospy.client][INFO] 2019-11-13 00:19:35,378: init_node, name[/tune_pid_drone], pid[8380]
+[xmlrpc][INFO] 2019-11-13 00:19:35,379: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-13 00:19:35,379: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:40369/]
+[rospy.init][INFO] 2019-11-13 00:19:35,379: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:40369/]
+[rospy.impl.masterslave][INFO] 2019-11-13 00:19:35,380: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:40369/
+[rospy.registration][INFO] 2019-11-13 00:19:35,382: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-11-13 00:19:35,382: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-13 00:19:35,481: registered with master
+[rospy.rosout][INFO] 2019-11-13 00:19:35,481: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-13 00:19:35,485: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-13 00:19:35,486: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-13 00:19:35,490: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-13 00:19:35,499: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33435/], count 0
+[rospy.internal][INFO] 2019-11-13 00:19:35,606: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-11-13 00:19:35,639: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-11-13 00:19:35,702: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-11-13 00:19:35,714: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][ERROR] 2019-11-13 01:14:54,851: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:45435 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:33435/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 45435 to [127.0.0.1:57764 on socket 9]] [/tune_pid_drone].
+
+[rospy.internal][ERROR] 2019-11-13 01:14:55,853: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:45435 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:33435/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 45435 to [127.0.0.1:57898 on socket 17]] [/tune_pid_drone].
+
+[rospy.internal][ERROR] 2019-11-13 01:14:57,853: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:45435 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:33435/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 45435 to [127.0.0.1:57908 on socket 16]] [/tune_pid_drone].
+
+[rospy.internal][ERROR] 2019-11-13 01:15:01,858: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:45435 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:33435/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 45435 to [127.0.0.1:57928 on socket 17]] [/tune_pid_drone].
+
+[rospy.internal][WARNING] 2019-11-13 01:15:09,864: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:45435 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:33435/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2019-11-13 01:15:09,864: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:33435/
+[rospy.internal][INFO] 2019-11-13 01:15:10,299: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-11-13 01:15:56,334: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-11-13 01:15:56,337: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-11-13 01:15:56,338: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.core][INFO] 2019-11-13 01:18:12,151: signal_shutdown [signal-2]
+[rospy.impl.masterslave][INFO] 2019-11-13 01:18:12,157: signal-2
+[rospy.core][INFO] 2019-11-13 01:18:17,440: signal_shutdown [atexit]

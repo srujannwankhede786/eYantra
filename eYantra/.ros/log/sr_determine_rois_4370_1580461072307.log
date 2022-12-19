@@ -1,0 +1,2409 @@
+[rospy.client][INFO] 2020-01-31 14:27:52,345: init_node, name[/sr_determine_rois_4370_1580461072307], pid[4370]
+[xmlrpc][INFO] 2020-01-31 14:27:52,346: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-31 14:27:52,346: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37399/]
+[rospy.init][INFO] 2020-01-31 14:27:52,346: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37399/]
+[rospy.impl.masterslave][INFO] 2020-01-31 14:27:52,346: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:37399/
+[xmlrpc][INFO] 2020-01-31 14:27:52,347: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-31 14:27:52,347: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2020-01-31 14:27:52,347: registering subscriber topic [/usb_cam/image_rect] type [sensor_msgs/Image] with master
+[rospy.internal][INFO] 2020-01-31 14:27:52,352: topic[/usb_cam/image_rect] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45585/], count 0
+[rosout][ERROR] 2020-01-31 14:27:52,407: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:52,430: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rospy.init][INFO] 2020-01-31 14:27:52,447: registered with master
+[rospy.rosout][INFO] 2020-01-31 14:27:52,447: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-31 14:27:52,450: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-31 14:27:52,453: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][ERROR] 2020-01-31 14:27:52,472: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:52,491: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:52,528: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:52,558: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:52,596: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:52,632: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:52,661: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rospy.internal][INFO] 2020-01-31 14:27:52,702: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-01-31 14:27:52,707: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:52,743: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:52,761: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:52,801: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:52,827: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:52,860: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:52,894: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:52,929: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:52,969: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,011: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,041: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,080: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,094: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,131: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,163: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,197: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,247: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,269: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,314: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,345: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,368: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,404: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,435: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,470: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,496: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,534: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,568: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,601: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,632: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,676: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,702: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,733: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,773: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,812: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,841: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,881: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,898: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,936: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:53,968: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,011: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,037: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,077: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,106: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,147: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,174: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,203: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,247: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,282: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,310: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,351: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,371: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,408: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,448: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,471: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,506: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,538: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,570: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,605: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,635: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,671: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,717: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,738: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,783: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,827: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,848: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,880: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,912: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,945: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:54,976: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,005: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,049: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,073: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,121: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,155: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,176: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,212: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,251: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,291: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,318: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,351: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,379: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,415: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,443: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,480: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,514: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,544: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,579: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,609: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,645: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,676: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,720: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,743: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,781: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,818: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,844: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,891: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,909: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,951: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:55,991: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,018: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,051: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,084: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,116: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,155: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,190: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,224: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,253: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,290: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,325: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,360: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,382: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,418: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,460: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,490: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,530: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,545: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,583: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,625: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,655: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,695: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,712: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,761: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,797: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,813: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,866: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,883: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,921: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,950: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:56,991: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,017: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,058: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,084: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,128: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,148: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,189: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,232: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,264: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,298: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,327: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,354: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,385: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,421: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,454: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,488: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,519: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,556: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,587: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,632: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,657: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,702: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,731: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,756: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,794: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,826: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,868: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,892: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,925: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:57,968: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,004: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,035: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,059: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,092: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,138: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,157: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,193: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,232: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,259: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,287: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,322: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,364: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,402: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,426: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,465: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,489: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,525: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,560: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,606: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,626: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,663: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,699: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,732: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,759: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,795: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,826: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,862: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,909: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,939: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:58,967: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,011: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,031: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,066: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,104: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,140: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,174: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,196: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,228: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,264: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,306: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,333: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,370: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,412: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,440: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,465: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,496: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,530: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,574: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,604: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,646: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,669: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,702: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,743: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,770: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,800: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,844: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,878: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,913: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,940: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:27:59,981: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,011: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,043: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,074: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,110: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,134: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,169: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,205: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,232: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,266: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,299: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,350: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,368: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,404: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,433: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,480: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,505: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,535: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,583: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,605: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,647: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,679: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,712: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,749: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,768: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,808: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,838: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,872: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,919: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,953: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:00,969: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,014: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,039: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,083: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,109: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,151: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,189: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,210: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,237: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,275: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,323: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,354: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,395: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,408: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,440: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,487: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,507: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,540: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,578: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,618: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,643: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,674: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,713: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,747: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,792: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,815: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,842: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,882: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,922: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,945: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:01,983: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:02,012: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:02,044: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:02,079: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:02,109: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:02,157: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:02,187: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:02,222: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:02,255: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:02,292: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rosout][ERROR] 2020-01-31 14:28:02,316: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fd15571cab8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc1.py", line 21, in image_callback
+    self.cv_image = self.bridge.imgmsg_to_cv2(data, encoding = "passthrough")
+TypeError: imgmsg_to_cv2() got an unexpected keyword argument 'encoding'
+
+[rospy.core][INFO] 2020-01-31 14:28:02,335: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-31 14:28:02,338: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-31 14:28:02,339: topic[/usb_cam/image_rect] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:45585/
+[rospy.internal][WARNING] 2020-01-31 14:28:02,340: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:38437 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:45585/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2020-01-31 14:28:02,340: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2020-01-31 14:28:02,341: signal-2
+[rospy.core][INFO] 2020-01-31 14:28:02,457: signal_shutdown [atexit]

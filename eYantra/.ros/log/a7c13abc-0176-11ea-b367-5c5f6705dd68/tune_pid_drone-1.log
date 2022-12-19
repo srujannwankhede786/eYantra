@@ -1,0 +1,39 @@
+[rospy.client][INFO] 2019-11-07 21:29:01,143: init_node, name[/tune_pid_drone], pid[20195]
+[xmlrpc][INFO] 2019-11-07 21:29:01,144: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-07 21:29:01,144: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33237/]
+[rospy.init][INFO] 2019-11-07 21:29:01,144: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33237/]
+[rospy.impl.masterslave][INFO] 2019-11-07 21:29:01,145: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:33237/
+[rospy.registration][INFO] 2019-11-07 21:29:01,146: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-11-07 21:29:01,146: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-07 21:29:01,245: registered with master
+[rospy.rosout][INFO] 2019-11-07 21:29:01,245: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-07 21:29:01,249: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-07 21:29:01,251: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-07 21:29:01,254: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-07 21:29:01,267: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33225/], count 0
+[rospy.internal][INFO] 2019-11-07 21:29:01,394: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-11-07 21:29:01,543: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-11-07 21:30:44,331: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-11-07 21:30:47,383: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-11-07 21:31:09,348: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-11-07 21:31:12,415: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-11-07 21:34:39,978: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-11-07 21:34:42,543: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-11-07 21:38:22,108: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-11-07 21:38:35,259: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-11-07 21:40:40,183: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-11-07 21:40:42,365: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][WARNING] 2019-11-07 21:40:43,492: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:42473 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:33225/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-11-07 21:40:43,492: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:33225/
+[rospy.internal][INFO] 2019-11-07 21:41:01,693: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-11-07 21:41:51,215: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.core][INFO] 2019-11-07 21:42:28,303: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2019-11-07 21:42:28,311: atexit

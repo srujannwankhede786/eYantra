@@ -1,0 +1,65 @@
+[rosmaster.main][INFO] 2020-02-05 21:45:59,285: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-02-05 21:45:59,285: Starting ROS Master Node
+[xmlrpc][INFO] 2020-02-05 21:45:59,286: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2020-02-05 21:45:59,286: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:11311/]
+[rosmaster.master][INFO] 2020-02-05 21:45:59,286: Master initialized: port[11311], uri[http://itachi-HP-Pavilion-Laptop-15-cc1xx:11311/]
+[xmlrpc][INFO] 2020-02-05 21:45:59,286: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-02-05 21:45:59,341: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-02-05 21:45:59,343: +PARAM [/roslaunch/uris/host_itachi_hp_pavilion_laptop_15_cc1xx__46121] by /roslaunch
+[rosmaster.master][INFO] 2020-02-05 21:45:59,445: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-02-05 21:45:59,445: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-02-05 21:45:59,450: +SERVICE [/rosout/get_loggers] /rosout http://itachi-HP-Pavilion-Laptop-15-cc1xx:38439/
+[rosmaster.master][INFO] 2020-02-05 21:45:59,450: +SERVICE [/rosout/set_logger_level] /rosout http://itachi-HP-Pavilion-Laptop-15-cc1xx:38439/
+[rosmaster.master][INFO] 2020-02-05 21:45:59,451: +PUB [/rosout_agg] /rosout http://itachi-HP-Pavilion-Laptop-15-cc1xx:38439/
+[rosmaster.master][INFO] 2020-02-05 21:45:59,454: +SUB [/rosout] /rosout http://itachi-HP-Pavilion-Laptop-15-cc1xx:38439/
+[rosmaster.master][INFO] 2020-02-05 21:46:01,801: +PARAM [/serial_node/baud] by /serial_node
+[rosmaster.master][INFO] 2020-02-05 21:46:01,805: +PARAM [/serial_node/port] by /serial_node
+[rosmaster.master][INFO] 2020-02-05 21:46:01,809: +PUB [/rosout] /serial_node http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/
+[rosmaster.master][INFO] 2020-02-05 21:46:01,816: +SERVICE [/serial_node/get_loggers] /serial_node http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/
+[rosmaster.master][INFO] 2020-02-05 21:46:01,820: +SERVICE [/serial_node/set_logger_level] /serial_node http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/
+[rosmaster.master][INFO] 2020-02-05 21:46:01,839: +PUB [/diagnostics] /serial_node http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/
+[rosmaster.master][INFO] 2020-02-05 21:46:01,894: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:38439/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/']
+[rosmaster.master][INFO] 2020-02-05 21:46:01,899: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:38439/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-02-05 21:46:03,962: +SUB [/led_control_topic] /serial_node http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/
+[rosmaster.master][INFO] 2020-02-05 21:46:16,088: +PUB [/rosout] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:16,096: +SERVICE [/monitor/get_loggers] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:16,100: +SERVICE [/monitor/set_logger_level] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:16,136: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:38439/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/']
+[rosmaster.master][INFO] 2020-02-05 21:46:16,138: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:38439/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-02-05 21:46:16,161: +SUB [/whycon/poses] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:16,163: +SUB [/decision_info] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:16,164: +SUB [/detection_info] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:16,165: +SUB [/arm_status] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:16,166: +PUB [/stats_sr] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:16,167: +PUB [/serviced_info] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:16,168: +PUB [/led_control_topic] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:16,237: publisherUpdate[/led_control_topic] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/']
+[rosmaster.master][INFO] 2020-02-05 21:46:16,241: publisherUpdate[/led_control_topic] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-02-05 21:46:17,251: -SUB [/whycon/poses] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:17,251: -SUB [/detection_info] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:17,251: -SUB [/decision_info] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:17,251: -SUB [/arm_status] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:17,251: -PUB [/serviced_info] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:17,251: -PUB [/rosout] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:17,251: -PUB [/stats_sr] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:17,251: -PUB [/led_control_topic] /monitor http://itachi-HP-Pavilion-Laptop-15-cc1xx:43463/
+[rosmaster.master][INFO] 2020-02-05 21:46:17,251: -SERVICE [/monitor/set_logger_level] /monitor rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:38217
+[rosmaster.master][INFO] 2020-02-05 21:46:17,251: -SERVICE [/monitor/get_loggers] /monitor rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:38217
+[rosmaster.master][INFO] 2020-02-05 21:46:17,340: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:38439/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/']
+[rosmaster.master][INFO] 2020-02-05 21:46:17,341: publisherUpdate[/led_control_topic] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/ []
+[rosmaster.master][INFO] 2020-02-05 21:46:17,344: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:38439/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-02-05 21:46:17,347: publisherUpdate[/led_control_topic] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-02-05 21:46:31,929: -SUB [/led_control_topic] /serial_node http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/
+[rosmaster.master][INFO] 2020-02-05 21:46:31,930: -PUB [/diagnostics] /serial_node http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/
+[rosmaster.master][INFO] 2020-02-05 21:46:31,930: -PUB [/rosout] /serial_node http://itachi-HP-Pavilion-Laptop-15-cc1xx:42157/
+[rosmaster.master][INFO] 2020-02-05 21:46:31,931: -SERVICE [/serial_node/get_loggers] /serial_node rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:41301
+[rosmaster.master][INFO] 2020-02-05 21:46:31,931: -SERVICE [/serial_node/set_logger_level] /serial_node rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:41301
+[rosmaster.master][INFO] 2020-02-05 21:46:31,988: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:38439/ []
+[rosmaster.master][INFO] 2020-02-05 21:46:31,991: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:38439/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-02-05 21:49:07,889: -PUB [/rosout_agg] /rosout http://itachi-HP-Pavilion-Laptop-15-cc1xx:38439/
+[rosmaster.master][INFO] 2020-02-05 21:49:07,889: -SUB [/rosout] /rosout http://itachi-HP-Pavilion-Laptop-15-cc1xx:38439/
+[rosmaster.master][INFO] 2020-02-05 21:49:07,890: -SERVICE [/rosout/get_loggers] /rosout rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:35717
+[rosmaster.master][INFO] 2020-02-05 21:49:07,890: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:35717
+[rosmaster.main][INFO] 2020-02-05 21:49:07,973: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-02-05 21:49:07,974: stopping master...
+[rospy.core][INFO] 2020-02-05 21:49:07,974: signal_shutdown [atexit]

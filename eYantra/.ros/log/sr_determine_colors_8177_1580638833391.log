@@ -1,0 +1,42 @@
+[rospy.client][INFO] 2020-02-02 15:50:33,429: init_node, name[/sr_determine_colors_8177_1580638833391], pid[8177]
+[xmlrpc][INFO] 2020-02-02 15:50:33,429: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-02 15:50:33,430: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46717/]
+[rospy.init][INFO] 2020-02-02 15:50:33,430: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46717/]
+[rospy.impl.masterslave][INFO] 2020-02-02 15:50:33,430: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:46717/
+[rospy.registration][INFO] 2020-02-02 15:50:33,431: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-02 15:50:33,431: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-02 15:50:33,530: registered with master
+[rospy.rosout][INFO] 2020-02-02 15:50:33,531: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-02 15:50:33,534: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-02 15:50:33,536: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-02 15:50:33,598: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:42699/], count 0
+[rospy.internal][INFO] 2020-02-02 15:50:33,774: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-02-02 15:50:40,454: topic[/detection_info] adding connection to [/monitor], count 0
+[rospy.internal][INFO] 2020-02-02 15:51:00,299: topic[/detection_info] adding connection to [/rostopic_8325_1580638860074], count 1
+[rospy.internal][INFO] 2020-02-02 15:53:41,059: topic[/detection_info] removing connection to /monitor
+[rospy.internal][INFO] 2020-02-02 15:53:53,000: topic[/detection_info] adding connection to [/monitor], count 1
+[rospy.internal][INFO] 2020-02-02 15:53:54,698: topic[/detection_info] removing connection to /rostopic_8325_1580638860074
+[rosout][WARNING] 2020-02-02 15:53:54,854: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2020-02-02 15:53:54,856: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rosout][WARNING] 2020-02-02 15:54:56,967: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2020-02-02 15:54:56,968: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2020-02-02 15:54:57,092: topic[/detection_info] removing connection to /monitor
+[rospy.core][INFO] 2020-02-02 15:55:03,754: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-02 15:55:03,757: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-02 15:55:03,757: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:42699/
+[rospy.impl.masterslave][INFO] 2020-02-02 15:55:03,757: signal-2
+[rospy.core][INFO] 2020-02-02 15:55:03,979: signal_shutdown [atexit]

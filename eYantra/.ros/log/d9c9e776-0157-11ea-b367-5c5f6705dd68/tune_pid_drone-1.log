@@ -1,0 +1,97 @@
+[rospy.client][INFO] 2019-11-07 18:16:50,447: init_node, name[/tune_pid_drone], pid[16608]
+[xmlrpc][INFO] 2019-11-07 18:16:50,447: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-07 18:16:50,447: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38415/]
+[rospy.init][INFO] 2019-11-07 18:16:50,448: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38415/]
+[rospy.impl.masterslave][INFO] 2019-11-07 18:16:50,448: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:38415/
+[rospy.registration][INFO] 2019-11-07 18:16:50,449: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-11-07 18:16:50,449: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-07 18:16:50,548: registered with master
+[rospy.rosout][INFO] 2019-11-07 18:16:50,549: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-07 18:16:50,552: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-07 18:16:50,553: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-07 18:16:50,557: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-07 18:16:50,570: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:36753/], count 0
+[rospy.internal][INFO] 2019-11-07 18:16:50,855: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-11-07 18:16:58,871: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-11-07 18:17:51,100: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.core][INFO] 2019-11-07 18:26:52,693: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-11-07 18:26:52,701: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-11-07 18:26:52,701: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:36753/
+[rospy.impl.masterslave][INFO] 2019-11-07 18:26:52,702: signal-2
+[rospy.core][INFO] 2019-11-07 18:26:58,282: signal_shutdown [signal-15]
+[rospy.core][INFO] 2019-11-07 18:26:58,387: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-11-07 18:27:20,632: init_node, name[/tune_pid_drone], pid[16824]
+[xmlrpc][INFO] 2019-11-07 18:27:20,633: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-07 18:27:20,634: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:40899/]
+[rospy.init][INFO] 2019-11-07 18:27:20,634: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:40899/]
+[rospy.impl.masterslave][INFO] 2019-11-07 18:27:20,634: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:40899/
+[rospy.registration][INFO] 2019-11-07 18:27:20,635: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-11-07 18:27:20,635: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-07 18:27:20,735: registered with master
+[rospy.rosout][INFO] 2019-11-07 18:27:20,736: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-07 18:27:20,740: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-07 18:27:20,741: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-07 18:27:20,745: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-07 18:27:20,752: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:36753/], count 0
+[rospy.internal][INFO] 2019-11-07 18:27:20,953: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-11-07 18:27:40,287: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rosout][WARNING] 2019-11-07 18:27:55,664: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2019-11-07 18:27:55,684: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-11-07 18:27:55,771: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-11-07 18:27:59,560: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-11-07 18:28:13,781: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-11-07 18:28:15,318: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rosout][WARNING] 2019-11-07 18:30:21,680: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2019-11-07 18:30:21,681: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-11-07 18:30:21,857: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.client][INFO] 2019-11-07 18:45:23,885: init_node, name[/tune_pid_drone], pid[17945]
+[xmlrpc][INFO] 2019-11-07 18:45:23,886: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-07 18:45:23,886: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:41163/]
+[rospy.init][INFO] 2019-11-07 18:45:23,886: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:41163/]
+[rospy.impl.masterslave][INFO] 2019-11-07 18:45:23,887: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:41163/
+[rospy.registration][INFO] 2019-11-07 18:45:23,887: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-11-07 18:45:23,888: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-07 18:45:23,987: registered with master
+[rospy.rosout][INFO] 2019-11-07 18:45:23,987: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-07 18:45:23,990: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-07 18:45:23,992: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-07 18:45:23,997: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-07 18:45:24,004: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:36753/], count 0
+[rospy.internal][INFO] 2019-11-07 18:45:24,105: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-11-07 18:45:24,248: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-11-07 18:46:37,543: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rosout][WARNING] 2019-11-07 18:46:38,010: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2019-11-07 18:46:38,011: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.core][INFO] 2019-11-07 18:46:47,766: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-11-07 18:46:47,770: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-11-07 18:46:47,771: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:36753/
+[rospy.impl.masterslave][INFO] 2019-11-07 18:46:47,772: signal-2
+[rospy.internal][ERROR] 2019-11-07 18:46:47,774: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2019-11-07 18:46:55,713: signal_shutdown [signal-15]

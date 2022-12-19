@@ -1,0 +1,50 @@
+[rospy.client][INFO] 2019-11-07 00:15:28,703: init_node, name[/edrone/joint_state_publisher], pid[8434]
+[xmlrpc][INFO] 2019-11-07 00:15:28,703: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-07 00:15:28,703: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46743/]
+[rospy.init][INFO] 2019-11-07 00:15:28,704: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46743/]
+[rospy.impl.masterslave][INFO] 2019-11-07 00:15:28,704: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:46743/
+[xmlrpc][INFO] 2019-11-07 00:15:28,704: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-11-07 00:15:28,705: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-11-07 00:15:28,804: registered with master
+[rospy.rosout][INFO] 2019-11-07 00:15:28,804: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-07 00:15:28,806: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-07 00:15:28,807: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-07 00:15:28,810: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-07 00:15:29,071: topic[/edrone/joint_states] adding connection to [/edrone/robot_state_publisher], count 0
+[rospy.internal][INFO] 2019-11-07 00:15:29,074: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2019-11-07 00:15:53,922: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-11-07 00:15:53,926: topic[/edrone/joint_states] removing connection to /edrone/robot_state_publisher
+[rospy.internal][INFO] 2019-11-07 00:15:53,926: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2019-11-07 00:15:53,926: signal-2
+[rospy.core][INFO] 2019-11-07 00:15:54,060: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-11-07 00:16:19,153: init_node, name[/edrone/joint_state_publisher], pid[8992]
+[xmlrpc][INFO] 2019-11-07 00:16:19,153: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-07 00:16:19,154: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35175/]
+[rospy.init][INFO] 2019-11-07 00:16:19,154: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35175/]
+[rospy.impl.masterslave][INFO] 2019-11-07 00:16:19,154: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:35175/
+[rospy.registration][INFO] 2019-11-07 00:16:19,155: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-11-07 00:16:19,155: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-07 00:16:19,254: registered with master
+[rospy.rosout][INFO] 2019-11-07 00:16:19,254: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-07 00:16:19,256: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-07 00:16:19,258: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-07 00:16:19,260: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-07 00:16:19,482: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-11-07 00:16:19,534: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:34171/], count 0
+[rospy.internal][INFO] 2019-11-07 00:16:19,583: topic[/edrone/joint_states] adding connection to [/edrone/robot_state_publisher], count 0
+[rospy.core][INFO] 2019-11-07 02:45:25,010: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-11-07 02:45:38,126: topic[/edrone/joint_states] removing connection to /edrone/robot_state_publisher
+[rospy.internal][ERROR] 2019-11-07 02:45:38,490: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:44545 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:34171/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 44545 to [127.0.0.1:38462 on socket 23]] [/edrone/joint_state_publisher].
+
+[rospy.internal][INFO] 2019-11-07 02:45:38,517: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-11-07 02:45:38,534: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:34171/
+[rospy.impl.masterslave][INFO] 2019-11-07 02:45:38,566: signal-2
+[rospy.core][INFO] 2019-11-07 02:45:39,270: signal_shutdown [signal-15]
+[rospy.core][INFO] 2019-11-07 02:45:39,581: signal_shutdown [atexit]

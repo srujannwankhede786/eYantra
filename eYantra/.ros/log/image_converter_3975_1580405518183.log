@@ -1,0 +1,28 @@
+[rospy.client][INFO] 2020-01-30 23:01:58,229: init_node, name[/image_converter_3975_1580405518183], pid[3975]
+[xmlrpc][INFO] 2020-01-30 23:01:58,229: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-30 23:01:58,229: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:44641/]
+[rospy.init][INFO] 2020-01-30 23:01:58,230: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:44641/]
+[rospy.impl.masterslave][INFO] 2020-01-30 23:01:58,230: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:44641/
+[xmlrpc][INFO] 2020-01-30 23:01:58,230: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-30 23:01:58,230: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2020-01-30 23:01:58,230: registering subscriber topic [/usb_cam/image_rect] type [sensor_msgs/Image] with master
+[rospy.internal][INFO] 2020-01-30 23:01:58,232: topic[/usb_cam/image_rect] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33321/], count 0
+[rospy.init][INFO] 2020-01-30 23:01:58,352: registered with master
+[rospy.rosout][INFO] 2020-01-30 23:01:58,353: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-30 23:01:58,356: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-30 23:01:58,358: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-30 23:01:58,593: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][WARNING] 2020-01-30 23:02:59,291: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:57167 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:33321/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2020-01-30 23:02:59,292: topic[/usb_cam/image_rect] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:33321/
+[rospy.internal][INFO] 2020-01-30 23:03:01,288: topic[/rosout] removing connection to /rosout
+[rospy.core][INFO] 2020-01-30 23:08:31,875: signal_shutdown [signal-2]
+[rospy.impl.masterslave][INFO] 2020-01-30 23:08:31,877: signal-2
+[rospy.core][INFO] 2020-01-30 23:08:31,993: signal_shutdown [atexit]

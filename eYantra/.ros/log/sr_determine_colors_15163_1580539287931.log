@@ -1,0 +1,44 @@
+[rospy.client][INFO] 2020-02-01 12:11:27,971: init_node, name[/sr_determine_colors_15163_1580539287931], pid[15163]
+[xmlrpc][INFO] 2020-02-01 12:11:27,972: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-01 12:11:27,972: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37607/]
+[rospy.init][INFO] 2020-02-01 12:11:27,972: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37607/]
+[rospy.impl.masterslave][INFO] 2020-02-01 12:11:27,972: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:37607/
+[rospy.registration][INFO] 2020-02-01 12:11:27,973: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-01 12:11:27,973: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-01 12:11:28,073: registered with master
+[rospy.rosout][INFO] 2020-02-01 12:11:28,073: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-01 12:11:28,077: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-01 12:11:28,079: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-01 12:11:28,091: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37107/], count 0
+[rospy.internal][INFO] 2020-02-01 12:11:28,134: topic[/detection_info] adding connection to [/rostopic_15134_1580539205375], count 0
+[rospy.internal][INFO] 2020-02-01 12:11:28,301: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-02-01 12:11:35,106: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f1f24f41c68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 105, in callback
+    print("location:" +str(self.location))
+AttributeError: sr_determine_colors instance has no attribute 'location'
+
+[rosout][ERROR] 2020-02-01 12:11:57,068: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f1f24f41c68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 105, in callback
+    print("location:" +str(self.location))
+AttributeError: sr_determine_colors instance has no attribute 'location'
+
+[rosout][ERROR] 2020-02-01 12:12:01,881: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f1f24f41c68>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 105, in callback
+    print("location:" +str(self.location))
+AttributeError: sr_determine_colors instance has no attribute 'location'
+
+[rospy.core][INFO] 2020-02-01 12:12:08,223: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-01 12:12:08,231: topic[/detection_info] removing connection to /rostopic_15134_1580539205375
+[rospy.internal][INFO] 2020-02-01 12:12:08,232: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-01 12:12:08,232: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:37107/
+[rospy.impl.masterslave][INFO] 2020-02-01 12:12:08,233: signal-2
+[rospy.core][INFO] 2020-02-01 12:12:08,409: signal_shutdown [atexit]

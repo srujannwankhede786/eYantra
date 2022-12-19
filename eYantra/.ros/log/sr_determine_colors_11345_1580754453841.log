@@ -1,0 +1,33 @@
+[rospy.client][INFO] 2020-02-03 23:57:33,885: init_node, name[/sr_determine_colors_11345_1580754453841], pid[11345]
+[xmlrpc][INFO] 2020-02-03 23:57:33,885: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2020-02-03 23:57:33,886: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:44463/]
+[xmlrpc][INFO] 2020-02-03 23:57:33,886: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:44463/]
+[rospy.impl.masterslave][INFO] 2020-02-03 23:57:33,886: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:44463/
+[rospy.registration][INFO] 2020-02-03 23:57:33,887: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-03 23:57:33,887: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-03 23:57:33,986: registered with master
+[rospy.rosout][INFO] 2020-02-03 23:57:33,986: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-03 23:57:33,989: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-03 23:57:33,991: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-03 23:57:34,002: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:40621/], count 0
+[rospy.internal][INFO] 2020-02-03 23:57:34,209: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-02-03 23:59:05,815: topic[/detection_info] adding connection to [/monitor], count 0
+[rospy.internal][INFO] 2020-02-03 23:59:11,037: topic[/detection_info] adding connection to [/rostopic_11536_1580754550826], count 1
+[rospy.internal][INFO] 2020-02-04 00:01:50,652: topic[/detection_info] adding connection to [/rostopic_11536_1580754550826], count 2
+[rospy.internal][INFO] 2020-02-04 00:01:50,653: topic[/detection_info] removing connection to /rostopic_11536_1580754550826
+[rospy.internal][INFO] 2020-02-04 00:01:50,911: topic[/detection_info] removing connection to /rostopic_11536_1580754550826
+[rospy.core][INFO] 2020-02-04 00:01:52,853: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-04 00:01:52,872: topic[/detection_info] removing connection to /monitor
+[rospy.internal][INFO] 2020-02-04 00:01:52,876: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-04 00:01:52,877: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:40621/
+[rospy.impl.masterslave][INFO] 2020-02-04 00:01:52,877: signal-2
+[rospy.internal][ERROR] 2020-02-04 00:01:52,878: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+  File "/usr/lib/python2.7/socket.py", line 174, in _dummy
+    raise error(EBADF, 'Bad file descriptor')
+error: [Errno 9] Bad file descriptor
+
+[rospy.core][INFO] 2020-02-04 00:01:52,981: signal_shutdown [atexit]

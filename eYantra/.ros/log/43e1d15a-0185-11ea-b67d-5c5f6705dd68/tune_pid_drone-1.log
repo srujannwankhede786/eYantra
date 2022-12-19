@@ -1,0 +1,89 @@
+[rospy.client][INFO] 2019-11-07 23:12:42,349: init_node, name[/tune_pid_drone], pid[4196]
+[xmlrpc][INFO] 2019-11-07 23:12:42,350: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-07 23:12:42,350: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:36953/]
+[rospy.init][INFO] 2019-11-07 23:12:42,351: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:36953/]
+[rospy.impl.masterslave][INFO] 2019-11-07 23:12:42,351: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:36953/
+[rospy.registration][INFO] 2019-11-07 23:12:42,353: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-11-07 23:12:42,355: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-07 23:12:42,451: registered with master
+[rospy.rosout][INFO] 2019-11-07 23:12:42,452: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-07 23:12:42,455: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-07 23:12:42,461: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-07 23:12:42,467: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-07 23:12:42,476: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45329/], count 0
+[rospy.internal][INFO] 2019-11-07 23:12:42,711: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-11-07 23:12:42,753: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.core][INFO] 2019-11-07 23:12:55,303: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-11-07 23:12:55,310: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-11-07 23:12:55,310: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-11-07 23:12:55,310: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:45329/
+[rospy.impl.masterslave][INFO] 2019-11-07 23:12:55,311: signal-2
+[rospy.core][INFO] 2019-11-07 23:12:59,325: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-11-07 23:13:03,849: init_node, name[/tune_pid_drone], pid[4268]
+[xmlrpc][INFO] 2019-11-07 23:13:03,851: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-07 23:13:03,852: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:44499/]
+[rospy.init][INFO] 2019-11-07 23:13:03,852: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:44499/]
+[rospy.impl.masterslave][INFO] 2019-11-07 23:13:03,852: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:44499/
+[xmlrpc][INFO] 2019-11-07 23:13:03,852: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-11-07 23:13:03,853: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-11-07 23:13:03,952: registered with master
+[rospy.rosout][INFO] 2019-11-07 23:13:03,953: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-07 23:13:03,955: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-07 23:13:03,957: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-07 23:13:03,962: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-07 23:13:03,970: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45329/], count 0
+[rospy.internal][INFO] 2019-11-07 23:13:04,168: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2019-11-07 23:15:49,654: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-11-07 23:15:49,662: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-11-07 23:15:49,663: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:45329/
+[rospy.topics][ERROR] 2019-11-07 23:15:49,664: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2019-11-07 23:15:49,664: signal-2
+[rospy.internal][WARNING] 2019-11-07 23:15:49,665: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:57291 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:45329/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2019-11-07 23:16:04,185: signal_shutdown [signal-15]
+[rospy.client][INFO] 2019-11-07 23:16:18,606: init_node, name[/tune_pid_drone], pid[4392]
+[xmlrpc][INFO] 2019-11-07 23:16:18,606: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-07 23:16:18,607: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33247/]
+[rospy.init][INFO] 2019-11-07 23:16:18,607: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33247/]
+[rospy.impl.masterslave][INFO] 2019-11-07 23:16:18,607: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:33247/
+[rospy.registration][INFO] 2019-11-07 23:16:18,608: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-11-07 23:16:18,608: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-07 23:16:18,708: registered with master
+[rospy.rosout][INFO] 2019-11-07 23:16:18,708: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-07 23:16:18,712: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-07 23:16:18,713: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-07 23:16:18,716: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-07 23:16:18,727: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45329/], count 0
+[rospy.internal][INFO] 2019-11-07 23:16:18,788: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-11-07 23:16:18,956: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2019-11-07 23:19:27,723: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-11-07 23:19:27,731: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-11-07 23:19:27,733: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-11-07 23:19:27,734: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:45329/
+[rospy.impl.masterslave][INFO] 2019-11-07 23:19:27,737: signal-2
+[rospy.core][INFO] 2019-11-07 23:19:30,327: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-11-07 23:20:32,542: init_node, name[/tune_pid_drone], pid[4469]
+[xmlrpc][INFO] 2019-11-07 23:20:32,543: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-07 23:20:32,544: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:36715/]
+[rospy.init][INFO] 2019-11-07 23:20:32,544: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:36715/]
+[rospy.impl.masterslave][INFO] 2019-11-07 23:20:32,545: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:36715/
+[rospy.registration][INFO] 2019-11-07 23:20:32,546: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-11-07 23:20:32,546: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-07 23:20:32,645: registered with master
+[rospy.rosout][INFO] 2019-11-07 23:20:32,645: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-07 23:20:32,648: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-07 23:20:32,650: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-07 23:20:32,657: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-07 23:20:32,664: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45329/], count 0
+[rospy.internal][INFO] 2019-11-07 23:20:32,860: topic[/rosout] adding connection to [/rosout], count 0

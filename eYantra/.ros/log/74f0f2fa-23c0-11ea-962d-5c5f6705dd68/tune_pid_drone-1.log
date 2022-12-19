@@ -1,0 +1,88 @@
+[rospy.client][INFO] 2019-12-21 12:37:17,287: init_node, name[/tune_pid_drone], pid[20311]
+[xmlrpc][INFO] 2019-12-21 12:37:17,288: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-12-21 12:37:17,288: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38793/]
+[rospy.impl.masterslave][INFO] 2019-12-21 12:37:17,288: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:38793/
+[rospy.init][INFO] 2019-12-21 12:37:17,288: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38793/]
+[xmlrpc][INFO] 2019-12-21 12:37:17,289: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-12-21 12:37:17,289: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-12-21 12:37:17,389: registered with master
+[rospy.rosout][INFO] 2019-12-21 12:37:17,389: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-12-21 12:37:17,391: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-12-21 12:37:17,393: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-12-21 12:37:17,437: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:37:17,533: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-12-21 12:37:17,539: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:37:17,540: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rosout][WARNING] 2019-12-21 12:45:50,491: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2019-12-21 12:45:50,492: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-12-21 12:45:50,547: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:45:50,548: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:45:50,549: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:47:46,130: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:47:46,130: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:47:46,131: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:49:19,147: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:49:19,148: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:49:19,148: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rosout][WARNING] 2019-12-21 12:49:19,170: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2019-12-21 12:49:19,171: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-12-21 12:51:03,704: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:51:03,707: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:51:03,708: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:51:32,714: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:51:32,714: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:51:32,715: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:52:58,478: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:52:58,479: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:52:58,479: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:53:11,267: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:53:11,268: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:53:11,268: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:54:09,832: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:54:09,833: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:54:09,833: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:55:27,334: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:55:27,335: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:55:27,335: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:55:42,457: topic[/pid_tuning_altitude] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:55:42,458: topic[/pid_tuning_pitch] adding connection to [/drone_control], count 0
+[rospy.internal][INFO] 2019-12-21 12:55:42,461: topic[/pid_tuning_roll] adding connection to [/drone_control], count 0
+[rosout][WARNING] 2019-12-21 12:55:55,642: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2019-12-21 12:55:55,642: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rosout][WARNING] 2019-12-21 12:55:55,643: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[rospy.internal][ERROR] 2019-12-21 12:55:55,643: Inbound TCP/IP connection failed:
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 321, in _tcp_server_callback
+    header = read_ros_handshake_header(sock, StringIO(), buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2019-12-21 12:55:55,848: topic[/pid_tuning_pitch] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:55:55,848: topic[/pid_tuning_roll] removing connection to /drone_control
+[rospy.internal][INFO] 2019-12-21 12:55:55,848: topic[/pid_tuning_altitude] removing connection to /drone_control
+[rospy.core][INFO] 2019-12-21 12:57:15,209: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-12-21 12:57:15,213: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2019-12-21 12:57:15,213: signal-2
+[rospy.core][INFO] 2019-12-21 12:57:18,579: signal_shutdown [atexit]

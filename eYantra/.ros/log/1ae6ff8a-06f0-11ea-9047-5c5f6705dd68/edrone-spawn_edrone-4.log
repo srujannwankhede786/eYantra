@@ -1,0 +1,27 @@
+[rospy.client][INFO] 2019-11-14 20:34:51,631: init_node, name[/edrone/spawn_edrone], pid[22341]
+[xmlrpc][INFO] 2019-11-14 20:34:51,632: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-14 20:34:51,632: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37783/]
+[rospy.init][INFO] 2019-11-14 20:34:51,632: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37783/]
+[rospy.impl.masterslave][INFO] 2019-11-14 20:34:51,632: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:37783/
+[xmlrpc][INFO] 2019-11-14 20:34:51,633: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-11-14 20:34:51,633: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-11-14 20:34:51,733: registered with master
+[rospy.rosout][INFO] 2019-11-14 20:34:51,733: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-14 20:34:51,735: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-14 20:34:51,736: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-14 20:34:51,738: connected to core topic /clock
+[rosout][INFO] 2019-11-14 20:34:51,741: Loading model XML from ros parameter
+[rosout][INFO] 2019-11-14 20:34:51,745: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2019-11-14 20:34:51,993: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2019-11-14 20:34:52,048: Calling service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2019-11-14 20:34:52,062: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45603/], count 0
+[rosout][INFO] 2019-11-14 20:34:52,408: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2019-11-14 20:34:52,408: signal_shutdown [atexit]
+[rospy.internal][INFO] 2019-11-14 20:34:52,411: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-11-14 20:34:52,411: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:45603/
+[rospy.impl.masterslave][INFO] 2019-11-14 20:34:52,411: atexit
+[rospy.internal][WARNING] 2019-11-14 20:34:52,412: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:39661 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:45603/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+

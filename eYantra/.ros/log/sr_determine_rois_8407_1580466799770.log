@@ -1,0 +1,609 @@
+[rospy.client][INFO] 2020-01-31 16:03:19,816: init_node, name[/sr_determine_rois_8407_1580466799770], pid[8407]
+[xmlrpc][INFO] 2020-01-31 16:03:19,816: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-31 16:03:19,816: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:34195/]
+[rospy.init][INFO] 2020-01-31 16:03:19,816: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:34195/]
+[rospy.impl.masterslave][INFO] 2020-01-31 16:03:19,817: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:34195/
+[rospy.registration][INFO] 2020-01-31 16:03:19,817: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-31 16:03:19,817: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-01-31 16:03:19,817: registering subscriber topic [/usb_cam/image_rect] type [sensor_msgs/Image] with master
+[rospy.internal][INFO] 2020-01-31 16:03:19,820: topic[/usb_cam/image_rect] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45585/], count 0
+[rospy.init][INFO] 2020-01-31 16:03:19,917: registered with master
+[rospy.rosout][INFO] 2020-01-31 16:03:19,917: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-31 16:03:19,919: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-31 16:03:19,921: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-31 16:03:20,166: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-01-31 16:03:24,505: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 47, in image_callback
+    save_rois()
+NameError: global name 'save_rois' is not defined
+
+[rosout][ERROR] 2020-01-31 16:03:24,511: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,516: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,521: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,524: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,529: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,534: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,538: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,545: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,549: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,557: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,572: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,628: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,638: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,660: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,709: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,724: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,760: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,793: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,822: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,863: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,901: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,923: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:24,957: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,008: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,029: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,065: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,104: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,147: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,168: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,199: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,234: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,263: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,307: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,334: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,361: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,393: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,426: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,458: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,501: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,525: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,571: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,600: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,643: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,661: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,696: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,735: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,766: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,802: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,832: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,867: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,896: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,938: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:25,967: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,005: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,031: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,060: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,102: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,130: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,164: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,198: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,232: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,281: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,317: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,336: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,372: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,399: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,441: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,477: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,509: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rosout][ERROR] 2020-01-31 16:03:26,544: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rospy.core][INFO] 2020-01-31 16:03:26,569: signal_shutdown [signal-2]
+[rosout][ERROR] 2020-01-31 16:03:26,570: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7efd20907a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", threshold) #A copy is chosen because self.img will be continuously changing due to the callback function
+UnboundLocalError: local variable 'threshold' referenced before assignment
+
+[rospy.internal][INFO] 2020-01-31 16:03:26,572: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-31 16:03:26,573: topic[/usb_cam/image_rect] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:45585/
+[rospy.topics][ERROR] 2020-01-31 16:03:26,573: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][WARNING] 2020-01-31 16:03:26,573: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:38437 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:45585/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.impl.masterslave][INFO] 2020-01-31 16:03:26,574: signal-2
+[rospy.core][INFO] 2020-01-31 16:03:26,690: signal_shutdown [atexit]

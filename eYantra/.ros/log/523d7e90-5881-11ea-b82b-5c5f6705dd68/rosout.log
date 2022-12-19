@@ -1,0 +1,135 @@
+
+
+1582712304.868597160  Node Startup
+1582712305.086771367 INFO [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/nodes/usb_cam_node.cpp:138(UsbCamNode::UsbCamNode) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] Starting 'head_camera' (/dev/video1) at 1280x1024 via mmap (mjpeg) at 30 FPS
+1582712304.989985329 INFO [/home/itachi/catkin_ws/src/whycon/src/ros/whycon_ros.cpp:152(WhyConROS::load_transforms) [topics: /rosout] Loading file whycon_transforms.yml
+1582712305.084684348 INFO [/tmp/binarydeb/ros-kinetic-image-view-1.12.23/src/nodes/image_view.cpp:195(main) [topics: /rosout] Using transport "raw"
+1582712306.091297154 WARN [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/src/usb_cam.cpp:1211(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] unknown control 'focus_auto'
+
+1582713255.805998041 WARN [/home/itachi/catkin_ws/src/whycon/src/ros/whycon_ros.cpp:156(WhyConROS::load_transforms) [topics: /rosout] Could not load "whycon_transforms.yml"
+1582713255.913977067 INFO [/tmp/binarydeb/ros-kinetic-image-view-1.12.23/src/nodes/image_view.cpp:195(main) [topics: /rosout] Using transport "raw"
+1582713256.036334786 INFO [/tmp/binarydeb/ros-kinetic-camera-info-manager-1.11.13/src/camera_info_manager.cpp:227(CameraInfoManager::loadCalibration) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] using default calibration URL
+1582713256.036380439 INFO [/tmp/binarydeb/ros-kinetic-camera-info-manager-1.11.13/src/camera_info_manager.cpp:220(CameraInfoManager::loadCalibration) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] camera calibration URL: file:///home/itachi/.ros/camera_info/head_camera.yaml
+1582713256.037422014 INFO [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/nodes/usb_cam_node.cpp:138(UsbCamNode::UsbCamNode) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] Starting 'head_camera' (/dev/video1) at 1280x1024 via mmap (mjpeg) at 30 FPS
+1582713256.110190348 ERROR [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/src/usb_cam.cpp:63(errno_exit) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] VIDIOC_S_FMT error 16, Device or resource busy
+1582713256.019587039 INFO [serial_node.py:86(<module>) [topics: /rosout] Connecting to /dev/ttyUSB0 at 115200 baud
+1582713258.147372007 INFO [SerialClient.py:525(setSubscribeSize) [topics: /diagnostics, /rosout, /led_control_topic] Note: subscribe buffer size is 320 bytes
+1582713258.148169040 INFO [SerialClient.py:549(setupSubscriber) [topics: /diagnostics, /rosout, /led_control_topic] Setup subscriber on led_control_topic [std_msgs/Int8]
+1582713276.051515102 INFO [SerialClient.py:409(txStopRequest) [topics: /diagnostics, /rosout, /led_control_topic] Send tx stop request
+1582713280.707196118 INFO [/home/itachi/catkin_ws/src/whycon/src/ros/whycon_ros.cpp:152(WhyConROS::load_transforms) [topics: /rosout] Loading file whycon_transforms.yml
+1582713280.766320820 INFO [/tmp/binarydeb/ros-kinetic-image-view-1.12.23/src/nodes/image_view.cpp:195(main) [topics: /rosout] Using transport "raw"
+1582713280.784340716 INFO [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/nodes/usb_cam_node.cpp:138(UsbCamNode::UsbCamNode) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] Starting 'head_camera' (/dev/video1) at 1280x1024 via mmap (mjpeg) at 30 FPS
+1582713280.894406080 INFO [serial_node.py:86(<module>) [topics: /rosout] Connecting to /dev/ttyUSB0 at 115200 baud
+1582713281.785623493 WARN [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/src/usb_cam.cpp:1211(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] unknown control 'focus_auto'
+
+1582713283.012423038 INFO [SerialClient.py:525(setSubscribeSize) [topics: /diagnostics, /rosout, /led_control_topic] Note: subscribe buffer size is 320 bytes
+1582713283.012749910 INFO [SerialClient.py:549(setupSubscriber) [topics: /diagnostics, /rosout, /led_control_topic] Setup subscriber on led_control_topic [std_msgs/Int8]
+1582713365.719574459 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582713428.169921214 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582713663.975548982 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fa875a9ba70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "ROIS.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+1582713664.093692064 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fa875a9ba70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "ROIS.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+1582713664.219738960 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fa875a9ba70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "ROIS.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+1582713664.340204954 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fa875a9ba70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "ROIS.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+1582713664.470877885 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fa875a9ba70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "ROIS.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+1582713664.593492031 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fa875a9ba70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "ROIS.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+1582713664.720554113 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fa875a9ba70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "ROIS.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+1582713676.266083955 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f048d473a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "ROIS.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+1582713882.955677032 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7f5fb898fa70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "ROIS.py", line 40, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+1582714467.003306519 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582714602.598102982 WARN [/home/itachi/catkin_ws/src/whycon/src/ros/whycon_ros.cpp:156(WhyConROS::load_transforms) [topics: /rosout] Could not load "whycon_transforms.yml"
+1582714602.673864581 INFO [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/nodes/usb_cam_node.cpp:138(UsbCamNode::UsbCamNode) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] Starting 'head_camera' (/dev/video1) at 1280x1024 via mmap (mjpeg) at 30 FPS
+1582714602.684915789 INFO [/tmp/binarydeb/ros-kinetic-image-view-1.12.23/src/nodes/image_view.cpp:195(main) [topics: /rosout] Using transport "raw"
+1582714602.803239107 INFO [serial_node.py:86(<module>) [topics: /rosout] Connecting to /dev/ttyUSB0 at 115200 baud
+1582714603.679987202 WARN [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/src/usb_cam.cpp:1211(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] unknown control 'focus_auto'
+
+1582714604.924830913 INFO [SerialClient.py:525(setSubscribeSize) [topics: /diagnostics, /rosout, /led_control_topic] Note: subscribe buffer size is 320 bytes
+1582714604.925384044 INFO [SerialClient.py:549(setupSubscriber) [topics: /diagnostics, /rosout, /led_control_topic] Setup subscriber on led_control_topic [std_msgs/Int8]
+1582714607.845081880 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582714672.387430299 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582714717.789841364 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582714769.024478637 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582714843.152000350 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582714944.291440485 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582715103.823279103 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582715138.651956081 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /whycon/poses, /rosout, /decision_info, /arm_status, /led_control_topic, /serviced_info, /detection_info, /stats_sr] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1582715308.216536925 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582716122.964633074 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582716153.483219382 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582716190.777180081 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582716203.524335225 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582716271.749128771 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582716317.600187455 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582716411.866226151 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582716444.622144937 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1582716462.108913630 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582716548.921562601 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582716567.472529072 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582716610.807778594 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582716641.264046757 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582716679.583688206 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582716707.194061183 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582716819.589236752 INFO [/tmp/binarydeb/ros-kinetic-rosbag-1.12.14/src/recorder.cpp:396(Recorder::startWriting) [topics: /rosout] Recording to /home/itachi/catkin_ws/src/survey_and_rescue/bag_files/SR_detection.bag.
+1582717110.821872013 ERROR [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/src/usb_cam.cpp:63(errno_exit) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] VIDIOC_DQBUF error 19, No such device

@@ -1,0 +1,416 @@
+
+
+1580469090.066759861  Node Startup
+1580469090.222878005 INFO [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/nodes/usb_cam_node.cpp:138(UsbCamNode::UsbCamNode) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] Starting 'head_camera' (/dev/video1) at 1280x1024 via mmap (mjpeg) at 30 FPS
+1580469090.150647400 INFO [/home/itachi/catkin_ws/src/whycon/src/ros/whycon_ros.cpp:152(WhyConROS::load_transforms) [topics: /rosout] Loading file whycon_transforms.yml
+1580469090.242869822 INFO [/tmp/binarydeb/ros-kinetic-image-view-1.12.23/src/nodes/image_view.cpp:195(main) [topics: /rosout] Using transport "raw"
+1580469091.224264439 WARN [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/src/usb_cam.cpp:1211(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] unknown control 'focus_auto'
+
+1580469097.616380929 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469097.666285037 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469097.696244955 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469097.734980106 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469097.758569002 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469097.795723915 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469097.824263095 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469097.861979961 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469097.901952028 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469097.920990943 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469097.954180002 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469097.998569011 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.023551940 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.059904098 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.100470066 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.135059118 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.160557031 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.190725088 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.234688997 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.266700029 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.303396940 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.323916912 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.364356994 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.404994964 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.424604892 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.476835012 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.495847940 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.525180101 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.556864976 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.591511011 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.633333921 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.658958911 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.696021080 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.738624095 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.774722099 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.799570083 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.835997104 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.857563972 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.902247905 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.938777923 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469098.971601009 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469099.009819984 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469099.036811113 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469099.067893981 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469099.096391916 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469099.135133028 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469099.162924051 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469099.203403949 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469099.239557981 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469099.261027097 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+
+1580469099.291999101 ERROR [topics.py:753(_invoke_callback) [topics: /usb_cam/image_rect, /rosout] bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7faedd6b5a70>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_image_proc5.py", line 43, in image_callback
+    cv2.imshow("Detected ROIs", img_copy)
+UnboundLocalError: local variable 'img_copy' referenced before assignment
+

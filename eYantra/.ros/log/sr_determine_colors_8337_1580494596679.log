@@ -1,0 +1,388 @@
+[rospy.client][INFO] 2020-01-31 23:46:36,717: init_node, name[/sr_determine_colors_8337_1580494596679], pid[8337]
+[xmlrpc][INFO] 2020-01-31 23:46:36,717: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-31 23:46:36,717: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/]
+[rospy.init][INFO] 2020-01-31 23:46:36,718: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/]
+[rospy.impl.masterslave][INFO] 2020-01-31 23:46:36,718: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rospy.registration][INFO] 2020-01-31 23:46:36,718: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-31 23:46:36,719: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-31 23:46:36,818: registered with master
+[rospy.rosout][INFO] 2020-01-31 23:46:36,818: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-31 23:46:36,820: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-31 23:46:36,821: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-31 23:46:36,870: topic[/detection_info] adding connection to [/rostopic_8284_1580494533499], count 0
+[rospy.internal][INFO] 2020-01-31 23:46:36,884: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45505/], count 0
+[rospy.internal][INFO] 2020-01-31 23:46:37,035: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-01-31 23:46:37,154: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:37,339: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:37,535: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:37,724: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:37,920: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:38,128: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:38,323: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:38,551: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:38,766: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:38,980: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:39,170: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:39,374: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:39,578: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:39,783: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:39,984: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:40,185: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:40,383: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:40,578: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:40,769: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:40,995: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:41,230: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:41,458: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rosout][ERROR] 2020-01-31 23:46:41,683: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7fda114e75a8>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 90, in callback
+    self.detect_pub.publish("location:" +str(self.location),"info:" +str(self.info))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 879, in publish
+    data = args_kwds_to_message(self.data_class, args, kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/msg.py", line 124, in args_kwds_to_message
+    return data_class(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/std_msgs/msg/_String.py", line 33, in __init__
+    super(String, self).__init__(*args, **kwds)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/genpy/message.py", line 294, in __init__
+    raise TypeError("Invalid number of arguments, args should be %s"%str(self.__slots__)+" args are"+str(args))
+TypeError: Invalid number of arguments, args should be ['data'] args are('location:B3', 'info:RESCUE')
+
+[rospy.core][INFO] 2020-01-31 23:46:41,743: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-31 23:46:41,748: topic[/detection_info] removing connection to /rostopic_8284_1580494533499
+[rospy.internal][INFO] 2020-01-31 23:46:41,749: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-31 23:46:41,751: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:45505/
+[rospy.impl.masterslave][INFO] 2020-01-31 23:46:41,751: signal-2
+[rospy.core][INFO] 2020-01-31 23:46:41,869: signal_shutdown [atexit]

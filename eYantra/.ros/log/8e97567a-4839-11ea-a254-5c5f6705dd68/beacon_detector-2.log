@@ -1,0 +1,32 @@
+[rospy.client][INFO] 2020-02-05 22:35:09,599: init_node, name[/beacon_detector], pid[22402]
+[xmlrpc][INFO] 2020-02-05 22:35:09,600: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-05 22:35:09,602: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37585/]
+[rospy.init][INFO] 2020-02-05 22:35:09,603: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37585/]
+[rospy.impl.masterslave][INFO] 2020-02-05 22:35:09,603: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:37585/
+[rospy.registration][INFO] 2020-02-05 22:35:09,605: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-05 22:35:09,605: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-05 22:35:09,704: registered with master
+[rospy.rosout][INFO] 2020-02-05 22:35:09,704: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-05 22:35:09,707: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-05 22:35:09,708: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-05 22:35:09,771: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33703/], count 0
+[rospy.internal][INFO] 2020-02-05 22:35:09,833: topic[/detection_info] adding connection to [/monitor], count 0
+[rospy.internal][INFO] 2020-02-05 22:35:09,836: topic[/detection_info] adding connection to [/rostopic_22016_1580922287030], count 1
+[rospy.internal][INFO] 2020-02-05 22:35:10,009: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-02-05 22:35:10,010: topic[/detection_info] adding connection to [/rosbag_record_beacon_detections], count 2
+[rospy.internal][INFO] 2020-02-05 22:35:34,293: topic[/detection_info] removing connection to /rosbag_record_beacon_detections
+[rospy.internal][WARNING] 2020-02-05 22:36:33,442: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:42901 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:33703/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2020-02-05 22:36:33,442: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:33703/
+[rospy.internal][INFO] 2020-02-05 22:36:33,853: topic[/rosout] removing connection to /rosout
+[rospy.core][INFO] 2020-02-05 22:36:39,727: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2020-02-05 22:36:39,729: cannot unregister with master due to network issues
+[rospy.internal][INFO] 2020-02-05 22:36:39,729: topic[/detection_info] removing connection to /monitor
+[rospy.internal][INFO] 2020-02-05 22:36:39,730: topic[/detection_info] removing connection to /rostopic_22016_1580922287030
+[rospy.impl.masterslave][INFO] 2020-02-05 22:36:39,731: signal-2
+[rospy.core][INFO] 2020-02-05 22:36:39,896: signal_shutdown [atexit]

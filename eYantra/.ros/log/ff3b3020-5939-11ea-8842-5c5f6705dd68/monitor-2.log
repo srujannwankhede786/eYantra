@@ -1,0 +1,42 @@
+[rospy.client][INFO] 2020-02-27 13:50:22,694: init_node, name[/monitor], pid[16861]
+[xmlrpc][INFO] 2020-02-27 13:50:22,694: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2020-02-27 13:50:22,694: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38575/]
+[xmlrpc][INFO] 2020-02-27 13:50:22,694: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38575/]
+[rospy.impl.masterslave][INFO] 2020-02-27 13:50:22,695: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:38575/
+[rospy.registration][INFO] 2020-02-27 13:50:22,695: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-27 13:50:22,695: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-27 13:50:22,795: registered with master
+[rospy.rosout][INFO] 2020-02-27 13:50:22,795: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-27 13:50:22,798: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-27 13:50:22,799: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-27 13:50:22,870: topic[/decision_info] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45779/], count 0
+[rospy.internal][INFO] 2020-02-27 13:50:22,874: topic[/serviced_info] adding connection to [/scheduler], count 0
+[rospy.internal][INFO] 2020-02-27 13:50:22,983: topic[/detection_info] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:32937/], count 0
+[rospy.internal][INFO] 2020-02-27 13:50:23,058: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-02-27 13:50:38,620: topic[/serviced_info] adding connection to [/rostopic_17016_1582791638418], count 1
+[rospy.core][INFO] 2020-02-27 13:50:41,670: signal_shutdown [signal-2]
+[rospy.internal][ERROR] 2020-02-27 13:50:41,690: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:46625 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:45779/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][ERROR] 2020-02-27 13:50:41,692: Unable to initiate TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:34691 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:32937/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2020-02-27 13:50:41,698: topic[/serviced_info] removing connection to /scheduler
+[rospy.internal][INFO] 2020-02-27 13:50:41,698: topic[/serviced_info] removing connection to /rostopic_17016_1582791638418
+[rospy.internal][INFO] 2020-02-27 13:50:41,699: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-27 13:50:41,699: topic[/detection_info] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:32937/
+[rospy.internal][INFO] 2020-02-27 13:50:41,700: topic[/decision_info] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:45779/
+[rospy.impl.masterslave][INFO] 2020-02-27 13:50:41,700: signal-2
+[rospy.core][INFO] 2020-02-27 13:50:41,816: signal_shutdown [atexit]

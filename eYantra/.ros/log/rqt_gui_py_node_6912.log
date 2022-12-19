@@ -1,0 +1,40 @@
+[rospy.client][INFO] 2020-01-30 16:11:31,343: init_node, name[/rqt_gui_py_node_6912], pid[6912]
+[xmlrpc][INFO] 2020-01-30 16:11:31,344: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-30 16:11:31,344: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46331/]
+[rospy.init][INFO] 2020-01-30 16:11:31,344: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46331/]
+[rospy.impl.masterslave][INFO] 2020-01-30 16:11:31,344: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:46331/
+[rospy.registration][INFO] 2020-01-30 16:11:31,344: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-30 16:11:31,345: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-30 16:11:31,444: registered with master
+[rospy.rosout][INFO] 2020-01-30 16:11:31,444: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-30 16:11:31,446: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-30 16:11:31,447: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosgraph.graph][ERROR] 2020-01-30 16:11:31,566: cannot get stats info from node [/rqt_gui_py_node_6537]: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/impl/graph.py", line 395, in _node_refresh_businfo
+    code, msg, bus_info = api.getBusInfo(_ROS_NAME)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1069, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 907, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 869, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 846, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2020-01-30 16:11:31,647: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2020-01-30 16:11:35,480: signal_shutdown [atexit]
+[rospy.internal][INFO] 2020-01-30 16:11:35,483: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2020-01-30 16:11:35,484: atexit

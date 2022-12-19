@@ -1,0 +1,52 @@
+[rospy.client][INFO] 2019-11-13 03:03:01,180: init_node, name[/edrone/joint_state_publisher], pid[23170]
+[xmlrpc][INFO] 2019-11-13 03:03:01,180: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-13 03:03:01,181: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:42647/]
+[rospy.init][INFO] 2019-11-13 03:03:01,181: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:42647/]
+[rospy.impl.masterslave][INFO] 2019-11-13 03:03:01,181: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:42647/
+[rospy.registration][INFO] 2019-11-13 03:03:01,182: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-11-13 03:03:01,182: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-13 03:03:01,281: registered with master
+[rospy.rosout][INFO] 2019-11-13 03:03:01,281: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-13 03:03:01,284: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-13 03:03:01,285: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-13 03:03:01,288: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-13 03:03:01,496: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-11-13 03:03:01,563: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:41479/], count 0
+[rospy.internal][INFO] 2019-11-13 03:03:01,609: topic[/edrone/joint_states] adding connection to [/edrone/robot_state_publisher], count 0
+[rospy.internal][INFO] 2019-11-13 03:04:09,965: topic[/clock] adding connection to [http://localhost:40255/], count 1
+[rosout][ERROR] 2019-11-13 03:04:11,675: ROS time moved backwards: 0.002s
+[rospy.internal][ERROR] 2019-11-13 03:04:19,928: Unable to initiate TCP/IP socket to localhost:39303 (http://localhost:40255/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: received a connection for a nonexistent topic [/clock] from [TCPROS connection on port 39303 to [127.0.0.1:42668 on socket 33]] [/edrone/joint_state_publisher].
+
+[rospy.internal][WARNING] 2019-11-13 03:04:20,930: Unknown error initiating TCP/IP socket to localhost:39303 (http://localhost:40255/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2019-11-13 03:04:20,931: topic[/clock] removing connection to http://localhost:40255/
+[rosout][ERROR] 2019-11-13 03:14:10,612: ROS time moved backwards: 174.998s
+[rospy.internal][WARNING] 2019-11-13 03:14:10,805: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:60661 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:41479/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 556, in connect
+    self.write_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 635, in write_header
+    self.stat_bytes += write_ros_handshake_header(sock, protocol.get_header_fields())
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 422, in write_ros_handshake_header
+    sock.sendall(s)
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-11-13 03:14:10,805: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:41479/
+[rospy.core][INFO] 2019-11-13 03:14:35,069: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-11-13 03:14:35,078: topic[/edrone/joint_states] removing connection to /edrone/robot_state_publisher
+[rospy.internal][INFO] 2019-11-13 03:14:35,079: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2019-11-13 03:14:35,079: signal-2
+[rospy.core][INFO] 2019-11-13 03:14:35,240: signal_shutdown [atexit]

@@ -1,0 +1,795 @@
+[rosmaster.main][INFO] 2019-12-21 11:49:30,100: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2019-12-21 11:49:30,100: Starting ROS Master Node
+[xmlrpc][INFO] 2019-12-21 11:49:30,101: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2019-12-21 11:49:30,101: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:11311/]
+[xmlrpc][INFO] 2019-12-21 11:49:30,101: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2019-12-21 11:49:30,101: Master initialized: port[11311], uri[http://itachi-HP-Pavilion-Laptop-15-cc1xx:11311/]
+[rosmaster.master][INFO] 2019-12-21 11:49:30,114: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:49:30,115: +PARAM [/roslaunch/uris/host_itachi_hp_pavilion_laptop_15_cc1xx__44793] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:49:30,204: +PARAM [/usb_cam/image_width] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:49:30,204: +PARAM [/usb_cam/video_device] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:49:30,204: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:49:30,205: +PARAM [/whycon/targets] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:49:30,205: +PARAM [/usb_cam/pixel_format] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:49:30,205: +PARAM [/usb_cam/io_method] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:49:30,205: +PARAM [/usb_cam/camera_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:49:30,205: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:49:30,205: +PARAM [/whycon/outer_diameter] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:49:30,205: +PARAM [/usb_cam/image_height] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:49:30,205: +PARAM [/whycon/name] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:49:30,205: +PARAM [/whycon/inner_diameter] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:49:30,207: +SERVICE [/rosout/get_loggers] /rosout http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,208: +SERVICE [/rosout/set_logger_level] /rosout http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,209: +PUB [/rosout_agg] /rosout http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,213: +SUB [/rosout] /rosout http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,237: +PUB [/rosout] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,238: +SERVICE [/usb_cam/get_loggers] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,239: +SERVICE [/usb_cam/set_logger_level] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,245: +PUB [/rosout] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,247: +SERVICE [/usb_cam/image_proc/get_loggers] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,247: +SERVICE [/usb_cam/image_proc/set_logger_level] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,253: +PUB [/rosout] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,254: +SERVICE [/whycon/get_loggers] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,254: +SERVICE [/whycon/set_logger_level] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,271: +PUB [/rosout] /whycon_display/image_view http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,272: +SERVICE [/whycon_display/image_view/get_loggers] /whycon_display/image_view http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,273: +SERVICE [/whycon_display/image_view/set_logger_level] /whycon_display/image_view http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,295: +PUB [/usb_cam/image_raw/compressedDepth] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,296: +SERVICE [/usb_cam/image_proc_debayer/set_parameters] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,298: +SERVICE [/usb_cam/image_raw/compressedDepth/set_parameters] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,298: +PUB [/usb_cam/image_proc_debayer/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,300: +PUB [/usb_cam/image_raw/compressedDepth/parameter_descriptions] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,300: +PUB [/usb_cam/image_proc_debayer/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,301: +PUB [/usb_cam/image_raw/compressedDepth/parameter_updates] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,301: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/']
+[rosmaster.master][INFO] 2019-12-21 11:49:30,304: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:49:30,305: +PARAM [/usb_cam/image_proc_debayer/debayer] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,305: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/']
+[rosmaster.master][INFO] 2019-12-21 11:49:30,306: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:49:30,307: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/']
+[rosmaster.master][INFO] 2019-12-21 11:49:30,307: +PUB [/tf] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,308: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:49:30,308: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/']
+[rosmaster.master][INFO] 2019-12-21 11:49:30,309: +PARAM [/usb_cam/image_proc_debayer/debayer] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,310: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:49:30,311: +PARAM [/usb_cam/image_raw/compressedDepth/depth_max] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,313: +PARAM [/usb_cam/image_raw/compressedDepth/depth_quantization] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,314: +PUB [/usb_cam/image_mono/compressedDepth] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,315: +PARAM [/usb_cam/image_raw/compressedDepth/png_level] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,317: +SERVICE [/usb_cam/image_mono/compressedDepth/set_parameters] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,317: +PARAM [/usb_cam/image_raw/compressedDepth/depth_max] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,319: +PUB [/usb_cam/image_mono/compressedDepth/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,319: +PARAM [/usb_cam/image_raw/compressedDepth/depth_quantization] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,321: +PUB [/usb_cam/image_mono/compressedDepth/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,322: +PARAM [/usb_cam/image_raw/compressedDepth/png_level] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,323: +SUB [/usb_cam/image_rect_color] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,326: +PUB [/usb_cam/image_raw/compressed] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,328: +SERVICE [/usb_cam/image_raw/compressed/set_parameters] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,329: +PARAM [/usb_cam/image_mono/compressedDepth/depth_max] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,330: +PUB [/usb_cam/image_raw/compressed/parameter_descriptions] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,331: +PARAM [/usb_cam/image_mono/compressedDepth/depth_quantization] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,333: +PUB [/usb_cam/image_raw/compressed/parameter_updates] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,334: +PARAM [/usb_cam/image_mono/compressedDepth/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,336: +SUB [/usb_cam/camera_info] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,337: +PARAM [/usb_cam/image_mono/compressedDepth/depth_max] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,338: +PUB [/whycon/image_out] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,339: +PARAM [/usb_cam/image_mono/compressedDepth/depth_quantization] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,340: +PARAM [/usb_cam/image_raw/compressed/format] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,341: +PUB [/whycon/poses] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,342: +PARAM [/usb_cam/image_mono/compressedDepth/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,342: +PARAM [/usb_cam/image_raw/compressed/jpeg_quality] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,343: +PUB [/whycon/context] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,344: +PARAM [/usb_cam/image_raw/compressed/png_level] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,344: +PUB [/usb_cam/image_mono/compressed] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,345: +PUB [/whycon/projection] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,346: +PARAM [/usb_cam/image_raw/compressed/format] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,346: +SERVICE [/usb_cam/image_mono/compressed/set_parameters] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,347: +SERVICE [/whycon/reset] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,348: +PARAM [/usb_cam/image_raw/compressed/jpeg_quality] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,348: +PUB [/usb_cam/image_mono/compressed/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,349: +PARAM [/usb_cam/image_raw/compressed/png_level] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,350: +PUB [/usb_cam/image_mono/compressed/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,352: +PUB [/usb_cam/image_raw] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,354: +PUB [/usb_cam/image_raw/theora] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,354: +PARAM [/usb_cam/image_mono/compressed/format] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,356: +SERVICE [/usb_cam/image_raw/theora/set_parameters] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,356: +PARAM [/usb_cam/image_mono/compressed/jpeg_quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,357: +PUB [/usb_cam/image_raw/theora/parameter_descriptions] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,358: +PARAM [/usb_cam/image_mono/compressed/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,359: +PUB [/usb_cam/image_raw/theora/parameter_updates] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,360: +PARAM [/usb_cam/image_mono/compressed/format] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,362: +PARAM [/usb_cam/image_mono/compressed/jpeg_quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,363: +PARAM [/usb_cam/image_mono/compressed/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,365: +PUB [/usb_cam/image_mono] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,366: +PARAM [/usb_cam/image_raw/theora/optimize_for] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,368: +PARAM [/usb_cam/image_raw/theora/target_bitrate] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,369: +PUB [/usb_cam/image_mono/theora] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,370: +PARAM [/usb_cam/image_raw/theora/quality] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,370: +SERVICE [/usb_cam/image_mono/theora/set_parameters] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,371: +PARAM [/usb_cam/image_raw/theora/keyframe_frequency] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,372: +PUB [/usb_cam/image_mono/theora/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,373: +PARAM [/usb_cam/image_raw/theora/optimize_for] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,373: +PUB [/usb_cam/image_mono/theora/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,374: +PARAM [/usb_cam/image_raw/theora/target_bitrate] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,375: +PARAM [/usb_cam/image_raw/theora/quality] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,377: +PARAM [/usb_cam/image_raw/theora/keyframe_frequency] by /usb_cam
+[rosmaster.master][INFO] 2019-12-21 11:49:30,378: +PUB [/usb_cam/camera_info] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,379: +PARAM [/usb_cam/image_mono/theora/optimize_for] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,380: +PARAM [/usb_cam/image_mono/theora/target_bitrate] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,381: +PARAM [/usb_cam/image_mono/theora/quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,382: +PARAM [/usb_cam/image_mono/theora/keyframe_frequency] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,383: +PARAM [/usb_cam/image_mono/theora/optimize_for] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,384: +PARAM [/usb_cam/image_mono/theora/target_bitrate] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,386: +PARAM [/usb_cam/image_mono/theora/quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,387: +PARAM [/usb_cam/image_mono/theora/keyframe_frequency] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,389: +PUB [/usb_cam/image_color/compressedDepth] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,390: +SERVICE [/usb_cam/image_color/compressedDepth/set_parameters] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,391: +PUB [/usb_cam/image_color/compressedDepth/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,393: +PUB [/usb_cam/image_color/compressedDepth/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,397: +PARAM [/usb_cam/image_color/compressedDepth/depth_max] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,398: +PARAM [/usb_cam/image_color/compressedDepth/depth_quantization] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,399: +PARAM [/usb_cam/image_color/compressedDepth/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,400: +PARAM [/usb_cam/image_color/compressedDepth/depth_max] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,401: +PARAM [/usb_cam/image_color/compressedDepth/depth_quantization] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,402: publisherUpdate[/usb_cam/camera_info] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/']
+[rosmaster.master][INFO] 2019-12-21 11:49:30,403: +PARAM [/usb_cam/image_color/compressedDepth/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,405: publisherUpdate[/usb_cam/camera_info] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:49:30,406: +PUB [/usb_cam/image_color/compressed] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,407: +SERVICE [/usb_cam/set_camera_info] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,408: +SERVICE [/usb_cam/image_color/compressed/set_parameters] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,411: +SERVICE [/usb_cam/start_capture] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,413: +PUB [/usb_cam/image_color/compressed/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,415: +SERVICE [/usb_cam/stop_capture] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,416: +PUB [/usb_cam/image_color/compressed/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,420: +PARAM [/usb_cam/image_color/compressed/format] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,421: +PARAM [/usb_cam/image_color/compressed/jpeg_quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,422: +PARAM [/usb_cam/image_color/compressed/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,423: +PARAM [/usb_cam/image_color/compressed/format] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,424: +PARAM [/usb_cam/image_color/compressed/jpeg_quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,427: +PARAM [/usb_cam/image_color/compressed/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,428: +PUB [/usb_cam/image_color] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,429: +PUB [/usb_cam/image_color/theora] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,430: +SERVICE [/usb_cam/image_color/theora/set_parameters] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,431: +PUB [/usb_cam/image_color/theora/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,432: +PUB [/usb_cam/image_color/theora/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,439: +PARAM [/usb_cam/image_color/theora/optimize_for] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,440: +PARAM [/usb_cam/image_color/theora/target_bitrate] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,441: +PARAM [/usb_cam/image_color/theora/quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,442: +PARAM [/usb_cam/image_color/theora/keyframe_frequency] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,443: +PARAM [/usb_cam/image_color/theora/optimize_for] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,444: +PARAM [/usb_cam/image_color/theora/target_bitrate] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,445: +PARAM [/usb_cam/image_color/theora/quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,446: +PARAM [/usb_cam/image_color/theora/keyframe_frequency] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,449: +SERVICE [/usb_cam/image_proc_rectify_mono/set_parameters] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,450: +PUB [/usb_cam/image_proc_rectify_mono/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,451: +PUB [/usb_cam/image_proc_rectify_mono/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,454: +PARAM [/usb_cam/image_proc_rectify_mono/interpolation] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,455: +PARAM [/usb_cam/image_proc_rectify_mono/interpolation] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,456: +PUB [/usb_cam/image_rect/compressedDepth] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,457: +SERVICE [/usb_cam/image_rect/compressedDepth/set_parameters] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,458: +PUB [/usb_cam/image_rect/compressedDepth/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,459: +PUB [/usb_cam/image_rect/compressedDepth/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,461: +PARAM [/usb_cam/image_rect/compressedDepth/depth_max] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,462: +PARAM [/usb_cam/image_rect/compressedDepth/depth_quantization] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,462: +PARAM [/usb_cam/image_rect/compressedDepth/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,464: +PARAM [/usb_cam/image_rect/compressedDepth/depth_max] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,464: +PARAM [/usb_cam/image_rect/compressedDepth/depth_quantization] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,465: +PARAM [/usb_cam/image_rect/compressedDepth/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,468: +PUB [/usb_cam/image_rect/compressed] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,469: +SERVICE [/usb_cam/image_rect/compressed/set_parameters] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,470: +SUB [/whycon/image_out] /whycon_display/image_view http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,471: +PUB [/usb_cam/image_rect/compressed/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,472: +PUB [/whycon_display/image_view/output] /whycon_display/image_view http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,472: +PUB [/usb_cam/image_rect/compressed/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,473: +SERVICE [/whycon_display/image_view/set_parameters] /whycon_display/image_view http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,474: +PUB [/whycon_display/image_view/parameter_descriptions] /whycon_display/image_view http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,475: +PUB [/whycon_display/image_view/parameter_updates] /whycon_display/image_view http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,476: +PARAM [/usb_cam/image_rect/compressed/format] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,478: +PARAM [/usb_cam/image_rect/compressed/jpeg_quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,479: +PARAM [/usb_cam/image_rect/compressed/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,480: +PARAM [/usb_cam/image_rect/compressed/format] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,481: +PARAM [/whycon_display/image_view/do_dynamic_scaling] by /whycon_display/image_view
+[rosmaster.master][INFO] 2019-12-21 11:49:30,481: +PARAM [/usb_cam/image_rect/compressed/jpeg_quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,482: +PARAM [/whycon_display/image_view/colormap] by /whycon_display/image_view
+[rosmaster.master][INFO] 2019-12-21 11:49:30,483: +PARAM [/usb_cam/image_rect/compressed/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,484: +PARAM [/whycon_display/image_view/min_image_value] by /whycon_display/image_view
+[rosmaster.master][INFO] 2019-12-21 11:49:30,485: +PUB [/usb_cam/image_rect] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,486: +PARAM [/whycon_display/image_view/max_image_value] by /whycon_display/image_view
+[rosmaster.master][INFO] 2019-12-21 11:49:30,487: +PUB [/usb_cam/image_rect/theora] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,488: +PARAM [/whycon_display/image_view/do_dynamic_scaling] by /whycon_display/image_view
+[rosmaster.master][INFO] 2019-12-21 11:49:30,488: +SERVICE [/usb_cam/image_rect/theora/set_parameters] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,489: +PARAM [/whycon_display/image_view/colormap] by /whycon_display/image_view
+[rosmaster.master][INFO] 2019-12-21 11:49:30,489: +PUB [/usb_cam/image_rect/theora/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,490: +PARAM [/whycon_display/image_view/min_image_value] by /whycon_display/image_view
+[rosmaster.master][INFO] 2019-12-21 11:49:30,491: +PUB [/usb_cam/image_rect/theora/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,492: +PARAM [/whycon_display/image_view/max_image_value] by /whycon_display/image_view
+[rosmaster.master][INFO] 2019-12-21 11:49:30,494: +PARAM [/usb_cam/image_rect/theora/optimize_for] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,495: +PARAM [/usb_cam/image_rect/theora/target_bitrate] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,496: +PARAM [/usb_cam/image_rect/theora/quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,496: +PARAM [/usb_cam/image_rect/theora/keyframe_frequency] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,497: +PARAM [/usb_cam/image_rect/theora/optimize_for] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,498: +PARAM [/usb_cam/image_rect/theora/target_bitrate] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,498: +PARAM [/usb_cam/image_rect/theora/quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,499: +PARAM [/usb_cam/image_rect/theora/keyframe_frequency] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,502: +SERVICE [/usb_cam/image_proc_rectify_color/set_parameters] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,503: +PUB [/usb_cam/image_proc_rectify_color/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,504: +PUB [/usb_cam/image_proc_rectify_color/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,505: +PARAM [/usb_cam/image_proc_rectify_color/interpolation] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,506: +PARAM [/usb_cam/image_proc_rectify_color/interpolation] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,507: +PUB [/usb_cam/image_rect_color/compressedDepth] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,507: +SERVICE [/usb_cam/image_rect_color/compressedDepth/set_parameters] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,508: +PUB [/usb_cam/image_rect_color/compressedDepth/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,509: +PUB [/usb_cam/image_rect_color/compressedDepth/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,511: +PARAM [/usb_cam/image_rect_color/compressedDepth/depth_max] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,512: +PARAM [/usb_cam/image_rect_color/compressedDepth/depth_quantization] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,513: +PARAM [/usb_cam/image_rect_color/compressedDepth/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,514: +PARAM [/usb_cam/image_rect_color/compressedDepth/depth_max] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,515: +PARAM [/usb_cam/image_rect_color/compressedDepth/depth_quantization] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,517: +PARAM [/usb_cam/image_rect_color/compressedDepth/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,518: +PUB [/usb_cam/image_rect_color/compressed] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,519: +SERVICE [/usb_cam/image_rect_color/compressed/set_parameters] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,519: +PUB [/usb_cam/image_rect_color/compressed/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,520: +PUB [/usb_cam/image_rect_color/compressed/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,522: +PARAM [/usb_cam/image_rect_color/compressed/format] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,523: +PARAM [/usb_cam/image_rect_color/compressed/jpeg_quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,524: +PARAM [/usb_cam/image_rect_color/compressed/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,524: +PARAM [/usb_cam/image_rect_color/compressed/format] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,525: +PARAM [/usb_cam/image_rect_color/compressed/jpeg_quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,525: +PARAM [/usb_cam/image_rect_color/compressed/png_level] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,527: +PUB [/usb_cam/image_rect_color] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,528: +PUB [/usb_cam/image_rect_color/theora] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,528: +SERVICE [/usb_cam/image_rect_color/theora/set_parameters] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,529: +PUB [/usb_cam/image_rect_color/theora/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,530: +PUB [/usb_cam/image_rect_color/theora/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,533: +PARAM [/usb_cam/image_rect_color/theora/optimize_for] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,534: +PARAM [/usb_cam/image_rect_color/theora/target_bitrate] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,535: +PARAM [/usb_cam/image_rect_color/theora/quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,536: +PARAM [/usb_cam/image_rect_color/theora/keyframe_frequency] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,537: +PARAM [/usb_cam/image_rect_color/theora/optimize_for] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,538: +PARAM [/usb_cam/image_rect_color/theora/target_bitrate] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,539: +PARAM [/usb_cam/image_rect_color/theora/quality] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,539: +PARAM [/usb_cam/image_rect_color/theora/keyframe_frequency] by /usb_cam/image_proc
+[rosmaster.master][INFO] 2019-12-21 11:49:30,602: publisherUpdate[/usb_cam/image_rect_color] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/']
+[rosmaster.master][INFO] 2019-12-21 11:49:30,603: publisherUpdate[/usb_cam/image_rect_color] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:49:30,719: +SUB [/usb_cam/image_color] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,724: +SUB [/usb_cam/camera_info] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:30,728: +SUB [/usb_cam/image_raw] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 11:49:47,485: +PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:40985/
+[rosmaster.master][INFO] 2019-12-21 11:49:47,489: +SERVICE [/DroneNode/get_loggers] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:40985/
+[rosmaster.master][INFO] 2019-12-21 11:49:47,489: +SERVICE [/DroneNode/set_logger_level] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:40985/
+[rosmaster.master][INFO] 2019-12-21 11:49:47,493: +SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:40985/
+[rosmaster.master][INFO] 2019-12-21 11:49:47,495: -SERVICE [/DroneNode/get_loggers] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:39529
+[rosmaster.master][INFO] 2019-12-21 11:49:47,495: -SERVICE [/DroneNode/set_logger_level] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:39529
+[rosmaster.master][INFO] 2019-12-21 11:49:47,541: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40985/']
+[rosmaster.master][INFO] 2019-12-21 11:49:47,542: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40985/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:49:47,643: -PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:40985/
+[rosmaster.master][INFO] 2019-12-21 11:49:47,644: -SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:40985/
+[rosmaster.master][INFO] 2019-12-21 11:49:47,649: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/']
+[rosmaster.master][INFO] 2019-12-21 11:49:47,650: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:50:39,265: +PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/
+[rosmaster.master][INFO] 2019-12-21 11:50:39,266: +SERVICE [/DroneNode/get_loggers] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/
+[rosmaster.master][INFO] 2019-12-21 11:50:39,267: +SERVICE [/DroneNode/set_logger_level] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/
+[rosmaster.master][INFO] 2019-12-21 11:50:39,272: +SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/
+[rosmaster.master][INFO] 2019-12-21 11:50:39,332: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/']
+[rosmaster.master][INFO] 2019-12-21 11:50:39,334: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:50:51,250: +PUB [/rosout] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:50:51,253: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/']
+[rosmaster.master][INFO] 2019-12-21 11:50:51,254: +SERVICE [/drone_control/get_loggers] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:50:51,254: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:50:51,256: +SERVICE [/drone_control/set_logger_level] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:50:51,257: +PUB [/drone_command] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:50:51,258: +PUB [/alt_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:50:51,258: +PUB [/pitch_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:50:51,260: +PUB [/roll_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:50:51,263: +SUB [/whycon/poses] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:50:51,265: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/']
+[rosmaster.master][INFO] 2019-12-21 11:50:51,266: +SUB [/pid_tuning_altitude] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:50:51,268: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:50:51,269: +SUB [/pid_tuning_pitch] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:50:51,271: +SUB [/pid_tuning_roll] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:51:01,749: +PARAM [/roslaunch/uris/host_itachi_hp_pavilion_laptop_15_cc1xx__36965] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:51:01,752: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:51:01,753: +PARAM [/tune_pid_drone/ppid_ui_enable] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:51:01,753: +PARAM [/tune_pid_drone/ypid_ui_enable] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:51:01,753: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:51:01,753: +PARAM [/tune_pid_drone/rpid_ui_enable] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:51:01,753: +PARAM [/tune_pid_drone/tpid_ui_enable] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 11:51:02,232: +PUB [/rosout] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/
+[rosmaster.master][INFO] 2019-12-21 11:51:02,236: +SERVICE [/tune_pid_drone/get_loggers] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/
+[rosmaster.master][INFO] 2019-12-21 11:51:02,238: +SERVICE [/tune_pid_drone/set_logger_level] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/
+[rosmaster.master][INFO] 2019-12-21 11:51:02,246: +PUB [/pid_tuning_pitch] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/
+[rosmaster.master][INFO] 2019-12-21 11:51:02,274: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/']
+[rosmaster.master][INFO] 2019-12-21 11:51:02,274: publisherUpdate[/pid_tuning_pitch] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/']
+[rosmaster.master][INFO] 2019-12-21 11:51:02,275: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:51:02,277: publisherUpdate[/pid_tuning_pitch] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:51:02,299: +PUB [/pid_tuning_roll] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/
+[rosmaster.master][INFO] 2019-12-21 11:51:02,327: +PUB [/pid_tuning_altitude] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/
+[rosmaster.master][INFO] 2019-12-21 11:51:02,375: publisherUpdate[/pid_tuning_roll] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/']
+[rosmaster.master][INFO] 2019-12-21 11:51:02,377: publisherUpdate[/pid_tuning_roll] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:51:02,377: publisherUpdate[/pid_tuning_altitude] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/']
+[rosmaster.master][INFO] 2019-12-21 11:51:02,379: publisherUpdate[/pid_tuning_altitude] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:51:12,044: -SUB [/pid_tuning_pitch] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:51:12,044: -SUB [/pid_tuning_roll] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:51:12,044: -SUB [/whycon/poses] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:51:12,044: -SUB [/pid_tuning_altitude] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:51:12,044: -PUB [/pitch_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:51:12,045: -PUB [/roll_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:51:12,045: -PUB [/rosout] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:51:12,045: -PUB [/alt_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:51:12,045: -PUB [/drone_command] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46395/
+[rosmaster.master][INFO] 2019-12-21 11:51:12,045: -SERVICE [/drone_control/get_loggers] /drone_control rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:33637
+[rosmaster.master][INFO] 2019-12-21 11:51:12,045: -SERVICE [/drone_control/set_logger_level] /drone_control rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:33637
+[rosmaster.master][INFO] 2019-12-21 11:51:12,095: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/']
+[rosmaster.master][INFO] 2019-12-21 11:51:12,095: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/ []
+[rosmaster.master][INFO] 2019-12-21 11:51:12,096: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:51:12,096: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:51:13,606: -PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/
+[rosmaster.master][INFO] 2019-12-21 11:51:13,609: -SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:44191/
+[rosmaster.master][INFO] 2019-12-21 11:51:13,610: -SERVICE [/DroneNode/get_loggers] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:48693
+[rosmaster.master][INFO] 2019-12-21 11:51:13,610: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/']
+[rosmaster.master][INFO] 2019-12-21 11:51:13,612: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:51:13,612: -SERVICE [/DroneNode/set_logger_level] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:48693
+[rosmaster.master][INFO] 2019-12-21 11:54:13,841: -PUB [/pid_tuning_pitch] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/
+[rosmaster.master][INFO] 2019-12-21 11:54:13,841: -PUB [/pid_tuning_roll] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/
+[rosmaster.master][INFO] 2019-12-21 11:54:13,841: -PUB [/rosout] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/
+[rosmaster.master][INFO] 2019-12-21 11:54:13,841: -PUB [/pid_tuning_altitude] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:36921/
+[rosmaster.master][INFO] 2019-12-21 11:54:13,841: -SERVICE [/tune_pid_drone/get_loggers] /tune_pid_drone rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:44989
+[rosmaster.master][INFO] 2019-12-21 11:54:13,841: -SERVICE [/tune_pid_drone/set_logger_level] /tune_pid_drone rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:44989
+[rosmaster.master][INFO] 2019-12-21 11:54:13,855: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/']
+[rosmaster.master][INFO] 2019-12-21 11:54:13,856: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:54:27,730: +PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:35433/
+[rosmaster.master][INFO] 2019-12-21 11:54:27,731: +SERVICE [/DroneNode/get_loggers] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:35433/
+[rosmaster.master][INFO] 2019-12-21 11:54:27,732: +SERVICE [/DroneNode/set_logger_level] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:35433/
+[rosmaster.master][INFO] 2019-12-21 11:54:27,736: +SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:35433/
+[rosmaster.master][INFO] 2019-12-21 11:54:27,737: -SERVICE [/DroneNode/get_loggers] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:36619
+[rosmaster.master][INFO] 2019-12-21 11:54:27,738: -SERVICE [/DroneNode/set_logger_level] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:36619
+[rosmaster.master][INFO] 2019-12-21 11:54:27,763: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:35433/']
+[rosmaster.master][INFO] 2019-12-21 11:54:27,764: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:35433/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 11:54:27,864: -PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:35433/
+[rosmaster.master][INFO] 2019-12-21 11:54:27,865: -SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:35433/
+[rosmaster.master][INFO] 2019-12-21 11:54:27,883: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/']
+[rosmaster.master][INFO] 2019-12-21 11:54:27,885: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:04:53,165: +PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:40459/
+[rosmaster.master][INFO] 2019-12-21 12:04:53,166: +SERVICE [/DroneNode/get_loggers] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:40459/
+[rosmaster.master][INFO] 2019-12-21 12:04:53,167: +SERVICE [/DroneNode/set_logger_level] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:40459/
+[rosmaster.master][INFO] 2019-12-21 12:04:53,171: +SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:40459/
+[rosmaster.master][INFO] 2019-12-21 12:04:53,224: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40459/']
+[rosmaster.master][INFO] 2019-12-21 12:04:53,226: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40459/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:04:55,972: +PUB [/rosout] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:04:55,975: +SERVICE [/drone_control/get_loggers] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:04:55,976: +SERVICE [/drone_control/set_logger_level] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:04:55,977: +PUB [/drone_command] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:04:55,978: +PUB [/alt_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:04:55,979: +PUB [/pitch_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:04:55,980: +PUB [/roll_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:04:55,984: +SUB [/whycon/poses] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:04:55,987: +SUB [/pid_tuning_altitude] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:04:55,990: +SUB [/pid_tuning_pitch] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:04:55,992: +SUB [/pid_tuning_roll] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:04:56,030: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40459/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/']
+[rosmaster.master][INFO] 2019-12-21 12:04:56,031: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40459/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:04:56,031: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:40459/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/']
+[rosmaster.master][INFO] 2019-12-21 12:04:56,032: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:40459/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:04:58,738: +PARAM [/roslaunch/uris/host_itachi_hp_pavilion_laptop_15_cc1xx__34903] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 12:04:58,741: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 12:04:58,742: +PARAM [/tune_pid_drone/ppid_ui_enable] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 12:04:58,742: +PARAM [/tune_pid_drone/ypid_ui_enable] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 12:04:58,742: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 12:04:58,742: +PARAM [/tune_pid_drone/rpid_ui_enable] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 12:04:58,742: +PARAM [/tune_pid_drone/tpid_ui_enable] by /roslaunch
+[rosmaster.master][INFO] 2019-12-21 12:04:59,182: +PUB [/rosout] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/
+[rosmaster.master][INFO] 2019-12-21 12:04:59,185: +SERVICE [/tune_pid_drone/get_loggers] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/
+[rosmaster.master][INFO] 2019-12-21 12:04:59,186: +SERVICE [/tune_pid_drone/set_logger_level] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/
+[rosmaster.master][INFO] 2019-12-21 12:04:59,192: +PUB [/pid_tuning_pitch] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/
+[rosmaster.master][INFO] 2019-12-21 12:04:59,230: +PUB [/pid_tuning_roll] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/
+[rosmaster.master][INFO] 2019-12-21 12:04:59,239: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40459/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']
+[rosmaster.master][INFO] 2019-12-21 12:04:59,240: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40459/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:04:59,240: publisherUpdate[/pid_tuning_pitch] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']
+[rosmaster.master][INFO] 2019-12-21 12:04:59,242: publisherUpdate[/pid_tuning_pitch] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:04:59,242: publisherUpdate[/pid_tuning_roll] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']
+[rosmaster.master][INFO] 2019-12-21 12:04:59,243: publisherUpdate[/pid_tuning_roll] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:04:59,261: +PUB [/pid_tuning_altitude] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/
+[rosmaster.master][INFO] 2019-12-21 12:04:59,268: publisherUpdate[/pid_tuning_altitude] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']
+[rosmaster.master][INFO] 2019-12-21 12:04:59,270: publisherUpdate[/pid_tuning_altitude] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:05:15,165: -PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:40459/
+[rosmaster.master][INFO] 2019-12-21 12:05:15,166: -SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:40459/
+[rosmaster.master][INFO] 2019-12-21 12:05:15,167: -SERVICE [/DroneNode/get_loggers] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:48703
+[rosmaster.master][INFO] 2019-12-21 12:05:15,168: -SERVICE [/DroneNode/set_logger_level] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:48703
+[rosmaster.master][INFO] 2019-12-21 12:05:15,175: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']
+[rosmaster.master][INFO] 2019-12-21 12:05:15,177: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:08:21,771: +PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:36301/
+[rosmaster.master][INFO] 2019-12-21 12:08:21,772: +SERVICE [/DroneNode/get_loggers] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:36301/
+[rosmaster.master][INFO] 2019-12-21 12:08:21,772: +SERVICE [/DroneNode/set_logger_level] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:36301/
+[rosmaster.master][INFO] 2019-12-21 12:08:21,776: +SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:36301/
+[rosmaster.master][INFO] 2019-12-21 12:08:21,777: -SERVICE [/DroneNode/get_loggers] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:33489
+[rosmaster.master][INFO] 2019-12-21 12:08:21,778: -SERVICE [/DroneNode/set_logger_level] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:33489
+[rosmaster.master][INFO] 2019-12-21 12:08:21,834: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:36301/']
+[rosmaster.master][INFO] 2019-12-21 12:08:21,835: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:36301/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:08:21,936: -PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:36301/
+[rosmaster.master][INFO] 2019-12-21 12:08:21,937: -SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:36301/
+[rosmaster.master][INFO] 2019-12-21 12:08:21,940: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']
+[rosmaster.master][INFO] 2019-12-21 12:08:21,941: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:08:31,324: +PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:36731/
+[rosmaster.master][INFO] 2019-12-21 12:08:31,325: +SERVICE [/DroneNode/get_loggers] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:36731/
+[rosmaster.master][INFO] 2019-12-21 12:08:31,326: +SERVICE [/DroneNode/set_logger_level] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:36731/
+[rosmaster.master][INFO] 2019-12-21 12:08:31,333: +SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:36731/
+[rosmaster.master][INFO] 2019-12-21 12:08:31,334: -SERVICE [/DroneNode/get_loggers] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:54947
+[rosmaster.master][INFO] 2019-12-21 12:08:31,335: -SERVICE [/DroneNode/set_logger_level] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:54947
+[rosmaster.master][INFO] 2019-12-21 12:08:31,353: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:36731/']
+[rosmaster.master][INFO] 2019-12-21 12:08:31,354: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:36731/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:08:31,454: -PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:36731/
+[rosmaster.master][INFO] 2019-12-21 12:08:31,455: -SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:36731/
+[rosmaster.master][INFO] 2019-12-21 12:08:31,457: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']
+[rosmaster.master][INFO] 2019-12-21 12:08:31,458: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:08:53,841: +PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/
+[rosmaster.master][INFO] 2019-12-21 12:08:53,842: +SERVICE [/DroneNode/get_loggers] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/
+[rosmaster.master][INFO] 2019-12-21 12:08:53,843: +SERVICE [/DroneNode/set_logger_level] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/
+[rosmaster.master][INFO] 2019-12-21 12:08:53,847: +SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/
+[rosmaster.master][INFO] 2019-12-21 12:08:53,897: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/']
+[rosmaster.master][INFO] 2019-12-21 12:08:53,898: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:09:15,646: -SUB [/pid_tuning_pitch] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:09:15,646: -SUB [/pid_tuning_roll] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:09:15,646: -SUB [/whycon/poses] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:09:15,647: -SUB [/pid_tuning_altitude] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:09:15,647: -PUB [/pitch_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:09:15,647: -PUB [/roll_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:09:15,647: -PUB [/rosout] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:09:15,647: -PUB [/alt_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:09:15,647: -PUB [/drone_command] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:43413/
+[rosmaster.master][INFO] 2019-12-21 12:09:15,647: -SERVICE [/drone_control/get_loggers] /drone_control rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:44385
+[rosmaster.master][INFO] 2019-12-21 12:09:15,647: -SERVICE [/drone_control/set_logger_level] /drone_control rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:44385
+[rosmaster.master][INFO] 2019-12-21 12:09:15,735: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/']
+[rosmaster.master][INFO] 2019-12-21 12:09:15,736: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:09:15,736: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/ []
+[rosmaster.master][INFO] 2019-12-21 12:09:15,737: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:09:18,420: +PUB [/rosout] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:09:18,422: +SERVICE [/drone_control/get_loggers] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:09:18,424: +SERVICE [/drone_control/set_logger_level] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:09:18,425: +PUB [/drone_command] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:09:18,427: +PUB [/alt_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:09:18,429: +PUB [/pitch_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:09:18,431: +PUB [/roll_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:09:18,434: +SUB [/whycon/poses] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:09:18,437: +SUB [/pid_tuning_altitude] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:09:18,439: +SUB [/pid_tuning_pitch] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:09:18,441: +SUB [/pid_tuning_roll] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:09:18,441: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/']
+[rosmaster.master][INFO] 2019-12-21 12:09:18,443: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:09:18,443: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/']
+[rosmaster.master][INFO] 2019-12-21 12:09:18,445: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:10:23,889: -SUB [/pid_tuning_pitch] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:10:23,889: -SUB [/pid_tuning_roll] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:10:23,889: -SUB [/whycon/poses] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:10:23,889: -SUB [/pid_tuning_altitude] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:10:23,890: -PUB [/pitch_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:10:23,890: -PUB [/roll_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:10:23,890: -PUB [/rosout] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:10:23,890: -PUB [/alt_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:10:23,890: -PUB [/drone_command] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:35531/
+[rosmaster.master][INFO] 2019-12-21 12:10:23,890: -SERVICE [/drone_control/get_loggers] /drone_control rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:39787
+[rosmaster.master][INFO] 2019-12-21 12:10:23,890: -SERVICE [/drone_control/set_logger_level] /drone_control rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:39787
+[rosmaster.master][INFO] 2019-12-21 12:10:23,963: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/']
+[rosmaster.master][INFO] 2019-12-21 12:10:23,963: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/ []
+[rosmaster.master][INFO] 2019-12-21 12:10:23,966: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:10:23,967: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:10:31,177: -PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/
+[rosmaster.master][INFO] 2019-12-21 12:10:31,177: -SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:39475/
+[rosmaster.master][INFO] 2019-12-21 12:10:31,178: -SERVICE [/DroneNode/get_loggers] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:57913
+[rosmaster.master][INFO] 2019-12-21 12:10:31,179: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']
+[rosmaster.master][INFO] 2019-12-21 12:10:31,179: -SERVICE [/DroneNode/set_logger_level] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:57913
+[rosmaster.master][INFO] 2019-12-21 12:10:31,180: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:10:34,870: +PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:46269/
+[rosmaster.master][INFO] 2019-12-21 12:10:34,871: +SERVICE [/DroneNode/get_loggers] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:46269/
+[rosmaster.master][INFO] 2019-12-21 12:10:34,872: +SERVICE [/DroneNode/set_logger_level] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:46269/
+[rosmaster.master][INFO] 2019-12-21 12:10:34,876: +SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:46269/
+[rosmaster.master][INFO] 2019-12-21 12:10:34,883: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:46269/']
+[rosmaster.master][INFO] 2019-12-21 12:10:34,885: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:46269/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:10:39,489: +PUB [/rosout] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:10:39,491: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:46269/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/']
+[rosmaster.master][INFO] 2019-12-21 12:10:39,492: +SERVICE [/drone_control/get_loggers] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:10:39,493: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:46269/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:10:39,494: +SERVICE [/drone_control/set_logger_level] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:10:39,495: +PUB [/drone_command] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:10:39,497: +PUB [/alt_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:10:39,498: +PUB [/pitch_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:10:39,500: +PUB [/roll_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:10:39,504: +SUB [/whycon/poses] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:10:39,507: +SUB [/pid_tuning_altitude] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:10:39,510: +SUB [/pid_tuning_pitch] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:10:39,513: +SUB [/pid_tuning_roll] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:10:39,593: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:46269/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/']
+[rosmaster.master][INFO] 2019-12-21 12:10:39,594: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:46269/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:11:20,263: -PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:46269/
+[rosmaster.master][INFO] 2019-12-21 12:11:20,263: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/']
+[rosmaster.master][INFO] 2019-12-21 12:11:20,265: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:11:20,265: -SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:46269/
+[rosmaster.master][INFO] 2019-12-21 12:11:20,269: -SERVICE [/DroneNode/get_loggers] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:40143
+[rosmaster.master][INFO] 2019-12-21 12:11:20,272: -SERVICE [/DroneNode/set_logger_level] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:40143
+[rosmaster.master][INFO] 2019-12-21 12:13:12,360: +PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/
+[rosmaster.master][INFO] 2019-12-21 12:13:12,361: +SERVICE [/DroneNode/get_loggers] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/
+[rosmaster.master][INFO] 2019-12-21 12:13:12,362: +SERVICE [/DroneNode/set_logger_level] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/
+[rosmaster.master][INFO] 2019-12-21 12:13:12,367: +SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/
+[rosmaster.master][INFO] 2019-12-21 12:13:12,372: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/']
+[rosmaster.master][INFO] 2019-12-21 12:13:12,373: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:13:19,720: -SUB [/pid_tuning_pitch] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:13:19,721: -SUB [/pid_tuning_roll] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:13:19,721: -SUB [/whycon/poses] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:13:19,721: -SUB [/pid_tuning_altitude] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:13:19,722: -PUB [/pitch_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:13:19,722: -PUB [/roll_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:13:19,722: -PUB [/rosout] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:13:19,722: -PUB [/alt_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:13:19,722: -PUB [/drone_command] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:38207/
+[rosmaster.master][INFO] 2019-12-21 12:13:19,722: -SERVICE [/drone_control/get_loggers] /drone_control rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:41293
+[rosmaster.master][INFO] 2019-12-21 12:13:19,722: -SERVICE [/drone_control/set_logger_level] /drone_control rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:41293
+[rosmaster.master][INFO] 2019-12-21 12:13:19,786: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/']
+[rosmaster.master][INFO] 2019-12-21 12:13:19,787: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:13:19,787: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/ []
+[rosmaster.master][INFO] 2019-12-21 12:13:19,788: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:13:25,498: +PUB [/rosout] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:13:25,500: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/']
+[rosmaster.master][INFO] 2019-12-21 12:13:25,502: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:13:25,503: +SERVICE [/drone_control/get_loggers] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:13:25,505: +SERVICE [/drone_control/set_logger_level] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:13:25,506: +PUB [/drone_command] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:13:25,507: +PUB [/alt_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:13:25,507: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/']
+[rosmaster.master][INFO] 2019-12-21 12:13:25,508: +PUB [/pitch_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:13:25,508: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:13:25,509: +PUB [/roll_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:13:25,511: +SUB [/whycon/poses] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:13:25,514: +SUB [/pid_tuning_altitude] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:13:25,519: +SUB [/pid_tuning_pitch] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:13:25,521: +SUB [/pid_tuning_roll] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:35:37,351: -SUB [/pid_tuning_pitch] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:35:37,351: -SUB [/pid_tuning_roll] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:35:37,352: -SUB [/whycon/poses] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:35:37,352: -SUB [/pid_tuning_altitude] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:35:37,352: -PUB [/pitch_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:35:37,352: -PUB [/roll_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:35:37,352: -PUB [/rosout] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:35:37,352: -PUB [/alt_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:35:37,352: -PUB [/drone_command] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:46341/
+[rosmaster.master][INFO] 2019-12-21 12:35:37,352: -SERVICE [/drone_control/get_loggers] /drone_control rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:37819
+[rosmaster.master][INFO] 2019-12-21 12:35:37,352: -SERVICE [/drone_control/set_logger_level] /drone_control rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:37819
+[rosmaster.master][INFO] 2019-12-21 12:35:37,353: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/']
+[rosmaster.master][INFO] 2019-12-21 12:35:37,354: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:35:37,354: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/ []
+[rosmaster.master][INFO] 2019-12-21 12:35:37,354: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:35:39,958: -PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/
+[rosmaster.master][INFO] 2019-12-21 12:35:39,958: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']
+[rosmaster.master][INFO] 2019-12-21 12:35:39,959: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:35:39,960: -SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:39451/
+[rosmaster.master][INFO] 2019-12-21 12:35:39,961: -SERVICE [/DroneNode/get_loggers] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:46251
+[rosmaster.master][INFO] 2019-12-21 12:35:39,962: -SERVICE [/DroneNode/set_logger_level] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:46251
+[rosmaster.master][INFO] 2019-12-21 12:35:40,970: +PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:38011/
+[rosmaster.master][INFO] 2019-12-21 12:35:40,971: +SERVICE [/DroneNode/get_loggers] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:38011/
+[rosmaster.master][INFO] 2019-12-21 12:35:40,972: +SERVICE [/DroneNode/set_logger_level] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:38011/
+[rosmaster.master][INFO] 2019-12-21 12:35:40,979: +SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:38011/
+[rosmaster.master][INFO] 2019-12-21 12:35:40,994: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:38011/']
+[rosmaster.master][INFO] 2019-12-21 12:35:40,995: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:38011/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:35:52,128: +PUB [/rosout] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/
+[rosmaster.master][INFO] 2019-12-21 12:35:52,132: +SERVICE [/drone_control/get_loggers] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/
+[rosmaster.master][INFO] 2019-12-21 12:35:52,135: +SERVICE [/drone_control/set_logger_level] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/
+[rosmaster.master][INFO] 2019-12-21 12:35:52,137: +PUB [/drone_command] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/
+[rosmaster.master][INFO] 2019-12-21 12:35:52,139: +PUB [/alt_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/
+[rosmaster.master][INFO] 2019-12-21 12:35:52,141: +PUB [/pitch_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/
+[rosmaster.master][INFO] 2019-12-21 12:35:52,143: +PUB [/roll_error] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/
+[rosmaster.master][INFO] 2019-12-21 12:35:52,147: +SUB [/whycon/poses] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/
+[rosmaster.master][INFO] 2019-12-21 12:35:52,150: +SUB [/pid_tuning_altitude] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/
+[rosmaster.master][INFO] 2019-12-21 12:35:52,153: +SUB [/pid_tuning_pitch] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/
+[rosmaster.master][INFO] 2019-12-21 12:35:52,156: +SUB [/pid_tuning_roll] /drone_control http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/
+[rosmaster.master][INFO] 2019-12-21 12:35:52,171: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:38011/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']
+[rosmaster.master][INFO] 2019-12-21 12:35:52,172: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:38011/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:35:52,172: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:38011/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']
+[rosmaster.master][INFO] 2019-12-21 12:35:52,173: publisherUpdate[/drone_command] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:38011/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:36:10,510: -PUB [/rosout] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:38011/
+[rosmaster.master][INFO] 2019-12-21 12:36:10,511: -SUB [/drone_command] /DroneNode http://itachi-HP-Pavilion-Laptop-15-cc1xx:38011/
+[rosmaster.master][INFO] 2019-12-21 12:36:10,512: -SERVICE [/DroneNode/get_loggers] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53927
+[rosmaster.master][INFO] 2019-12-21 12:36:10,512: -SERVICE [/DroneNode/set_logger_level] /DroneNode rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53927
+[rosmaster.master][INFO] 2019-12-21 12:36:10,513: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']
+[rosmaster.master][INFO] 2019-12-21 12:36:10,514: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:36:24,649: -PUB [/pid_tuning_pitch] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/
+[rosmaster.master][INFO] 2019-12-21 12:36:24,649: -PUB [/pid_tuning_roll] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/
+[rosmaster.master][INFO] 2019-12-21 12:36:24,649: -PUB [/rosout] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/
+[rosmaster.master][INFO] 2019-12-21 12:36:24,649: -PUB [/pid_tuning_altitude] /tune_pid_drone http://itachi-HP-Pavilion-Laptop-15-cc1xx:45695/
+[rosmaster.master][INFO] 2019-12-21 12:36:24,649: -SERVICE [/tune_pid_drone/get_loggers] /tune_pid_drone rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:40987
+[rosmaster.master][INFO] 2019-12-21 12:36:24,650: -SERVICE [/tune_pid_drone/set_logger_level] /tune_pid_drone rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:40987
+[rosmaster.master][INFO] 2019-12-21 12:36:24,669: publisherUpdate[/pid_tuning_pitch] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/ []
+[rosmaster.master][INFO] 2019-12-21 12:36:24,671: publisherUpdate[/pid_tuning_pitch] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:36:24,671: publisherUpdate[/pid_tuning_roll] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/ []
+[rosmaster.master][INFO] 2019-12-21 12:36:24,673: publisherUpdate[/pid_tuning_roll] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:36:24,673: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']
+[rosmaster.master][INFO] 2019-12-21 12:36:24,673: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:36:24,673: publisherUpdate[/pid_tuning_altitude] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/ []
+[rosmaster.master][INFO] 2019-12-21 12:36:24,674: publisherUpdate[/pid_tuning_altitude] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:36:45,756: -PUB [/rosout] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,757: -PUB [/usb_cam/image_proc_debayer/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,757: -PUB [/usb_cam/image_proc_debayer/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,758: -PUB [/usb_cam/image_mono/compressedDepth] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,758: -PUB [/usb_cam/image_mono/compressedDepth/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,759: -PUB [/usb_cam/image_mono/compressedDepth/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,759: -PUB [/rosout] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,760: -PUB [/usb_cam/image_mono/compressed] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,761: -PUB [/usb_cam/image_raw/compressedDepth] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,761: -PUB [/usb_cam/image_mono/compressed/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,762: -PUB [/usb_cam/image_raw/compressedDepth/parameter_descriptions] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,763: -PUB [/usb_cam/image_mono/compressed/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,764: -PUB [/usb_cam/image_raw/compressedDepth/parameter_updates] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,765: -PUB [/usb_cam/image_mono] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,766: -PUB [/usb_cam/image_raw/compressed] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,766: -PUB [/usb_cam/image_mono/theora] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,767: -PUB [/usb_cam/image_raw/compressed/parameter_descriptions] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,767: -PUB [/usb_cam/image_mono/theora/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,768: -PUB [/usb_cam/image_raw/compressed/parameter_updates] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,768: -PUB [/usb_cam/image_mono/theora/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,769: -PUB [/usb_cam/image_raw] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,769: -PUB [/usb_cam/image_color/compressedDepth] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,770: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']
+[rosmaster.master][INFO] 2019-12-21 12:36:45,770: -PUB [/usb_cam/image_raw/theora] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,771: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:36:45,771: -PUB [/usb_cam/image_color/compressedDepth/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,771: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']
+[rosmaster.master][INFO] 2019-12-21 12:36:45,771: -PUB [/usb_cam/image_raw/theora/parameter_descriptions] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,772: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:36:45,772: -PUB [/usb_cam/image_color/compressedDepth/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,773: publisherUpdate[/usb_cam/image_raw] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/ []
+[rosmaster.master][INFO] 2019-12-21 12:36:45,773: -PUB [/usb_cam/image_raw/theora/parameter_updates] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,774: -PUB [/usb_cam/image_color/compressed] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,774: publisherUpdate[/usb_cam/image_raw] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2019-12-21 12:36:45,775: -PUB [/usb_cam/camera_info] /usb_cam http://itachi-HP-Pavilion-Laptop-15-cc1xx:39591/
+[rosmaster.threadpool][ERROR] 2019-12-21 12:36:45,776: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2019-12-21 12:36:45,776: publisherUpdate[/usb_cam/camera_info] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/ []
+[rosmaster.master][INFO] 2019-12-21 12:36:45,776: -PUB [/usb_cam/image_color/compressed/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,777: publisherUpdate[/usb_cam/camera_info] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:36:45,777: -SERVICE [/usb_cam/get_loggers] /usb_cam rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:46201
+[rosmaster.master][INFO] 2019-12-21 12:36:45,777: publisherUpdate[/usb_cam/camera_info] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/ []
+[rosmaster.master][INFO] 2019-12-21 12:36:45,778: -PUB [/usb_cam/image_color/compressed/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,778: publisherUpdate[/usb_cam/camera_info] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2019-12-21 12:36:45,779: -SERVICE [/usb_cam/set_logger_level] /usb_cam rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:46201
+[rosmaster.master][INFO] 2019-12-21 12:36:45,779: -PUB [/rosout] /whycon_display/image_view http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/
+[rosmaster.threadpool][ERROR] 2019-12-21 12:36:45,780: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2019-12-21 12:36:45,780: -PUB [/usb_cam/image_color] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,780: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']
+[rosmaster.master][INFO] 2019-12-21 12:36:45,781: -SERVICE [/usb_cam/image_raw/compressedDepth/set_parameters] /usb_cam rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:46201
+[rosmaster.master][INFO] 2019-12-21 12:36:45,782: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/', 'http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:36:45,782: -PUB [/whycon_display/image_view/output] /whycon_display/image_view http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,782: publisherUpdate[/usb_cam/image_color] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/ []
+[rosmaster.master][INFO] 2019-12-21 12:36:45,782: -PUB [/usb_cam/image_color/theora] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,783: publisherUpdate[/usb_cam/image_color] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2019-12-21 12:36:45,783: -SERVICE [/usb_cam/image_raw/compressed/set_parameters] /usb_cam rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:46201
+[rosmaster.master][INFO] 2019-12-21 12:36:45,785: -PUB [/whycon_display/image_view/parameter_descriptions] /whycon_display/image_view http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,785: -PUB [/usb_cam/image_color/theora/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.threadpool][ERROR] 2019-12-21 12:36:45,785: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2019-12-21 12:36:45,786: -SERVICE [/usb_cam/image_raw/theora/set_parameters] /usb_cam rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:46201
+[rosmaster.master][INFO] 2019-12-21 12:36:45,786: -PUB [/whycon_display/image_view/parameter_updates] /whycon_display/image_view http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,787: -PUB [/usb_cam/image_color/theora/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,787: -SERVICE [/usb_cam/set_camera_info] /usb_cam rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:46201
+[rosmaster.master][INFO] 2019-12-21 12:36:45,788: -SUB [/whycon/image_out] /whycon_display/image_view http://itachi-HP-Pavilion-Laptop-15-cc1xx:34625/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,789: -PUB [/usb_cam/image_proc_rectify_mono/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,789: -SERVICE [/usb_cam/start_capture] /usb_cam rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:46201
+[rosmaster.master][INFO] 2019-12-21 12:36:45,790: -SERVICE [/whycon_display/image_view/get_loggers] /whycon_display/image_view rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:43729
+[rosmaster.master][INFO] 2019-12-21 12:36:45,790: -PUB [/usb_cam/image_proc_rectify_mono/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,791: -SERVICE [/usb_cam/stop_capture] /usb_cam rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:46201
+[rosmaster.master][INFO] 2019-12-21 12:36:45,791: -SERVICE [/whycon_display/image_view/set_logger_level] /whycon_display/image_view rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:43729
+[rosmaster.master][INFO] 2019-12-21 12:36:45,792: -PUB [/usb_cam/image_rect/compressedDepth] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,793: -SERVICE [/whycon_display/image_view/set_parameters] /whycon_display/image_view rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:43729
+[rosmaster.master][INFO] 2019-12-21 12:36:45,793: -PUB [/usb_cam/image_rect/compressedDepth/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,794: -PUB [/usb_cam/image_rect/compressedDepth/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,794: -PUB [/usb_cam/image_rect/compressed] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,795: -PUB [/usb_cam/image_rect/compressed/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,795: -PUB [/usb_cam/image_rect/compressed/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,795: -PUB [/usb_cam/image_rect] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,796: -PUB [/usb_cam/image_rect/theora] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,796: -PUB [/usb_cam/image_rect/theora/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,797: -PUB [/usb_cam/image_rect/theora/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,798: -PUB [/usb_cam/image_proc_rectify_color/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,798: -PUB [/usb_cam/image_proc_rectify_color/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,799: -PUB [/usb_cam/image_rect_color/compressedDepth] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,799: -PUB [/usb_cam/image_rect_color/compressedDepth/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,799: -PUB [/usb_cam/image_rect_color/compressedDepth/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,800: -PUB [/usb_cam/image_rect_color/compressed] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,800: -PUB [/usb_cam/image_rect_color/compressed/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,801: -PUB [/usb_cam/image_rect_color/compressed/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,801: -PUB [/usb_cam/image_rect_color] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,802: -PUB [/usb_cam/image_rect_color/theora] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,802: -PUB [/usb_cam/image_rect_color/theora/parameter_descriptions] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,803: -PUB [/usb_cam/image_rect_color/theora/parameter_updates] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,804: -SUB [/usb_cam/image_color] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,804: -SUB [/usb_cam/camera_info] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,805: -SUB [/usb_cam/image_raw] /usb_cam/image_proc http://itachi-HP-Pavilion-Laptop-15-cc1xx:43483/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,805: -SERVICE [/usb_cam/image_proc/get_loggers] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,806: -SERVICE [/usb_cam/image_proc/set_logger_level] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,807: -SERVICE [/usb_cam/image_proc_debayer/set_parameters] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,807: -SERVICE [/usb_cam/image_mono/compressedDepth/set_parameters] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,808: -SERVICE [/usb_cam/image_mono/compressed/set_parameters] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,809: -SERVICE [/usb_cam/image_mono/theora/set_parameters] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,809: -SERVICE [/usb_cam/image_color/compressedDepth/set_parameters] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,810: -SERVICE [/usb_cam/image_color/compressed/set_parameters] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,810: -SERVICE [/usb_cam/image_color/theora/set_parameters] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,810: -SERVICE [/usb_cam/image_proc_rectify_mono/set_parameters] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,811: -SERVICE [/usb_cam/image_rect/compressedDepth/set_parameters] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,811: -SERVICE [/usb_cam/image_rect/compressed/set_parameters] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,812: -SERVICE [/usb_cam/image_rect/theora/set_parameters] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,812: -SERVICE [/usb_cam/image_proc_rectify_color/set_parameters] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,813: -SERVICE [/usb_cam/image_rect_color/compressedDepth/set_parameters] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,813: -SERVICE [/usb_cam/image_rect_color/compressed/set_parameters] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,814: -SERVICE [/usb_cam/image_rect_color/theora/set_parameters] /usb_cam/image_proc rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:53149
+[rosmaster.master][INFO] 2019-12-21 12:36:45,818: publisherUpdate[/usb_cam/image_rect_color] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/ []
+[rosmaster.master][INFO] 2019-12-21 12:36:45,819: publisherUpdate[/usb_cam/image_rect_color] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2019-12-21 12:36:45,819: -PUB [/rosout] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,820: -PUB [/tf] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,821: -PUB [/whycon/image_out] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,821: -PUB [/whycon/poses] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,822: -PUB [/whycon/context] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,822: -PUB [/whycon/projection] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,823: -SUB [/usb_cam/image_rect_color] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,823: -SUB [/usb_cam/camera_info] /whycon http://itachi-HP-Pavilion-Laptop-15-cc1xx:40921/
+[rosmaster.master][INFO] 2019-12-21 12:36:45,824: -SERVICE [/whycon/get_loggers] /whycon rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:39841
+[rosmaster.master][INFO] 2019-12-21 12:36:45,825: -SERVICE [/whycon/set_logger_level] /whycon rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:39841
+[rosmaster.master][INFO] 2019-12-21 12:36:45,825: -SERVICE [/whycon/reset] /whycon rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:39841
+[rosmaster.master][INFO] 2019-12-21 12:36:45,874: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']
+[rosmaster.master][INFO] 2019-12-21 12:36:45,875: publisherUpdate[/rosout] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/ ['http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:36:45,875: publisherUpdate[/whycon/poses] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/ []
+[rosmaster.master][INFO] 2019-12-21 12:36:45,876: publisherUpdate[/whycon/poses] -> http://itachi-HP-Pavilion-Laptop-15-cc1xx:45459/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2019-12-21 12:36:46,276: -PUB [/rosout_agg] /rosout http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/
+[rosmaster.master][INFO] 2019-12-21 12:36:46,277: -SUB [/rosout] /rosout http://itachi-HP-Pavilion-Laptop-15-cc1xx:44575/
+[rosmaster.master][INFO] 2019-12-21 12:36:46,277: -SERVICE [/rosout/get_loggers] /rosout rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:52315
+[rosmaster.master][INFO] 2019-12-21 12:36:46,278: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://itachi-HP-Pavilion-Laptop-15-cc1xx:52315
+[rosmaster.main][INFO] 2019-12-21 12:36:46,333: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2019-12-21 12:36:46,333: stopping master...
+[rospy.core][INFO] 2019-12-21 12:36:46,333: signal_shutdown [atexit]

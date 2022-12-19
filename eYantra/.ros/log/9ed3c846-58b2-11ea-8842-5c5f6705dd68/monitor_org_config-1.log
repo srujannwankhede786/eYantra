@@ -1,0 +1,61 @@
+[rospy.client][INFO] 2020-02-26 21:41:48,960: init_node, name[/monitor_org_config], pid[7870]
+[xmlrpc][INFO] 2020-02-26 21:41:48,960: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-26 21:41:48,961: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:40015/]
+[rospy.init][INFO] 2020-02-26 21:41:48,961: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:40015/]
+[rospy.impl.masterslave][INFO] 2020-02-26 21:41:48,961: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:40015/
+[xmlrpc][INFO] 2020-02-26 21:41:48,962: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-02-26 21:41:48,963: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-02-26 21:41:49,062: registered with master
+[rospy.rosout][INFO] 2020-02-26 21:41:49,062: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-26 21:41:49,067: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-26 21:41:49,069: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-26 21:41:49,184: topic[/whycon/poses] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37201/], count 0
+[rospy.internal][INFO] 2020-02-26 21:41:49,226: topic[/led_control_topic] adding connection to [/serial_node], count 0
+[rospy.internal][INFO] 2020-02-26 21:41:49,276: topic[/serviced_info] adding connection to [/scheduler], count 0
+[rospy.internal][INFO] 2020-02-26 21:41:49,310: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-02-26 21:41:49,357: topic[/decision_info] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:36047/], count 0
+[rospy.internal][INFO] 2020-02-26 21:41:49,422: topic[/detection_info] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35271/], count 0
+[rospy.internal][INFO] 2020-02-26 21:44:09,051: topic[/stats_sr] adding connection to [/rostopic_8076_1582733648822], count 0
+[rospy.core][INFO] 2020-02-26 21:44:54,297: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-26 21:44:54,457: topic[/serviced_info] removing connection to /scheduler
+[rospy.internal][INFO] 2020-02-26 21:44:54,458: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-26 21:44:54,459: topic[/stats_sr] removing connection to /rostopic_8076_1582733648822
+[rospy.internal][INFO] 2020-02-26 21:44:54,460: topic[/led_control_topic] removing connection to /serial_node
+[rospy.internal][INFO] 2020-02-26 21:44:54,461: topic[/whycon/poses] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:37201/
+[rospy.internal][INFO] 2020-02-26 21:44:54,465: topic[/detection_info] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:35271/
+[rospy.internal][INFO] 2020-02-26 21:44:54,466: topic[/decision_info] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:36047/
+[rospy.impl.masterslave][INFO] 2020-02-26 21:44:54,466: signal-2
+[rospy.internal][WARNING] 2020-02-26 21:44:54,467: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:46719 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:36047/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2020-02-26 21:44:54,567: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-02-26 21:46:15,669: init_node, name[/monitor_org_config], pid[8169]
+[xmlrpc][INFO] 2020-02-26 21:46:15,669: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-26 21:46:15,670: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:36059/]
+[rospy.init][INFO] 2020-02-26 21:46:15,670: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:36059/]
+[rospy.impl.masterslave][INFO] 2020-02-26 21:46:15,670: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:36059/
+[xmlrpc][INFO] 2020-02-26 21:46:15,671: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-02-26 21:46:15,671: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-02-26 21:46:15,771: registered with master
+[rospy.rosout][INFO] 2020-02-26 21:46:15,771: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-26 21:46:15,778: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-26 21:46:15,780: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-26 21:46:15,882: topic[/stats_sr] adding connection to [/rostopic_8076_1582733648822], count 0
+[rospy.internal][INFO] 2020-02-26 21:46:15,889: topic[/whycon/poses] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37201/], count 0
+[rospy.internal][INFO] 2020-02-26 21:46:15,891: topic[/led_control_topic] adding connection to [/serial_node], count 0
+[rospy.internal][INFO] 2020-02-26 21:46:15,903: topic[/serviced_info] adding connection to [/scheduler], count 0
+[rospy.internal][INFO] 2020-02-26 21:46:15,909: topic[/decision_info] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37329/], count 0
+[rospy.internal][INFO] 2020-02-26 21:46:16,004: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-02-26 21:46:16,023: topic[/detection_info] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46417/], count 0
+[rospy.core][INFO] 2020-02-26 21:49:21,482: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-26 21:49:21,643: topic[/serviced_info] removing connection to /scheduler
+[rospy.internal][INFO] 2020-02-26 21:49:21,643: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-26 21:49:21,644: topic[/stats_sr] removing connection to /rostopic_8076_1582733648822
+[rospy.internal][INFO] 2020-02-26 21:49:21,644: topic[/led_control_topic] removing connection to /serial_node
+[rospy.internal][INFO] 2020-02-26 21:49:21,644: topic[/whycon/poses] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:37201/
+[rospy.internal][INFO] 2020-02-26 21:49:21,645: topic[/detection_info] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:46417/
+[rospy.internal][INFO] 2020-02-26 21:49:21,645: topic[/decision_info] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:37329/
+[rospy.impl.masterslave][INFO] 2020-02-26 21:49:21,645: signal-2
+[rospy.core][INFO] 2020-02-26 21:49:22,260: signal_shutdown [atexit]

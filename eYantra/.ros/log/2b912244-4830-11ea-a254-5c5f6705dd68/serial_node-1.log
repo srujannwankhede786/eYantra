@@ -1,0 +1,58 @@
+[rospy.client][INFO] 2020-02-05 21:35:04,584: init_node, name[/serial_node], pid[9067]
+[xmlrpc][INFO] 2020-02-05 21:35:04,584: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-05 21:35:04,585: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:44161/]
+[rospy.init][INFO] 2020-02-05 21:35:04,585: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:44161/]
+[rospy.impl.masterslave][INFO] 2020-02-05 21:35:04,585: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:44161/
+[rospy.registration][INFO] 2020-02-05 21:35:04,586: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-05 21:35:04,586: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-05 21:35:04,685: registered with master
+[rospy.rosout][INFO] 2020-02-05 21:35:04,685: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-05 21:35:04,688: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-05 21:35:04,690: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2020-02-05 21:35:04,693: ROS Serial Python Node
+[rosout][INFO] 2020-02-05 21:35:04,699: Connecting to /dev/ttyUSB0 at 115200 baud
+[rospy.internal][INFO] 2020-02-05 21:35:04,978: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2020-02-05 21:35:06,820: Note: subscribe buffer size is 320 bytes
+[rosout][INFO] 2020-02-05 21:35:06,820: Setup subscriber on led_control_topic [std_msgs/Int8]
+[rospy.internal][INFO] 2020-02-05 21:35:06,853: topic[/led_control_topic] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:44571/], count 0
+[rosout][INFO] 2020-02-05 21:35:18,669: Send tx stop request
+[rospy.core][INFO] 2020-02-05 21:35:18,670: signal_shutdown [atexit]
+[rospy.internal][INFO] 2020-02-05 21:35:18,675: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-05 21:35:18,675: topic[/led_control_topic] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:44571/
+[rospy.impl.masterslave][INFO] 2020-02-05 21:35:18,676: atexit
+[rospy.client][INFO] 2020-02-05 21:35:46,458: init_node, name[/serial_node], pid[9253]
+[xmlrpc][INFO] 2020-02-05 21:35:46,458: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-05 21:35:46,458: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:42319/]
+[rospy.init][INFO] 2020-02-05 21:35:46,459: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:42319/]
+[rospy.impl.masterslave][INFO] 2020-02-05 21:35:46,459: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:42319/
+[rospy.registration][INFO] 2020-02-05 21:35:46,460: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-05 21:35:46,460: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-05 21:35:46,559: registered with master
+[rospy.rosout][INFO] 2020-02-05 21:35:46,559: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-05 21:35:46,562: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-05 21:35:46,563: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2020-02-05 21:35:46,566: ROS Serial Python Node
+[rosout][INFO] 2020-02-05 21:35:46,576: Connecting to /dev/ttyUSB0 at 115200 baud
+[rospy.internal][INFO] 2020-02-05 21:35:46,708: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2020-02-05 21:35:48,697: Note: subscribe buffer size is 320 bytes
+[rosout][INFO] 2020-02-05 21:35:48,698: Setup subscriber on led_control_topic [std_msgs/Int8]
+[rospy.internal][INFO] 2020-02-05 21:35:48,731: topic[/led_control_topic] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:34237/], count 0
+[rosout][INFO] 2020-02-05 21:36:02,980: Send tx stop request
+[rospy.core][INFO] 2020-02-05 21:36:02,981: signal_shutdown [atexit]
+[rospy.internal][INFO] 2020-02-05 21:36:02,984: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-05 21:36:02,984: topic[/led_control_topic] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:34237/
+[rospy.internal][WARNING] 2020-02-05 21:36:02,985: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:34933 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:34237/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.topics][ERROR] 2020-02-05 21:36:02,985: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2020-02-05 21:36:02,985: atexit

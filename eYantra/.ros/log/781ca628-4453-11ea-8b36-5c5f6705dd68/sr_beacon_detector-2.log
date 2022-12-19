@@ -1,0 +1,826 @@
+[rospy.client][INFO] 2020-01-31 23:53:01,914: init_node, name[/sr_beacon_detector], pid[8886]
+[xmlrpc][INFO] 2020-01-31 23:53:01,914: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-31 23:53:01,914: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38251/]
+[rospy.init][INFO] 2020-01-31 23:53:01,915: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38251/]
+[rospy.impl.masterslave][INFO] 2020-01-31 23:53:01,915: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:38251/
+[rospy.registration][INFO] 2020-01-31 23:53:01,915: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-31 23:53:01,916: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-31 23:53:02,015: registered with master
+[rospy.rosout][INFO] 2020-01-31 23:53:02,015: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-31 23:53:02,017: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-31 23:53:02,018: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-31 23:53:02,030: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45505/], count 0
+[rosout][WARNING] 2020-01-31 23:53:02,123: Could not process inbound connection: topic types do not match: [survey_and_rescue/SRInfo] vs. [std_msgs/String]{'message_definition': 'string location\nstring info', 'callerid': '/monitor', 'tcp_nodelay': '0', 'md5sum': '086e73c5fbed997f9c9e944f67f1b4d9', 'topic': '/detection_info', 'type': 'survey_and_rescue/SRInfo'}
+[rosout][ERROR] 2020-01-31 23:53:02,257: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f167b391560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rospy.internal][INFO] 2020-01-31 23:53:02,276: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-01-31 23:53:02,431: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f167b391560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:53:02,605: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f167b391560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:53:02,762: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f167b391560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:53:02,909: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f167b391560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:53:03,065: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f167b391560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][WARNING] 2020-01-31 23:53:03,126: Could not process inbound connection: topic types do not match: [survey_and_rescue/SRInfo] vs. [std_msgs/String]{'message_definition': 'string location\nstring info', 'callerid': '/monitor', 'tcp_nodelay': '0', 'md5sum': '086e73c5fbed997f9c9e944f67f1b4d9', 'topic': '/detection_info', 'type': 'survey_and_rescue/SRInfo'}
+[rosout][ERROR] 2020-01-31 23:53:03,240: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f167b391560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:53:03,393: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f167b391560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:53:03,543: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f167b391560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:53:03,692: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f167b391560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:53:03,844: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f167b391560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:53:03,994: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f167b391560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][WARNING] 2020-01-31 23:53:04,127: Could not process inbound connection: topic types do not match: [survey_and_rescue/SRInfo] vs. [std_msgs/String]{'message_definition': 'string location\nstring info', 'callerid': '/monitor', 'tcp_nodelay': '0', 'md5sum': '086e73c5fbed997f9c9e944f67f1b4d9', 'topic': '/detection_info', 'type': 'survey_and_rescue/SRInfo'}
+[rosout][ERROR] 2020-01-31 23:53:04,151: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f167b391560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rospy.core][INFO] 2020-01-31 23:53:04,253: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-31 23:53:04,258: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-31 23:53:04,259: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:45505/
+[rospy.impl.masterslave][INFO] 2020-01-31 23:53:04,259: signal-2
+[rospy.topics][WARNING] 2020-01-31 23:53:04,315: during shutdown, bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f167b391560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rospy.core][INFO] 2020-01-31 23:53:04,423: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-31 23:53:58,409: init_node, name[/sr_beacon_detector], pid[9135]
+[xmlrpc][INFO] 2020-01-31 23:53:58,410: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-31 23:53:58,410: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:44901/]
+[rospy.init][INFO] 2020-01-31 23:53:58,411: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:44901/]
+[rospy.impl.masterslave][INFO] 2020-01-31 23:53:58,411: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:44901/
+[rospy.registration][INFO] 2020-01-31 23:53:58,413: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-31 23:53:58,413: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-31 23:53:58,511: registered with master
+[rospy.rosout][INFO] 2020-01-31 23:53:58,512: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-31 23:53:58,517: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-31 23:53:58,518: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-31 23:53:58,528: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45505/], count 0
+[rosout][WARNING] 2020-01-31 23:53:58,582: Could not process inbound connection: topic types do not match: [survey_and_rescue/SRInfo] vs. [std_msgs/String]{'message_definition': 'string location\nstring info', 'callerid': '/monitor', 'tcp_nodelay': '0', 'md5sum': '086e73c5fbed997f9c9e944f67f1b4d9', 'topic': '/detection_info', 'type': 'survey_and_rescue/SRInfo'}
+[rospy.internal][INFO] 2020-01-31 23:53:58,727: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-01-31 23:53:58,733: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:53:58,885: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:53:59,038: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:53:59,194: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:53:59,355: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:53:59,517: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][WARNING] 2020-01-31 23:53:59,587: Could not process inbound connection: topic types do not match: [survey_and_rescue/SRInfo] vs. [std_msgs/String]{'message_definition': 'string location\nstring info', 'callerid': '/monitor', 'tcp_nodelay': '0', 'md5sum': '086e73c5fbed997f9c9e944f67f1b4d9', 'topic': '/detection_info', 'type': 'survey_and_rescue/SRInfo'}
+[rosout][ERROR] 2020-01-31 23:53:59,688: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:53:59,842: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:00,003: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:00,164: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:00,314: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:00,470: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][WARNING] 2020-01-31 23:54:00,590: Could not process inbound connection: topic types do not match: [survey_and_rescue/SRInfo] vs. [std_msgs/String]{'message_definition': 'string location\nstring info', 'callerid': '/monitor', 'tcp_nodelay': '0', 'md5sum': '086e73c5fbed997f9c9e944f67f1b4d9', 'topic': '/detection_info', 'type': 'survey_and_rescue/SRInfo'}
+[rosout][ERROR] 2020-01-31 23:54:00,629: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:00,793: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:00,944: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:01,106: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:01,264: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:01,440: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:01,602: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:01,773: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:01,942: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:02,091: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:02,253: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:02,417: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:02,588: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][WARNING] 2020-01-31 23:54:02,594: Could not process inbound connection: topic types do not match: [survey_and_rescue/SRInfo] vs. [std_msgs/String]{'message_definition': 'string location\nstring info', 'callerid': '/monitor', 'tcp_nodelay': '0', 'md5sum': '086e73c5fbed997f9c9e944f67f1b4d9', 'topic': '/detection_info', 'type': 'survey_and_rescue/SRInfo'}
+[rosout][ERROR] 2020-01-31 23:54:02,752: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:02,929: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:03,106: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:03,267: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:03,493: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:03,662: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:03,829: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:03,998: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:04,183: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:04,357: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:04,534: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:04,710: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:04,882: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:05,061: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:05,242: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:05,412: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:05,639: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:05,840: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:06,013: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:06,203: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:06,374: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:06,547: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][WARNING] 2020-01-31 23:54:06,601: Could not process inbound connection: topic types do not match: [survey_and_rescue/SRInfo] vs. [std_msgs/String]{'message_definition': 'string location\nstring info', 'callerid': '/monitor', 'tcp_nodelay': '0', 'md5sum': '086e73c5fbed997f9c9e944f67f1b4d9', 'topic': '/detection_info', 'type': 'survey_and_rescue/SRInfo'}
+[rosout][ERROR] 2020-01-31 23:54:06,733: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:06,908: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:07,075: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:07,245: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:07,416: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:07,591: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:07,770: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:07,979: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:54:08,157: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rospy.core][INFO] 2020-01-31 23:54:08,260: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-31 23:54:08,263: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-31 23:54:08,264: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:45505/
+[rospy.impl.masterslave][INFO] 2020-01-31 23:54:08,264: signal-2
+[rospy.topics][WARNING] 2020-01-31 23:54:08,335: during shutdown, bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f7b3959f560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rospy.core][INFO] 2020-01-31 23:54:08,428: signal_shutdown [atexit]
+[rospy.client][INFO] 2020-01-31 23:56:11,493: init_node, name[/sr_beacon_detector], pid[9489]
+[xmlrpc][INFO] 2020-01-31 23:56:11,494: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-01-31 23:56:11,494: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:41037/]
+[rospy.init][INFO] 2020-01-31 23:56:11,494: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:41037/]
+[rospy.impl.masterslave][INFO] 2020-01-31 23:56:11,494: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:41037/
+[rospy.registration][INFO] 2020-01-31 23:56:11,495: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-01-31 23:56:11,495: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-01-31 23:56:11,595: registered with master
+[rospy.rosout][INFO] 2020-01-31 23:56:11,595: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-01-31 23:56:11,599: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-01-31 23:56:11,601: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-01-31 23:56:11,610: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45505/], count 0
+[rosout][WARNING] 2020-01-31 23:56:11,668: Could not process inbound connection: topic types do not match: [survey_and_rescue/SRInfo] vs. [std_msgs/String]{'message_definition': 'string location\nstring info', 'callerid': '/monitor', 'tcp_nodelay': '0', 'md5sum': '086e73c5fbed997f9c9e944f67f1b4d9', 'topic': '/detection_info', 'type': 'survey_and_rescue/SRInfo'}
+[rosout][ERROR] 2020-01-31 23:56:11,796: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rospy.internal][INFO] 2020-01-31 23:56:11,854: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-01-31 23:56:11,959: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:12,129: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:12,291: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:12,447: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:12,626: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][WARNING] 2020-01-31 23:56:12,671: Could not process inbound connection: topic types do not match: [survey_and_rescue/SRInfo] vs. [std_msgs/String]{'message_definition': 'string location\nstring info', 'callerid': '/monitor', 'tcp_nodelay': '0', 'md5sum': '086e73c5fbed997f9c9e944f67f1b4d9', 'topic': '/detection_info', 'type': 'survey_and_rescue/SRInfo'}
+[rosout][ERROR] 2020-01-31 23:56:12,802: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:12,965: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:13,128: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:13,322: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:13,492: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][WARNING] 2020-01-31 23:56:13,673: Could not process inbound connection: topic types do not match: [survey_and_rescue/SRInfo] vs. [std_msgs/String]{'message_definition': 'string location\nstring info', 'callerid': '/monitor', 'tcp_nodelay': '0', 'md5sum': '086e73c5fbed997f9c9e944f67f1b4d9', 'topic': '/detection_info', 'type': 'survey_and_rescue/SRInfo'}
+[rosout][ERROR] 2020-01-31 23:56:13,678: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:13,889: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:14,056: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:14,240: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:14,410: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:14,587: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:14,806: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:14,980: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:15,146: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:15,323: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:15,488: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][ERROR] 2020-01-31 23:56:15,667: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rosout][WARNING] 2020-01-31 23:56:15,676: Could not process inbound connection: topic types do not match: [survey_and_rescue/SRInfo] vs. [std_msgs/String]{'message_definition': 'string location\nstring info', 'callerid': '/monitor', 'tcp_nodelay': '0', 'md5sum': '086e73c5fbed997f9c9e944f67f1b4d9', 'topic': '/detection_info', 'type': 'survey_and_rescue/SRInfo'}
+[rospy.core][INFO] 2020-01-31 23:56:15,739: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-01-31 23:56:15,743: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-01-31 23:56:15,744: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:45505/
+[rospy.impl.masterslave][INFO] 2020-01-31 23:56:15,744: signal-2
+[rospy.topics][WARNING] 2020-01-31 23:56:15,853: during shutdown, bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f5cf3d21560>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 78, in callback
+    for i in sorted(self.rect_list.keys()):
+AttributeError: sr_determine_colors instance has no attribute 'rect_list'
+
+[rospy.core][INFO] 2020-01-31 23:56:15,908: signal_shutdown [atexit]

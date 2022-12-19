@@ -1,0 +1,32 @@
+[rospy.client][INFO] 2020-02-27 13:50:22,790: init_node, name[/scheduler], pid[16865]
+[xmlrpc][INFO] 2020-02-27 13:50:22,791: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-27 13:50:22,791: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45779/]
+[rospy.init][INFO] 2020-02-27 13:50:22,791: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:45779/]
+[rospy.impl.masterslave][INFO] 2020-02-27 13:50:22,791: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:45779/
+[xmlrpc][INFO] 2020-02-27 13:50:22,791: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-02-27 13:50:22,791: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2020-02-27 13:50:22,791: Registering publisher topic [/decision_info] type [survey_and_rescue/SRInfo] with master
+[rospy.registration][INFO] 2020-02-27 13:50:22,792: registering subscriber topic [/serviced_info] type [survey_and_rescue/SRInfo] with master
+[rospy.registration][INFO] 2020-02-27 13:50:22,793: registering subscriber topic [/detection_info] type [survey_and_rescue/SRInfo] with master
+[rospy.internal][INFO] 2020-02-27 13:50:22,867: topic[/serviced_info] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:38575/], count 0
+[rospy.internal][INFO] 2020-02-27 13:50:22,877: topic[/decision_info] adding connection to [/monitor], count 0
+[rospy.init][INFO] 2020-02-27 13:50:22,891: registered with master
+[rospy.rosout][INFO] 2020-02-27 13:50:22,892: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-27 13:50:22,897: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-27 13:50:22,902: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-27 13:50:22,979: topic[/detection_info] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:32937/], count 0
+[rospy.internal][INFO] 2020-02-27 13:50:23,161: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-02-27 13:50:30,600: topic[/decision_info] adding connection to [/rostopic_16972_1582791630398], count 1
+[rospy.core][INFO] 2020-02-27 13:50:41,666: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-27 13:50:41,685: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-27 13:50:41,687: topic[/decision_info] removing connection to /monitor
+[rospy.internal][INFO] 2020-02-27 13:50:41,689: topic[/decision_info] removing connection to /rostopic_16972_1582791630398
+[rospy.internal][INFO] 2020-02-27 13:50:41,691: topic[/serviced_info] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:38575/
+[rospy.internal][INFO] 2020-02-27 13:50:41,693: topic[/detection_info] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:32937/
+[rospy.impl.masterslave][INFO] 2020-02-27 13:50:41,694: signal-2
+[rospy.internal][WARNING] 2020-02-27 13:50:41,695: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:34691 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:32937/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2020-02-27 13:50:41,811: signal_shutdown [atexit]

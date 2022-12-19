@@ -1,0 +1,36 @@
+[rospy.client][INFO] 2019-12-23 01:01:49,426: init_node, name[/edrone/spawn_edrone], pid[4676]
+[xmlrpc][INFO] 2019-12-23 01:01:49,426: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-12-23 01:01:49,427: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33023/]
+[rospy.init][INFO] 2019-12-23 01:01:49,427: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:33023/]
+[rospy.impl.masterslave][INFO] 2019-12-23 01:01:49,427: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:33023/
+[rospy.registration][INFO] 2019-12-23 01:01:49,427: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-12-23 01:01:49,427: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-12-23 01:01:49,527: registered with master
+[rospy.rosout][INFO] 2019-12-23 01:01:49,528: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-12-23 01:01:49,534: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-12-23 01:01:49,538: initializing /clock core topic
+[rospy.simtime][INFO] 2019-12-23 01:01:49,545: connected to core topic /clock
+[rosout][INFO] 2019-12-23 01:01:49,553: Loading model XML from ros parameter
+[rosout][INFO] 2019-12-23 01:01:49,565: Waiting for service /gazebo/spawn_urdf_model
+[rospy.internal][INFO] 2019-12-23 01:01:49,709: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-12-23 01:01:51,059: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35635/], count 0
+[rosout][INFO] 2019-12-23 01:01:51,084: Calling service /gazebo/spawn_urdf_model
+[rosout][INFO] 2019-12-23 01:01:52,138: Spawn status: SpawnModel: Successfully spawned entity
+[rospy.core][INFO] 2019-12-23 01:01:52,139: signal_shutdown [atexit]
+[rospy.internal][INFO] 2019-12-23 01:01:52,141: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-12-23 01:01:52,141: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:35635/
+[rospy.topics][ERROR] 2019-12-23 01:01:52,181: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][WARNING] 2019-12-23 01:01:52,181: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:40091 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:35635/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.impl.masterslave][INFO] 2019-12-23 01:01:52,181: atexit

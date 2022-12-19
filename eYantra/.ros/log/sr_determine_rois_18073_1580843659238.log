@@ -1,0 +1,2515 @@
+[rospy.client][INFO] 2020-02-05 00:44:19,277: init_node, name[/sr_determine_rois_18073_1580843659238], pid[18073]
+[xmlrpc][INFO] 2020-02-05 00:44:19,277: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-05 00:44:19,278: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46855/]
+[rospy.init][INFO] 2020-02-05 00:44:19,278: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46855/]
+[rospy.impl.masterslave][INFO] 2020-02-05 00:44:19,278: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:46855/
+[xmlrpc][INFO] 2020-02-05 00:44:19,278: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-02-05 00:44:19,278: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2020-02-05 00:44:19,279: registering subscriber topic [/usb_cam/image_rect] type [sensor_msgs/Image] with master
+[rospy.internal][INFO] 2020-02-05 00:44:19,281: topic[/usb_cam/image_rect] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46211/], count 0
+[rospy.init][INFO] 2020-02-05 00:44:19,378: registered with master
+[rospy.rosout][INFO] 2020-02-05 00:44:19,378: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-05 00:44:19,382: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-05 00:44:19,385: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][ERROR] 2020-02-05 00:44:19,539: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rospy.internal][INFO] 2020-02-05 00:44:19,640: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][ERROR] 2020-02-05 00:44:19,738: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:19,927: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:20,118: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 41, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+[rosout][ERROR] 2020-02-05 00:44:20,299: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 41, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+[rosout][ERROR] 2020-02-05 00:44:20,472: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 41, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+[rosout][ERROR] 2020-02-05 00:44:20,654: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:20,817: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 41, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+[rosout][ERROR] 2020-02-05 00:44:21,054: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:21,233: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:21,423: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:21,641: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:21,855: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:22,059: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:22,257: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:22,444: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:22,626: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:22,801: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:23,001: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:23,196: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:23,405: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:23,596: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:23,787: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:23,970: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:24,131: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:24,338: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:24,521: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:24,731: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:24,959: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:25,179: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 41, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+[rosout][ERROR] 2020-02-05 00:44:25,376: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:25,584: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 41, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+[rosout][ERROR] 2020-02-05 00:44:25,778: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:26,006: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:26,214: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:26,446: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:26,664: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:26,882: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:27,091: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:27,346: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:27,530: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:27,716: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:27,915: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:28,106: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:28,332: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:28,507: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:28,704: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:28,907: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:29,097: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:29,299: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:29,526: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:29,710: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:29,929: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:30,133: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:30,333: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:30,520: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:30,718: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:30,898: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 41, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+[rosout][ERROR] 2020-02-05 00:44:31,110: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:31,288: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:31,494: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:31,739: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:31,982: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:32,178: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:32,362: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:32,578: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:32,764: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:32,965: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:33,161: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:33,366: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:33,558: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:33,774: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:33,962: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:34,155: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:34,364: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:34,558: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:34,774: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:34,947: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:35,167: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:35,358: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:35,558: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:35,745: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:35,937: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:36,132: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:36,375: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:36,557: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:36,786: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:37,008: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:37,197: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:37,398: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:37,585: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:37,786: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:37,987: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:38,188: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:38,409: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:38,642: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:38,861: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:39,090: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:39,270: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:39,482: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:39,686: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:39,872: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 41, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+[rosout][ERROR] 2020-02-05 00:44:40,080: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:40,279: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:40,501: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:40,705: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:40,904: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rosout][ERROR] 2020-02-05 00:44:41,110: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 41, in image_callback
+    cv2.putText(img_copy,block_names[i], (center_x, center_y), cv2.FONT_HERSHEY_COMPLEX_SMALL, 1, (255,255,255))
+IndexError: list index out of range
+
+[rosout][ERROR] 2020-02-05 00:44:41,308: bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rospy.core][INFO] 2020-02-05 00:44:41,381: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-05 00:44:41,387: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-05 00:44:41,389: topic[/usb_cam/image_rect] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:46211/
+[rospy.impl.masterslave][INFO] 2020-02-05 00:44:41,390: signal-2
+[rospy.topics][WARNING] 2020-02-05 00:44:41,509: during shutdown, bad callback: <bound method sr_determine_rois.image_callback of <__main__.sr_determine_rois instance at 0x7fdbb1cb5998>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/srujan_roi.py", line 47, in image_callback
+    json.dump(kords, outfile)
+  File "/usr/lib/python2.7/json/__init__.py", line 189, in dump
+    for chunk in iterable:
+  File "/usr/lib/python2.7/json/encoder.py", line 434, in _iterencode
+    for chunk in _iterencode_dict(o, _current_indent_level):
+  File "/usr/lib/python2.7/json/encoder.py", line 408, in _iterencode_dict
+    for chunk in chunks:
+  File "/usr/lib/python2.7/json/encoder.py", line 442, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python2.7/json/encoder.py", line 184, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: array([[[832, 308]],
+
+       [[899, 309]],
+
+       [[898, 378]],
+
+       [[831, 378]]], dtype=int32) is not JSON serializable
+
+[rospy.core][INFO] 2020-02-05 00:44:42,020: signal_shutdown [atexit]

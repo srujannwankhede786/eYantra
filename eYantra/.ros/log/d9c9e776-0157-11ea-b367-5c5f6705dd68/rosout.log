@@ -1,0 +1,468 @@
+
+
+1573128742.251520772  Node Startup
+0.000000000 WARN [/home/itachi/catkin_ws/src/whycon/src/ros/whycon_ros.cpp:156(WhyConROS::load_transforms) [topics: /rosout] Could not load "whycon_transforms.yml"
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-image-view-1.12.23/src/nodes/image_view.cpp:195(main) [topics: /rosout] Using transport "raw"
+0.000000000 INFO [gazebo_interface.py:27(spawn_urdf_model_client) [topics: /clock, /rosout] Waiting for service /gazebo/spawn_urdf_model
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/service.cpp:80(service::exists) [topics: /rosout] waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/service.cpp:80(service::exists) [topics: /rosout] waitForService: Service [/gazebo/set_physics_properties] has not been advertised, waiting...
+0.000000000 INFO [gazebo_interface.py:31(spawn_urdf_model_client) [topics: /clock, /rosout] Calling service /gazebo/spawn_urdf_model
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.19/include/gazebo_plugins/gazebo_ros_utils.h:95(__cxx11::string gazebo::GetRobotNamespace) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states] Camera Plugin: The 'robotNamespace' param did not exit
+0.000000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-plugins-2.5.19/src/gazebo_ros_camera_utils.cpp:296(GazeboRosCameraUtils::LoadThread) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states] Camera Plugin (ns = )  <tf_prefix_>, set to ""
+0.001000000 INFO [gazebo_interface.py:33(spawn_urdf_model_client) [topics: /clock, /rosout] Spawn status: SpawnModel: Successfully spawned entity
+0.021000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/service.cpp:122(service::waitForService) [topics: /rosout] waitForService: Service [/gazebo/set_physics_properties] is now available.
+0.021000000 INFO [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/service.cpp:122(service::waitForService) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/overhead_cam/parameter_descriptions, /gazebo/overhead_cam/parameter_updates, /gazebo/overhead_cam/image_rect_color/compressedDepth, /tf, /gazebo/overhead_cam/image_rect_color/compressedDepth/parameter_descriptions, /gazebo/overhead_cam/image_rect_color/compressedDepth/parameter_updates, /gazebo/overhead_cam/image_rect_color/compressed, /gazebo/overhead_cam/image_rect_color/compressed/parameter_descriptions, /gazebo/overhead_cam/image_rect_color/compressed/parameter_updates, /gazebo/overhead_cam/image_rect_color, /gazebo/overhead_cam/image_rect_color/theora, /gazebo/overhead_cam/image_rect_color/theora/parameter_descriptions, /gazebo/overhead_cam/image_rect_color/theora/parameter_updates, /gazebo/overhead_cam/camera_info, /edrone/motor_speed, /edrone/joint_states, /edrone/motor_speed/0, /edrone/motor_speed/1, /edrone/motor_speed/2, /edrone/motor_speed/3, /edrone/gazebo/command/motor_speed, /edrone/imu, /edrone/ground_truth/imu, /edrone/ground_truth/pose, /edrone/ground_truth/pose_with_covariance, /edrone/ground_truth/position, /edrone/ground_truth/odometry, /edrone/ground_truth/transform, /edrone/odometry_sensor1/pose, /edrone/odometry_sensor1/pose_with_covariance, /edrone/odometry_sensor1/position, /edrone/odometry_sensor1/odometry, /edrone/odometry_sensor1/transform] waitForService: Service [/gazebo/set_physics_properties] is now available.
+0.048000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-ros-2.5.19/src/gazebo_ros_api_plugin.cpp:2301(GazeboRosApiPlugin::physicsReconfigureThread) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/overhead_cam/parameter_descriptions, /gazebo/overhead_cam/parameter_updates, /gazebo/overhead_cam/image_rect_color/compressedDepth, /tf, /gazebo/overhead_cam/image_rect_color/compressedDepth/parameter_descriptions, /gazebo/overhead_cam/image_rect_color/compressedDepth/parameter_updates, /gazebo/overhead_cam/image_rect_color/compressed, /gazebo/overhead_cam/image_rect_color/compressed/parameter_descriptions, /gazebo/overhead_cam/image_rect_color/compressed/parameter_updates, /gazebo/overhead_cam/image_rect_color, /gazebo/overhead_cam/image_rect_color/theora, /gazebo/overhead_cam/image_rect_color/theora/parameter_descriptions, /gazebo/overhead_cam/image_rect_color/theora/parameter_updates, /gazebo/overhead_cam/camera_info, /edrone/motor_speed, /edrone/joint_states, /edrone/motor_speed/0, /edrone/motor_speed/1, /edrone/motor_speed/2, /edrone/motor_speed/3, /edrone/gazebo/command/motor_speed, /edrone/imu, /edrone/ground_truth/imu, /edrone/ground_truth/pose, /edrone/ground_truth/pose_with_covariance, /edrone/ground_truth/position, /edrone/ground_truth/odometry, /edrone/ground_truth/transform, /edrone/odometry_sensor1/pose, /edrone/odometry_sensor1/pose_with_covariance, /edrone/odometry_sensor1/position, /edrone/odometry_sensor1/odometry, /edrone/odometry_sensor1/transform, /gazebo/parameter_descriptions, /gazebo/parameter_updates] Physics dynamic reconfigure ready.
+0.048000000 INFO [/tmp/binarydeb/ros-kinetic-gazebo-ros-2.5.19/src/gazebo_ros_api_plugin.cpp:2301(GazeboRosApiPlugin::physicsReconfigureThread) [topics: /rosout, /gazebo_gui/parameter_descriptions, /gazebo_gui/parameter_updates] Physics dynamic reconfigure ready.
+145.647000000 WARN [/tmp/binarydeb/ros-kinetic-image-view-1.12.23/src/nodes/image_view.cpp:112(mouseCb) [topics: /rosout, /whycon_display/image_view/output, /whycon_display/image_view/parameter_descriptions, /whycon_display/image_view/parameter_updates] Left-clicking no longer saves images. Right-click instead.
+189.456000000 ERROR [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/poll_set.cpp:194(PollSet::update) [topics: /rosout, /whycon_display/image_view/output, /whycon_display/image_view/parameter_descriptions, /whycon_display/image_view/parameter_updates] poll failed with error Interrupted system call
+189.831000000 ERROR [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/poll_set.cpp:194(PollSet::update) [topics: /rosout, /whycon_display/image_view/output, /whycon_display/image_view/parameter_descriptions, /whycon_display/image_view/parameter_updates] poll failed with error Interrupted system call
+472.073000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.088000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.096000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.106000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.107000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.116000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.132000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.149000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.158000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.165000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.171000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.172000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.177000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.191000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.195000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.199000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.200000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.202000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.204000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.207000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.755000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.757000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.767000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.771000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.781000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.783000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.788000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.799000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.801000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.804000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.807000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.808000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.810000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.823000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.830000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.832000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.834000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.836000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.838000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+472.840000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+473.282000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+473.288000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+473.292000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+473.295000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+473.299000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+473.304000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+473.307000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+473.311000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+473.318000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+473.336000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+473.342000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+473.342000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+473.368000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+473.374000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+473.375000000 ERROR [topics.py:753(_invoke_callback) [topics: /clock, /drone_command, /whycon/poses, /rosout, /pid_tuning_altitude] bad callback: <bound method Edrone.altitude_set_pid of <__main__.Edrone instance at 0x7fbfaf2d8290>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "position_hold_gazebo.py", line 169, in altitude_set_pid
+    self.Kp[1] = roll.Kp * 10
+NameError: global name 'roll' is not defined
+
+620.452000000 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /clock, /rosout, /pid_tuning_altitude] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+657.240000000 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /clock, /rosout, /pid_tuning_altitude] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+835.241000000 ERROR [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/poll_set.cpp:194(PollSet::update) [topics: /rosout, /whycon_display/image_view/output, /whycon_display/image_view/parameter_descriptions, /whycon_display/image_view/parameter_updates] poll failed with error Interrupted system call
+835.241000000 ERROR [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/poll_set.cpp:194(PollSet::update) [topics: /rosout, /edrone/command/roll_pitch_yawrate_thrust] poll failed with error Interrupted system call
+835.241000000 ERROR [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/poll_set.cpp:194(PollSet::update) [topics: /rosout, /gazebo_gui/parameter_descriptions, /gazebo_gui/parameter_updates] poll failed with error Interrupted system call
+835.242000000 ERROR [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/poll_set.cpp:194(PollSet::update) [topics: /rosout, /tf, /whycon/image_out, /whycon/poses, /whycon/context, /whycon/projection] poll failed with error Interrupted system call
+835.241000000 ERROR [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/poll_set.cpp:194(PollSet::update) [topics: /rosout, /tf, /tf_static] poll failed with error Interrupted system call
+835.242000000 ERROR [/tmp/binarydeb/ros-kinetic-roscpp-1.12.14/src/libros/poll_set.cpp:194(PollSet::update) [topics: /rosout, /clock, /gazebo/link_states, /gazebo/model_states, /gazebo/overhead_cam/parameter_descriptions, /gazebo/overhead_cam/parameter_updates, /gazebo/overhead_cam/image_rect_color/compressedDepth, /tf, /gazebo/overhead_cam/image_rect_color/compressedDepth/parameter_descriptions, /gazebo/overhead_cam/image_rect_color/compressedDepth/parameter_updates, /gazebo/overhead_cam/image_rect_color/compressed, /gazebo/overhead_cam/image_rect_color/compressed/parameter_descriptions, /gazebo/overhead_cam/image_rect_color/compressed/parameter_updates, /gazebo/overhead_cam/image_rect_color, /gazebo/overhead_cam/image_rect_color/theora, /gazebo/overhead_cam/image_rect_color/theora/parameter_descriptions, /gazebo/overhead_cam/image_rect_color/theora/parameter_updates, /gazebo/overhead_cam/camera_info, /edrone/motor_speed, /edrone/joint_states, /edrone/motor_speed/0, /edrone/motor_speed/1, /edrone/motor_speed/2, /edrone/motor_speed/3, /edrone/gazebo/command/motor_speed, /edrone/imu, /edrone/ground_truth/imu, /edrone/ground_truth/pose, /edrone/ground_truth/pose_with_covariance, /edrone/ground_truth/position, /edrone/ground_truth/odometry, /edrone/ground_truth/transform, /edrone/odometry_sensor1/pose, /edrone/odometry_sensor1/pose_with_covariance, /edrone/odometry_sensor1/position, /edrone/odometry_sensor1/odometry, /edrone/odometry_sensor1/transform, /gazebo/parameter_descriptions, /gazebo/parameter_updates] poll failed with error Interrupted system call
+882.488000000 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /clock, /rosout, /pid_tuning_altitude] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.

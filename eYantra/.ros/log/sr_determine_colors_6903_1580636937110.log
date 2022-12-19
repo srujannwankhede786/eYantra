@@ -1,0 +1,30 @@
+[rospy.client][INFO] 2020-02-02 15:18:57,152: init_node, name[/sr_determine_colors_6903_1580636937110], pid[6903]
+[xmlrpc][INFO] 2020-02-02 15:18:57,153: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-02-02 15:18:57,153: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:40885/]
+[rospy.init][INFO] 2020-02-02 15:18:57,153: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:40885/]
+[rospy.impl.masterslave][INFO] 2020-02-02 15:18:57,153: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:40885/
+[rospy.registration][INFO] 2020-02-02 15:18:57,154: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2020-02-02 15:18:57,154: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2020-02-02 15:18:57,253: registered with master
+[rospy.rosout][INFO] 2020-02-02 15:18:57,254: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-02-02 15:18:57,256: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-02-02 15:18:57,257: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-02-02 15:18:57,270: topic[/usb_cam/image_rect_color] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:42699/], count 0
+[rospy.internal][INFO] 2020-02-02 15:18:57,563: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2020-02-02 15:18:59,101: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-02-02 15:18:59,140: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-02-02 15:18:59,141: topic[/usb_cam/image_rect_color] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:42699/
+[rospy.impl.masterslave][INFO] 2020-02-02 15:18:59,142: signal-2
+[rosout][ERROR] 2020-02-02 15:18:59,142: bad callback: <bound method sr_determine_colors.callback of <__main__.sr_determine_colors instance at 0x7f092aa9ac20>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/beacon_detector.py", line 92, in callback
+    self.detect_pub.publish(self.yo)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+ROSException: publish() to a closed topic
+
+[rospy.core][INFO] 2020-02-02 15:18:59,757: signal_shutdown [atexit]

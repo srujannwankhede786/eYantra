@@ -1,0 +1,59 @@
+[rospy.client][INFO] 2019-11-09 03:45:58,955: init_node, name[/edrone/joint_state_publisher], pid[21615]
+[xmlrpc][INFO] 2019-11-09 03:45:58,955: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-09 03:45:58,956: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37591/]
+[rospy.init][INFO] 2019-11-09 03:45:58,956: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:37591/]
+[rospy.impl.masterslave][INFO] 2019-11-09 03:45:58,956: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:37591/
+[rospy.registration][INFO] 2019-11-09 03:45:58,957: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2019-11-09 03:45:58,958: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-09 03:45:59,057: registered with master
+[rospy.rosout][INFO] 2019-11-09 03:45:59,057: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-09 03:45:59,061: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-09 03:45:59,064: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-09 03:45:59,073: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-09 03:45:59,217: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-11-09 03:45:59,406: topic[/edrone/joint_states] adding connection to [/edrone/robot_state_publisher], count 0
+[rospy.internal][INFO] 2019-11-09 03:45:59,438: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:34097/], count 0
+[rosout][ERROR] 2019-11-09 04:47:14,078: ROS time moved backwards: 729.8s
+[rospy.internal][WARNING] 2019-11-09 04:47:56,320: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:38743 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:34097/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2019-11-09 04:47:56,321: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:34097/
+[rospy.core][INFO] 2019-11-09 04:47:57,571: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-11-09 04:47:57,576: topic[/edrone/joint_states] removing connection to /edrone/robot_state_publisher
+[rospy.internal][INFO] 2019-11-09 04:47:57,576: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2019-11-09 04:47:57,577: signal-2
+[rospy.core][INFO] 2019-11-09 04:47:57,709: signal_shutdown [atexit]
+[rospy.client][INFO] 2019-11-09 04:48:25,742: init_node, name[/edrone/joint_state_publisher], pid[32175]
+[xmlrpc][INFO] 2019-11-09 04:48:25,743: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-09 04:48:25,743: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35295/]
+[rospy.init][INFO] 2019-11-09 04:48:25,744: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:35295/]
+[rospy.impl.masterslave][INFO] 2019-11-09 04:48:25,744: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:35295/
+[xmlrpc][INFO] 2019-11-09 04:48:25,748: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-11-09 04:48:25,749: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-11-09 04:48:25,844: registered with master
+[rospy.rosout][INFO] 2019-11-09 04:48:25,844: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-09 04:48:25,848: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-09 04:48:25,854: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-09 04:48:25,858: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-09 04:48:26,148: topic[/edrone/joint_states] adding connection to [/edrone/robot_state_publisher], count 0
+[rospy.internal][INFO] 2019-11-09 04:48:26,149: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-11-09 04:48:26,532: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:43091/], count 0
+[rospy.core][INFO] 2019-11-09 05:33:16,342: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-11-09 05:33:16,371: topic[/edrone/joint_states] removing connection to /edrone/robot_state_publisher
+[rospy.internal][INFO] 2019-11-09 05:33:16,371: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-11-09 05:33:16,372: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:43091/
+[rospy.impl.masterslave][INFO] 2019-11-09 05:33:16,372: signal-2
+[rospy.internal][ERROR] 2019-11-09 05:33:16,373: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 729, in receive_once
+    self.stat_bytes += recv_buff(sock, b, p.buff_size)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 103, in recv_buff
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.core][INFO] 2019-11-09 05:33:16,547: signal_shutdown [atexit]

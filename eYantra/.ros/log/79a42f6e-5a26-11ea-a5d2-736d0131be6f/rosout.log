@@ -1,0 +1,40 @@
+
+
+1582893189.079591669  Node Startup
+1582893189.267427789 INFO [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/nodes/usb_cam_node.cpp:138(UsbCamNode::UsbCamNode) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] Starting 'head_camera' (/dev/video1) at 1280x1024 via mmap (mjpeg) at 30 FPS
+1582893189.181852091 INFO [/home/itachi/catkin_ws/src/whycon/src/ros/whycon_ros.cpp:152(WhyConROS::load_transforms) [topics: /rosout] Loading file whycon_transforms.yml
+1582893189.268435317 INFO [/tmp/binarydeb/ros-kinetic-image-view-1.12.23/src/nodes/image_view.cpp:195(main) [topics: /rosout] Using transport "raw"
+1582893189.407289981 INFO [serial_node.py:86(<module>) [topics: /rosout] Connecting to /dev/ttyUSB0 at 115200 baud
+1582893190.272095872 WARN [/tmp/binarydeb/ros-kinetic-usb-cam-0.3.5/src/usb_cam.cpp:1211(UsbCam::set_v4l_parameter) [topics: /rosout, /usb_cam/image_raw/compressedDepth, /usb_cam/image_raw/compressedDepth/parameter_descriptions, /usb_cam/image_raw/compressedDepth/parameter_updates, /usb_cam/image_raw/compressed, /usb_cam/image_raw/compressed/parameter_descriptions, /usb_cam/image_raw/compressed/parameter_updates, /usb_cam/image_raw, /usb_cam/image_raw/theora, /usb_cam/image_raw/theora/parameter_descriptions, /usb_cam/image_raw/theora/parameter_updates, /usb_cam/camera_info] unknown control 'focus_auto'
+
+1582893191.526277065 INFO [SerialClient.py:525(setSubscribeSize) [topics: /diagnostics, /rosout, /led_control_topic] Note: subscribe buffer size is 320 bytes
+1582893191.526817083 INFO [SerialClient.py:549(setupSubscriber) [topics: /diagnostics, /rosout, /led_control_topic] Setup subscriber on led_control_topic [std_msgs/Int8]
+1582893710.447041034 ERROR [topics.py:753(_invoke_callback) [topics: /stop_info, /serviced_info, /detection_info, /decision_info, /rosout] bad callback: <bound method sr_scheduler.detection_callback of <__main__.sr_scheduler instance at 0x7fde4af2c518>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/scheduler.py", line 48, in detection_callback
+    print("decision is "+ decided_msg.location +" "+ decided_msg.info)
+NameError: global name 'decided_msg' is not defined
+
+1582893710.829564094 ERROR [topics.py:753(_invoke_callback) [topics: /stop_info, /serviced_info, /detection_info, /decision_info, /rosout] bad callback: <bound method sr_scheduler.detection_callback of <__main__.sr_scheduler instance at 0x7fde4af2c518>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/scheduler.py", line 48, in detection_callback
+    print("decision is "+ decided_msg.location +" "+ decided_msg.info)
+NameError: global name 'decided_msg' is not defined
+
+1582893713.658664941 ERROR [topics.py:753(_invoke_callback) [topics: /stop_info, /serviced_info, /detection_info, /decision_info, /rosout] bad callback: <bound method sr_scheduler.detection_callback of <__main__.sr_scheduler instance at 0x7fde4af2c518>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/itachi/catkin_ws/src/survey_and_rescue/scripts/scheduler.py", line 48, in detection_callback
+    print("decision is "+ decided_msg.location +" "+ decided_msg.info)
+NameError: global name 'decided_msg' is not defined
+
+1582893715.791403055 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /whycon/poses, /rosout, /decision_info, /arm_status, /led_control_topic, /serviced_info, /base_cell_int_topic, /detection_info, /stats_sr] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1582893919.160744905 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /whycon/poses, /rosout, /decision_info, /arm_status, /led_control_topic, /serviced_info, /base_cell_int_topic, /detection_info, /stats_sr] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1582893921.602442026 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1582894241.739499092 WARN [tcpros_base.py:351(_tcp_server_callback) [topics: /rosout, /detection_info, /usb_cam/image_rect_color] Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+1582894274.461277008 ERROR [SerialClient.py:441(run) [topics: /diagnostics, /rosout, /led_control_topic] Lost sync with device, restarting...

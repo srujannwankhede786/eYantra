@@ -1,0 +1,26 @@
+[rospy.client][INFO] 2019-11-15 13:13:26,541: init_node, name[/edrone/joint_state_publisher], pid[2367]
+[xmlrpc][INFO] 2019-11-15 13:13:26,541: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-15 13:13:26,541: Started XML-RPC server [http://itachi-HP-Pavilion-Laptop-15-cc1xx:39633/]
+[rospy.init][INFO] 2019-11-15 13:13:26,541: ROS Slave URI: [http://itachi-HP-Pavilion-Laptop-15-cc1xx:39633/]
+[rospy.impl.masterslave][INFO] 2019-11-15 13:13:26,542: _ready: http://itachi-HP-Pavilion-Laptop-15-cc1xx:39633/
+[xmlrpc][INFO] 2019-11-15 13:13:26,542: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2019-11-15 13:13:26,542: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2019-11-15 13:13:26,642: registered with master
+[rospy.rosout][INFO] 2019-11-15 13:13:26,642: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-15 13:13:26,644: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-15 13:13:26,645: initializing /clock core topic
+[rospy.simtime][INFO] 2019-11-15 13:13:26,650: connected to core topic /clock
+[rospy.internal][INFO] 2019-11-15 13:13:26,783: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2019-11-15 13:13:26,985: topic[/edrone/joint_states] adding connection to [/edrone/robot_state_publisher], count 0
+[rospy.internal][INFO] 2019-11-15 13:13:28,023: topic[/clock] adding connection to [http://itachi-HP-Pavilion-Laptop-15-cc1xx:46385/], count 0
+[rospy.core][INFO] 2019-11-15 13:27:12,114: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-11-15 13:27:12,120: topic[/edrone/joint_states] removing connection to /edrone/robot_state_publisher
+[rospy.internal][INFO] 2019-11-15 13:27:12,120: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2019-11-15 13:27:12,121: topic[/clock] removing connection to http://itachi-HP-Pavilion-Laptop-15-cc1xx:46385/
+[rospy.impl.masterslave][INFO] 2019-11-15 13:27:12,121: signal-2
+[rospy.internal][WARNING] 2019-11-15 13:27:12,122: Unknown error initiating TCP/IP socket to itachi-HP-Pavilion-Laptop-15-cc1xx:38429 (http://itachi-HP-Pavilion-Laptop-15-cc1xx:46385/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2019-11-15 13:27:12,237: signal_shutdown [atexit]
